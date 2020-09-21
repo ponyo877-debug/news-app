@@ -8,7 +8,7 @@ spec:
   templates:
   - name: putpost
     container:
-      image: gcr.io/gke-test-287910/putpost:v1
+      image: gcr.io/gke-test-287910/putpost:v5
     #  command: [cowsay]
     #  args: ["hello world"]
 # apiVersion: batch/v1beta1
