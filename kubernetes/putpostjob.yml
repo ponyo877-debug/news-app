@@ -1,16 +1,32 @@
 apiVersion: argoproj.io/v1alpha1
-kind: Workflow
+kind: CronWorkflow
 metadata:
   name: putpost
   generateName: putpost-
 spec:
-  entrypoint: putpost
-  templates:
-  - name: putpost
-    container:
-      image: gcr.io/gke-test-287910/putpost:v5
-    #  command: [cowsay]
-    #  args: ["hello world"]
+  schedule: "*/2 * * * *"
+  concurrencyPolicy: "Replace"
+  startingDeadlineSeconds: 0
+  workflowSpec:
+    entrypoint: putpost
+    templates:
+    - name: putpost
+      container:
+        image: gcr.io/gke-test-287910/putpost:v5
+
+# apiVersion: argoproj.io/v1alpha1
+# kind: Workflow
+# metadata:
+#   name: putpost
+#   generateName: putpost-
+# spec:
+#   entrypoint: putpost
+#   templates:
+#   - name: putpost
+#     container:
+#       image: gcr.io/gke-test-287910/putpost:v5
+#     #  command: [cowsay]
+#     #  args: ["hello world"]
 # apiVersion: batch/v1beta1
 # kind: CronJob
 # metadata:
