@@ -1,0 +1,27 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Workflow
+metadata:
+  generateName: putpost-
+spec:
+  entrypoint: putpost
+  templates:
+  - name: putpost
+    container:
+      image: gcr.io/gke-test-287910/putpost:v1
+    #  command: [cowsay]
+    #  args: ["hello world"]
+# apiVersion: batch/v1beta1
+# kind: CronJob
+# metadata:
+#   name: insert-latest-article-list
+# spec:
+#   schedule: "*/2 * * * *"
+#   jobTemplate:
+#     spec:
+#       template:
+#         spec:
+#           containers:
+#           - name: insert-latest-article-list
+#             image: gcr.io/gke-test-287910/insert_latest_article_list:v1
+#             imagePullPolicy: Always
+#           restartPolicy: OnFailure

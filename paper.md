@@ -8,6 +8,8 @@ docker push gcr.io/${PROJECT_ID}/get_latest_article_list:v3
 docker build -t gcr.io/${PROJECT_ID}/insert_latest_article_list:v1 -f Dockerfile_cron .
 docker push gcr.io/${PROJECT_ID}/insert_latest_article_list:v1
 
+docker run 
+
 
 ## PostgreSQL Commnads
 kubectl exec -it pod/postgres-84667b9486-t5xq5 sh
