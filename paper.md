@@ -14,6 +14,7 @@ docker run
 ## PostgreSQL Commnads
 kubectl exec -it pod/postgres-84667b9486-t5xq5 sh
 psql -h postgres -U test_user --password -p 5433 test_db
+psql -h postgres.default -U test_user --password -p 5433 test_db
 
 createuser -a -d -U postgres -P test_user
 psql -h localhost -U test_user -d test_db
