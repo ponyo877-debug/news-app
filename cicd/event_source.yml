@@ -1,0 +1,28 @@
+apiVersion: argoproj.io/v1alpha1
+kind: EventSource
+metadata:
+  name: app-push-event-source
+  namespace: argo-events
+spec:
+  type: "github"
+  github:
+    source_repo:
+      namespace: argo-events
+      owner: "ponyo877-debug"
+      repository: "news-app"
+      webhook:
+        endpoint: "/push"
+        port: "12000"
+        url: "http://gitouhon-juku-k8s2.ga"
+        method: "post"
+      events:
+        - "push"
+      apiToken:
+        name: github-basic
+        key: personal_access_token
+      webhookSecret:
+        name: github-basic
+        key: webhook
+      insecure: true
+      active: true
+      contentType: "json"
