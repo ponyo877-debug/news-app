@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: cicd-service
+  namespace: argo-events
+spec:
+  type: LoadBalancer
+  selector:
+    app: get_latest_article_list
+    server: api
+  ports:
+    - port: 12001
+      targetPort: 12001

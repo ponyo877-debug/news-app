@@ -12,8 +12,8 @@ spec:
       repository: "news-app"
       webhook:
         endpoint: "/push"
-        port: "12000"
-        url: "http://gitouhon-juku-k8s2.ga"
+        port: "12001"
+        url: "http://35.200.116.233"
         method: "post"
       events:
         - "push"
