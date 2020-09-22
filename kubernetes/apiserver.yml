@@ -46,7 +46,7 @@ metadata:
     app: get_latest_article_list
 
 spec:
-  replicas: 6
+  replicas: 8
   selector:
     matchLabels:
       app: get_latest_article_list
