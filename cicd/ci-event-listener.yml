@@ -5,7 +5,7 @@ metadata:
   namespace: tekton-pipelines
 spec:
   serviceAccountName: tekton-sa
-  serviceType: LoadBalancer
+  serviceType: ClusterIP
   triggers:
     - template:
         name: ci-trigger
