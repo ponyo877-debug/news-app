@@ -1,6 +1,6 @@
 package handler
 
-// For Checking GitOps ......
+// For Checking GitOps .......
 import (
     "fmt"
     "os"
