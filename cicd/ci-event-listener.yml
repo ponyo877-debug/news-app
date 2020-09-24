@@ -1,0 +1,35 @@
+apiVersion: triggers.tekton.dev/v1alpha1
+kind: EventListener
+metadata:
+  name: github-listener
+  namespace: tekton-pipelines
+spec:
+  serviceAccountName: tekton-sa
+  serviceType: LoadBalancer
+  triggers:
+    - template:
+        name: ci-trigger
+      bindings:
+      - ref: news-app-ci
+      interceptors:
+        - github:
+            # secretRef:
+            #   secretName: github-webhook-credentials
+            #   secretKey: github-webhook-secret
+            #   namespace: tekton-pipelines
+            eventTypes:
+              - push
+        # - cel:
+        #    filter: body.ref == 'refs/heads/develop' && !body.commits[0].message.startsWith('[Update manifest]')
+---
+apiVersion: triggers.tekton.dev/v1alpha1
+kind: TriggerBinding
+metadata:
+  name: news-app-ci
+  namespace: tekton-pipelines
+spec:
+  params:
+    - name: GIT_REPO_URL
+      value: "$(body.repository.url)"
+    - name: COMMIT_HASH
+      value: $(body.after)

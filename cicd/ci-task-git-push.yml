@@ -1,0 +1,51 @@
+apiVersion: tekton.dev/v1alpha1
+kind: Task
+metadata:
+  name: pull-request-manifest
+  namespace: tekton-pipelines
+spec:
+  inputs:
+    params:
+    # - name: MICRO_SERVICE
+    #   default: somemicroservice 
+    - name: COMMIT_HASH
+      default: xxxxxxxx
+    - name: REGISTRY_REPO
+      # TODO: Change my repo
+      default: gcr.io/gke-test-287910
+    resources:
+    - name: source-repo
+      type: git
+  steps:
+  - name: pull-request-manifest
+    workingdir: /workspace/source-repo
+    image: alpine/git # k8stestbed/github-cli:latest
+    command:
+    - sh
+    - -c
+    - /data/upload_manifests.sh
+    env:
+      # - name: MICRO_SERVICE
+      #   value: $(inputs.params.MICRO_SERVICE)
+      - name: COMMIT_HASH
+        value: $(inputs.params.COMMIT_HASH)
+      - name: REGISTRY_REPO
+        value: $(inputs.params.REGISTRY_REPO)
+      - name: GITHUB_USER
+        valueFrom:
+          secretKeyRef:
+            name: github-basic
+            key: GITHUB_USER
+      - name: GITHUB_TOKEN
+        valueFrom:
+          secretKeyRef:
+            name: github-basic
+            key: GITHUB_TOKEN
+    volumeMounts:
+      - name:  entrypoint-cm
+        mountPath: /data
+  volumes:
+    - name: entrypoint-cm
+      configMap:
+        name: ci-scripts
+        defaultMode: 493 # mode 755

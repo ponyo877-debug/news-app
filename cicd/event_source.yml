@@ -13,7 +13,7 @@ spec:
       webhook:
         endpoint: "/push"
         port: "12001"
-        url: "http://35.200.116.233"
+        url: "http://34.107.167.131"
         method: "post"
       events:
         - "push"

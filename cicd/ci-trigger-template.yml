@@ -1,0 +1,74 @@
+apiVersion: triggers.tekton.dev/v1alpha1
+kind: TriggerTemplate
+metadata:
+  name: ci-trigger
+  namespace: tekton-pipelines
+spec:
+  params:
+    - name: GIT_REPO_URL
+      default: https://github.com/ponyo877-debug/news-app
+    - name: COMMIT_HASH
+      default: xxxxxxxx
+    - name: REGISTRY_REPO
+      # Change my repo
+      default: gcr.io/gke-test-287910/getpost
+    - name: credentialsSecretKey
+    - name: credentialsSecretName
+  resourcetemplates:
+  - apiVersion: tekton.dev/v1alpha1
+    kind: PipelineResource
+    metadata:
+      name: source-repo
+      namespace: tekton-pipelines
+    spec:
+      type: git
+      params:
+        - name: revision
+          value: $(params.COMMIT_HASH)
+        - name: url
+          value: $(params.GIT_REPO_URL)
+  - apiVersion: tekton.dev/v1alpha1
+    kind: PipelineResource
+    metadata:
+      name: image-repo
+      namespace: tekton-pipelines
+    spec:
+      type: image
+      params:
+        - name: url
+          value: $(params.REGISTRY_REPO)/news-top:$(params.COMMIT_HASH)
+  - apiVersion: tekton.dev/v1alpha1
+    kind: PipelineRun
+    metadata:
+      name: ci-news-app
+      namespace: tekton-pipelines
+    spec:
+      serviceAccountName: tekton-sa
+      # timeout: 1h0m0s
+      pipelineRef:
+        name: ci
+      params:
+        - name: COMMIT_HASH
+          value: $(params.COMMIT_HASH)
+        - name: REGISTRY_REPO
+          value: $(params.REGISTRY_REPO)
+        - name: credentialsSecretName
+          value: gcr-credentials
+        - name: credentialsSecretKey
+          value: tekton-test-key.json
+      resources:
+        - name: source-repo
+          resourceRef:
+            name: source-repo
+        - name: image-repo
+          resourceRef:
+            name: image-repo
+---
+apiVersion: v1
+kind: Secret
+metadata:
+  name: github-webhook-credentials
+  namespace: tekton-pipelines
+type: Opaque
+stringData:
+  github-webhook-secret: sample-github-webhook-secret

@@ -1,0 +1,53 @@
+apiVersion: tekton.dev/v1alpha1
+kind: Pipeline
+metadata:
+  name: ci
+  namespace: tekton-pipelines
+spec:
+  resources:
+    - name: source-repo
+      type: git
+    - name: image-repo
+      type: image
+  params:
+  # - name: MICROSERVICE
+  - name: COMMIT_HASH
+  - name: REGISTRY_REPO
+  tasks:
+  - name: build-and-push
+    taskRef:
+      name: kaniko-build-and-push
+    params:
+    - name: DOCKERFILE
+      value: ./Dockerfile
+    # - name: CONTEXT
+    #   value: ./microservices
+    resources:
+      inputs:
+      - name: source-repo
+        resource: source-repo
+      outputs:
+      - name: image-repo
+        resource: image-repo
+    # conditions:
+    #   - conditionRef: check-is-target-microservice
+    #     params:
+    #       - name: COMMIT_HASH
+    #         value: $(params.COMMIT_HASH)
+    #     resources:
+    #       - name: source-repo
+    #         resource: source-repo
+  - name: pull-request-manifest
+    taskRef:
+      name: pull-request-manifest
+    runAfter:
+    - build-and-push
+    params:
+    - name: COMMIT_HASH
+      value: $(params.COMMIT_HASH)
+    - name: REGISTRY_REPO
+      value: $(params.REGISTRY_REPO)
+    resources:
+      inputs:
+      - name: source-repo
+        resource: source-repo
