@@ -44,7 +44,6 @@ metadata:
   name: apiserver-deployment
   labels:
     app: get_latest_article_list
-
 spec:
   replicas: 6
   selector:

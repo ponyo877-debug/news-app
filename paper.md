@@ -25,3 +25,13 @@ git add .
 git commit -m "XXth commit"
 git remote add origin https://github.com/ponyo877-debug/news-app.git
 git push -u origin master
+
+## DashBoard
+### ArgoCD
+https://34.84.219.149/
+
+### Argo Workflows
+http://35.200.103.223:2746/
+
+### Tekton
+http://35.221.67.62:9097/
