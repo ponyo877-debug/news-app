@@ -3,7 +3,7 @@ kind: Ingress
 metadata:
   name: apiserver-ingress
   annotations:
-    kubernetes.io/ingress.global-static-ip-name: "tekton-webhook-ip"
+    kubernetes.io/ingress.global-static-ip-name: "newsapp-ingress"
 spec:
   backend:
     serviceName: apiserver-service
