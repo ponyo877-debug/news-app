@@ -11,16 +11,25 @@ spec:
       targetPort: 5432
 
 ---
-apiVersion: extensions/v1beta1
+apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: postgres
 spec:
   replicas: 1
+  selector:
+    matchLabels:
+      app: postgres
+      server: db
   template:
     metadata:
       labels:
         app: postgres
+        server: db
+  # template:
+  #   metadata:
+  #     labels:
+  #       app: postgres
     spec:
       containers:
         - name: postgres
