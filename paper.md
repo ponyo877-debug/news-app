@@ -31,7 +31,7 @@ git push -u origin master
 https://34.84.219.149/
 
 ### Argo Workflows
-http://35.200.103.223:2746/
+http://34.84.145.108:2746/
 
 ### Tekton
 http://35.221.67.62:9097/
