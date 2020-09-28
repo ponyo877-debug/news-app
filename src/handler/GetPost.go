@@ -38,7 +38,7 @@ func GetPost() echo.HandlerFunc {
                 panic(err)
             }
             feedmap := map[string]interface{}{
-                "title":       feed.title,
+                "titles":       feed.title,
                 "url":         feed.URL,
                 "image":       feed.image,
                 "publishedAt": feed.updateDate,
