@@ -4,23 +4,39 @@ metadata:
   name: github-listener
   namespace: tekton-pipelines
 spec:
-  serviceAccountName: tekton-sa
-  serviceType: NodePort
   triggers:
-    - template:
-        name: ci-trigger
-      bindings:
-      - ref: news-app-ci
+    - name: github-listener
       interceptors:
         - github:
             # secretRef:
-            #   secretName: github-webhook-credentials
-            #   secretKey: github-webhook-secret
-            #   namespace: tekton-pipelines
+            #   secretName: github-secret
+            #   secretKey: secretToken
             eventTypes:
               - push
-        # - cel:
-        #    filter: body.ref == 'refs/heads/develop' && !body.commits[0].message.startsWith('[Update manifest]')
+        - cel:
+            filter: "body.action in ['opened', 'synchronize', 'reopened']"
+      bindings:
+        - ref: news-app-ci
+      template:
+        name: ci-trigger
+# spec:
+#   serviceAccountName: tekton-sa
+#   serviceType: NodePort
+#   triggers:
+#     - template:
+#         name: ci-trigger
+#       bindings:
+#       - ref: news-app-ci
+#       interceptors:
+#         - github:
+#             # secretRef:
+#             #   secretName: github-webhook-credentials
+#             #   secretKey: github-webhook-secret
+#             #   namespace: tekton-pipelines
+#             eventTypes:
+#               - push
+#         # - cel:
+#         #    filter: body.ref == 'refs/heads/develop' && !body.commits[0].message.startsWith('[Update manifest]')
 ---
 apiVersion: triggers.tekton.dev/v1alpha1
 kind: TriggerBinding
