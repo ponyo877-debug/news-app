@@ -16,6 +16,7 @@ kind: StatefulSet
 metadata:
   name: postgres
 spec:
+  serviceName: "postgres"
   replicas: 1
   selector:
     matchLabels:
@@ -43,11 +44,20 @@ spec:
           volumeMounts:
             - name: postgresql-persistent-storage
               mountPath: /var/lib/postgresql
-      volumes:
-        - name: postgresql-persistent-storage
-          gcePersistentDisk:
-            pdName: postgresql-disk
-            fsType: ext4
+      # volumes:
+      #   - name: postgresql-persistent-storage
+      #     gcePersistentDisk:
+      #       pdName: postgresql-disk
+      #       fsType: ext4
+  volumeClaimTemplates:
+    - metadata:
+        name: postgresql-persistent-storage
+      spec:
+        accessModes:
+        - ReadWriteOnce
+        resources:
+          requests:
+            storage: 5G
       #     volumeMounts:
       #       - mountPath: /var/lib/postgresql/data
       #         name: postgredb
