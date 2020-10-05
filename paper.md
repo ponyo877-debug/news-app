@@ -1,5 +1,8 @@
 # Commnads Paper
 
+## Golang
+go build -o GetHit GetHit.go
+
 ## kubectl Commands
 export PROJECT_ID=gke-test-287910
 docker build -t gcr.io/${PROJECT_ID}/get_latest_article_list:v3 .

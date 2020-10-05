@@ -2,13 +2,17 @@ package redis
 
 import (
 	"fmt"
+    "os"
+    "strconv"
+    "io/ioutil"
+    "encoding/json"
     "github.com/go-redis/redis"
 )
 
 type KVSConfig struct {
     Host    string  `json:"host"`
     Port    int     `json:"port"`
-    Db  	string  `json:"dbname"`
+    Db  	int		`json:"db"`
     Pass    string  `json:"pass"`
 }
 
@@ -19,22 +23,19 @@ func checkError(err error) {
 	}
 }
 
-func openKVS() {
+func openKVS() *redis.Client{
 	jsonString, err := ioutil.ReadFile("config_redis.json")
     checkError(err)
     
     var c KVSConfig
     err = json.Unmarshal(jsonString, &c)
-    checkError(err)
+	checkError(err)
 	
 	rdb := redis.NewClient(&redis.Options{
 		Addr:     c.Host + ":" + strconv.Itoa(c.Port),
 		Password: c.Pass,
-		DB:       strconv.Itoa(c.Db),
+		DB:       c.Db,
 	})
-
-	// pong, err := rdb.Ping(ctx).Result()
-	// fmt.Println(pong, err)
-	// Output: PONG <nil>
+	return rdb
 }
 

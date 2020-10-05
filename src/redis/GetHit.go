@@ -6,14 +6,33 @@ import (
     "github.com/go-redis/redis"
 )
 
-func Get_Incr() {
-	kvs := openKVS()
-	ctx := context.Background()
-	_, err := kvs.ZIncr(ctx, "counter", mem)
-	checkError(err)
-	result, err = kvs.Get(ctx, "counter").Result()
-	checkError(err)
+//var ctx = context.Background()
 
-	fmt.Println(result)
-	// Output: 1
+func AddScore() {
+	db := openKVS()
+	defer db.Close()
+	ctx := context.Background()
+	zsetKey := "language_rank"
+	languages := []*redis.Z{
+		&redis.Z{Score: 90.0, Member: "Golang"},
+		&redis.Z{Score: 98.0, Member: "Java"},
+		&redis.Z{Score: 95.0, Member: "Python"},
+		&redis.Z{Score: 97.0, Member: "JavaScript"},
+		&redis.Z{Score: 99.0, Member: "C/C++"},
+	}
+	// languages.append(&redis.Z{Score: 1.0, Member: "Ruby"})
+
+	_, err := db.ZAdd(ctx, zsetKey, languages...).Result()
+	checkError(err)
+}
+
+// https://github.com/huruizhi/go_learning_new/blob/master/day11/05redis/main/main.go
+func IncrScore(){
+	db := openKVS()
+	defer db.Close()
+	zsetKey := "language_rank"
+
+	newScore, err := db.ZIncrBy(ctx, zsetKey, 10.0, "Ruby").Result()
+	checkError(err)
+	fmt.Printf("Golang's score is %f now.\n", newScore)
 }
