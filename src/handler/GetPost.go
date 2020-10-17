@@ -45,6 +45,6 @@ func GetPost() echo.HandlerFunc {
             }
             feedArray = append(feedArray, feedmap)
         }
-        return c.JSON(http.StatusOK, feedArray)
+        return c.JSON(http.StatusOK, map[string][]map[string]interface{}{"data": feedArray})
     }
 }
