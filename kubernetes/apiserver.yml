@@ -63,7 +63,7 @@ spec:
           emptyDir: {}
       containers:
         - name: go-echo
-          image: gcr.io/gke-test-287910/getpost:v5
+          image: gcr.io/gke-test-287910/getpost:v6
           # image: gcr.io/gke-test-287910/hello-app:v2
           imagePullPolicy: Always
           ports:

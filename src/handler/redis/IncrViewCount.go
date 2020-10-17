@@ -1,12 +1,12 @@
 package redis
 
 import (
-	"context"
+	_"context"
 	"net/http"
 	"github.com/labstack/echo"
 )
 
-var ctx = context.Background()
+// var ctx = context.Background()
 
 func IncrViewCount() echo.HandlerFunc {
     return func(c echo.Context) error {
@@ -27,10 +27,11 @@ func GetViewCount() echo.HandlerFunc {
 func IncrViewCountTmp(postID string) int{
 	db := OpenKVS()
 	defer db.Close()
-	ctx := context.Background()
+	// ctx := context.Background()
 	zsetKey := "view_counter"
 
-	newscore, err := db.ZIncrBy(ctx, zsetKey, 1, postID).Result()
+	// newscore, err := db.ZIncrBy(ctx, zsetKey, 1, postID).Result()
+	newscore, err := db.ZIncrBy(zsetKey, 1, postID).Result()
 	checkError(err)
 	return int(newscore)
 }
@@ -38,10 +39,11 @@ func IncrViewCountTmp(postID string) int{
 func GetViewCountTmp(postID string) int{
 	db := OpenKVS()
 	defer db.Close()
-	ctx := context.Background()
+	// ctx := context.Background()
 	zsetKey := "view_counter"
 
-	score, err := db.ZScore(ctx, zsetKey, postID).Result()
+	// score, err := db.ZScore(ctx, zsetKey, postID).Result()
+	score, err := db.ZScore(zsetKey, postID).Result()
 	checkError(err)
 	return int(score)
 }

@@ -2,16 +2,16 @@ package redis
 
 import (
 	"fmt"
-	"context"
+	_"context"
     "github.com/go-redis/redis"
 )
 
-//var ctx = context.Background()
+// var ctx = context.Background()
 
 func AddScore() {
 	db := OpenKVS()
 	defer db.Close()
-	ctx := context.Background()
+	// ctx := context.Background()
 	zsetKey := "language_rank"
 	languages := []*redis.Z{
 		&redis.Z{Score: 90.0, Member: "Golang"},
@@ -22,7 +22,8 @@ func AddScore() {
 	}
 	// languages.append(&redis.Z{Score: 1.0, Member: "Ruby"})
 
-	_, err := db.ZAdd(ctx, zsetKey, languages...).Result()
+	// _, err := db.ZAdd(ctx, zsetKey, languages...).Result()
+	_, err := db.ZAdd(zsetKey, languages...).Result()
 	checkError(err)
 }
 
@@ -32,7 +33,8 @@ func IncrScore(){
 	defer db.Close()
 	zsetKey := "language_rank"
 
-	newScore, err := db.ZIncrBy(ctx, zsetKey, 10.0, "Ruby").Result()
+	// newScore, err := db.ZIncrBy(ctx, zsetKey, 10.0, "Ruby").Result()
+	newScore, err := db.ZIncrBy(zsetKey, 10.0, "Ruby").Result()
 	checkError(err)
 	fmt.Printf("Golang's score is %f now.\n", newScore)
 }

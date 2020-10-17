@@ -1,4 +1,4 @@
-FROM golang:alpine as builder
+FROM golang:1.15-alpine as builder
 ADD . /work
 WORKDIR /work
 
@@ -8,11 +8,23 @@ RUN go get github.com/PuerkitoBio/goquery
 RUN go get github.com/labstack/echo
 RUN go get github.com/mmcdole/gofeed
 RUN go get github.com/lib/pq
+RUN go get go.mongodb.org/mongo-driver/bson
+RUN go get go.mongodb.org/mongo-driver/mongo
+RUN go get go.mongodb.org/mongo-driver/mongo/options
+
+# RUN apk update
+# RUN apk add git
+WORKDIR /go/src/github.com/go-redis/redis/
+RUN git clone https://github.com/go-redis/redis.git .
+RUN git checkout v7
+
+
 
 # Build api
+WORKDIR /work
 RUN go build -o news-top news-top.go
 
-FROM golang:alpine
+FROM golang:1.15-alpine
 WORKDIR /usr/local/bin
 COPY --from=builder /work/news-top /usr/local/bin/news-top
 COPY --from=builder /work/config_prd.json /usr/local/bin/config.json
