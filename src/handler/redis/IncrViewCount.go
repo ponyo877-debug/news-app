@@ -25,7 +25,7 @@ func GetViewCount() echo.HandlerFunc {
 }
 
 func IncrViewCountTmp(postID string) int{
-	db := openKVS()
+	db := OpenKVS()
 	defer db.Close()
 	ctx := context.Background()
 	zsetKey := "view_counter"
@@ -36,7 +36,7 @@ func IncrViewCountTmp(postID string) int{
 }
 
 func GetViewCountTmp(postID string) int{
-	db := openKVS()
+	db := OpenKVS()
 	defer db.Close()
 	ctx := context.Background()
 	zsetKey := "view_counter"

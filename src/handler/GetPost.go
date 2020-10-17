@@ -19,7 +19,7 @@ func GetPost() echo.HandlerFunc {
     return func(c echo.Context) error {		
 		feed := feedRecord{}
         var feedArray []map[string]interface{}
-        sql01_01 := "SELECT /* sql01_01 */ id, title, URL, image, updateDate, click, siteID FROM articleTBL ORDER BY updateDate DESC"
+        sql01_01 := "SELECT /* sql01_01 */ id, title, URL, image, updateDate, click, siteID FROM articleTBL ORDER BY updateDate DESC LIMIT 15"
         db := openDB()
         defer db.Close()
         selectFeedList, err := db.Query(sql01_01)

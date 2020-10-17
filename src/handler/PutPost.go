@@ -4,9 +4,12 @@ import (
 	"fmt"
 	"net/http"
 	"strings"
+	"context"
     "github.com/labstack/echo"
     "github.com/PuerkitoBio/goquery"
 	"github.com/mmcdole/gofeed"
+	"go.mongodb.org/mongo-driver/bson"
+	"./mongo"
 )
 
 // SiteInfo is metainfomation of RSS Site
@@ -74,6 +77,7 @@ func PutPostTmp() int{
     }
     esRecord := registerLatestArticleToDB(feedArray)
 	registerLatestArticleToES(esRecord)
+	RegisterLatestArticleToMongo(feedArray)
 	return update_count
 }
 
@@ -107,10 +111,37 @@ func registerLatestArticleToDB(articleList []SiteRecord) []EsRecord {
 	return esRecordList
 }
 
+
 func registerLatestArticleToES(articleList []EsRecord) {
 	for _, article := range articleList {
 		fmt.Println("registerLatestArticleToES:", article.ID, article.title)
 		// TBD
+	}
+}
+
+func RegisterLatestArticleToMongo(articleList []SiteRecord){
+	ctx := context.Background()
+	client := mongo.OpenMongo()
+	err := client.Connect(ctx)
+	defer client.Disconnect(ctx)
+	checkError(err)
+	col := client.Database("newsdb").Collection("article_col")
+
+	var esDocumentList []interface{}
+	for _, article := range articleList {
+		esDocument := bson.M{
+			"title": article.title,
+			"URL": article.URL,
+			"image": article.image,
+			"updateDate": article.updateDate,
+			"click": 0,
+			"siteID": article.siteID,
+		}
+		esDocumentList = append(esDocumentList, esDocument)
+	}
+	if len(esDocumentList) != 0{
+		_, err = col.InsertMany(ctx, esDocumentList)
+		checkError(err)
 	}
 }
 

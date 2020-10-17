@@ -23,7 +23,7 @@ func checkError(err error) {
 	}
 }
 
-func openKVS() *redis.Client{
+func OpenKVS() *redis.Client{
 	jsonString, err := ioutil.ReadFile("config_redis.json")
     checkError(err)
     

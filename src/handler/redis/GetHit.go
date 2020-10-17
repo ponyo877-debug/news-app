@@ -9,7 +9,7 @@ import (
 //var ctx = context.Background()
 
 func AddScore() {
-	db := openKVS()
+	db := OpenKVS()
 	defer db.Close()
 	ctx := context.Background()
 	zsetKey := "language_rank"
@@ -28,7 +28,7 @@ func AddScore() {
 
 // https://github.com/huruizhi/go_learning_new/blob/master/day11/05redis/main/main.go
 func IncrScore(){
-	db := openKVS()
+	db := OpenKVS()
 	defer db.Close()
 	zsetKey := "language_rank"
 
