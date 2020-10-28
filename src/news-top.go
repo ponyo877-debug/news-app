@@ -14,5 +14,6 @@ func main() {
         e.GET("/redis/get/:post_id", redis.GetViewCount())
         e.GET("/redis/put/:post_id", redis.IncrViewCount())
         e.GET("/mongo/get", mongo.GetPostMongo())
+        e.Static("/privacy_policy", "./public")
         e.Logger.Fatal(e.Start(":8770"))
 }
