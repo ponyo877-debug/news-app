@@ -8,6 +8,9 @@ docker run --name redis_container -d -p 6379:6379 gcr.io/${PROJECT_ID}/redis:v1 
 docker run --name mongo_container -d -p 27017:27017 gcr.io/${PROJECT_ID}/mongo:v1
 
 ## kubectl Commands
+docker build -t gcr.io/${PROJECT_ID}/getpost:v11 .
+docker push gcr.io/${PROJECT_ID}/getpost:v11
+
 export PROJECT_ID=gke-test-287910
 docker build -t gcr.io/${PROJECT_ID}/get_latest_article_list:v3 .
 docker push gcr.io/${PROJECT_ID}/get_latest_article_list:v3
