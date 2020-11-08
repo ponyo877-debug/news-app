@@ -16,7 +16,7 @@ func GetIdsRankingTmp() []map[string]interface{}{
 	
 	var rankArray []map[string]interface{}
 	for _, z := range idsranking {
-		if z.Member == nil {
+		if z.Member == "null" {
 			continue
 		}
 		rankmap := map[string]interface{}{
