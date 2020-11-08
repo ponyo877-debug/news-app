@@ -30,6 +30,9 @@ createuser -a -d -U postgres -P test_user
 psql -h localhost -U test_user -d test_db
 CREATE DATABASE test_db;
 
+## Redis Commnads
+
+
 ## Git Commands
 git add .
 git commit -m "XXth commit"

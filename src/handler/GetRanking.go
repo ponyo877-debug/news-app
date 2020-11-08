@@ -1,32 +1,24 @@
 package handler
 
 import (
-    "net/http"
+	"net/http"
+	"./redis"
+	// "strconv"
     "github.com/labstack/echo"
 )
 
-type feedRecord struct {
-	ID         int
-	title      string
-	URL        string
-	image      string
-	updateDate string
-	click      int
-	siteID     int
-}
-
-func GetPost() echo.HandlerFunc {
+func GetRanking() echo.HandlerFunc {
     return func(c echo.Context) error {		
 		feed := feedRecord{}
-        var feedArray []map[string]interface{}
-        sql01_01 := "SELECT /* sql01_01 */ id, title, URL, image, updateDate, click, siteID FROM articleTBL ORDER BY updateDate DESC LIMIT 15"
-        db := openDB()
-        defer db.Close()
-        selectFeedList, err := db.Query(sql01_01)
-        checkError(err)      	
-        defer selectFeedList.Close()
-        for selectFeedList.Next() {
-        	err = selectFeedList.Scan(
+		var feedArray []map[string]interface{}
+		sql02_01 := "SELECT /* sql02_01 */ id, title, URL, image, updateDate, click, siteID FROM articleTBL WHERE id = $1"
+
+		idsRanking := redis.GetIdsRankingTmp()
+		for _, id_count := range idsRanking {
+			db := openDB()
+			defer db.Close()
+			selectFeed := db.QueryRow(sql02_01, id_count["id"]) //strconv.Itoa(id_count["id"]))
+			err := selectFeed.Scan(
         		&feed.ID,
         		&feed.title,
         		&feed.URL,
@@ -35,9 +27,10 @@ func GetPost() echo.HandlerFunc {
                 &feed.click,
 			    &feed.siteID,
             )
-            checkError(err) 
+			checkError(err)
             feedmap := map[string]interface{}{
-                "id":          feed.ID,
+				"id":          feed.ID,
+				"viewcount":   id_count["viewcount"], //strconv.Itoa(id_count["viewcount"]),
                 "titles":      feed.title,
                 "url":         feed.URL,
                 "image":       feed.image,

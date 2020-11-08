@@ -37,6 +37,7 @@ func IncrViewCountTmp(postID string) int{
 }
 
 func GetViewCountTmp(postID string) int{
+	GetIdsRankingTmp() // for Ranking func Test
 	db := OpenKVS()
 	defer db.Close()
 	// ctx := context.Background()
