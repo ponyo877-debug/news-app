@@ -28,5 +28,6 @@ FROM golang:1.15-alpine
 WORKDIR /usr/local/bin
 COPY --from=builder /work/news-top /usr/local/bin/news-top
 COPY --from=builder /work/config_prd.json /usr/local/bin/config.json
+COPY --from=builder /work/config_redis_prd.json /usr/local/bin/config_redis.json
 COPY --from=builder /work/public/index.html /usr/local/bin/public/index.html
 ENTRYPOINT ["/usr/local/bin/news-top"]
