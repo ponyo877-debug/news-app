@@ -2,7 +2,7 @@ package redis
 
 import (
 	"fmt"
-	_"context"
+	"strconv"
 )
 
 func GetIdsRankingTmp() []map[string]interface{}{
@@ -16,7 +16,16 @@ func GetIdsRankingTmp() []map[string]interface{}{
 	
 	var rankArray []map[string]interface{}
 	for _, z := range idsranking {
-		if z.Member == "null" {
+		// if z.Member == "null" {
+		// 	continue
+		// }
+		// _, err := strconv.Atoi(z.Member)
+		Member_String, isString := z.Member.(string)
+		if !isString {
+			continue
+		}
+		_, err := strconv.Atoi(Member_String)
+		if err != nil {
 			continue
 		}
 		rankmap := map[string]interface{}{
