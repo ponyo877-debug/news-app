@@ -10,6 +10,7 @@ import (
 func main() {
         e := echo.New()
         e.GET("/", handler.GetPost())
+        e.GET("/old", handler.GetPostFromTo())
         e.GET("/psql/put", handler.PutPost())
         e.GET("/ranking", handler.GetRanking())
         e.GET("/redis/get/:post_id", redis.GetViewCount())

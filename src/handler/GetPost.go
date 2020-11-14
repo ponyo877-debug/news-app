@@ -2,6 +2,7 @@ package handler
 
 import (
     "net/http"
+    "strconv"
     "github.com/labstack/echo"
 )
 
@@ -23,6 +24,43 @@ func GetPost() echo.HandlerFunc {
         db := openDB()
         defer db.Close()
         selectFeedList, err := db.Query(sql01_01)
+        checkError(err)      	
+        defer selectFeedList.Close()
+        for selectFeedList.Next() {
+        	err = selectFeedList.Scan(
+        		&feed.ID,
+        		&feed.title,
+        		&feed.URL,
+                &feed.image,
+                &feed.updateDate,
+                &feed.click,
+			    &feed.siteID,
+            )
+            checkError(err) 
+            feedmap := map[string]interface{}{
+                "id":          feed.ID,
+                "titles":      feed.title,
+                "url":         feed.URL,
+                "image":       feed.image,
+                "publishedAt": feed.updateDate,
+            }
+            feedArray = append(feedArray, feedmap)
+        }
+        return c.JSON(http.StatusOK, map[string][]map[string]interface{}{"data": feedArray})
+    }
+}
+
+func GetPostFromTo() echo.HandlerFunc {
+    return func(c echo.Context) error {		
+        qfrom, _ := strconv.Atoi(c.QueryParam("from"))
+        // qto, _ := strconv.Atoi(c.QueryParam("to"))
+        // qlimit := qto - qfrom
+		feed := feedRecord{}
+        var feedArray []map[string]interface{}
+        sql01_02 := "SELECT /* sql01_02 */ id, title, URL, image, updateDate, click, siteID FROM articleTBL ORDER BY updateDate DESC LIMIT 15 OFFSET $1"
+        db := openDB()
+        defer db.Close()
+        selectFeedList, err := db.Query(sql01_02, strconv.Itoa(qfrom))
         checkError(err)      	
         defer selectFeedList.Close()
         for selectFeedList.Next() {
