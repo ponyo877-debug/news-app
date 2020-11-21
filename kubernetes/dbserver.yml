@@ -9,7 +9,18 @@ spec:
   ports:
     - port: 5433
       targetPort: 5432
-
+---
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: postgresql-persistent-storage-claim
+spec:
+  storageClassName: "standard"
+  accessModes:
+  - ReadWriteOnce
+  resources:
+    requests:
+      storage: 5G
 ---
 apiVersion: apps/v1
 kind: StatefulSet
@@ -33,36 +44,42 @@ spec:
   #       app: postgres
     spec:
       containers:
-        - name: postgres
-          image: postgres:10.4
-          imagePullPolicy: "IfNotPresent"
-          resources:
-            limits:
-              cpu: 50m
-            requests:
-              cpu: 50m
-          ports:
-            - containerPort: 5432
-          envFrom:
-            - configMapRef:
-                name: postgres-configuration
-          volumeMounts:
-            - name: postgresql-persistent-storage
-              mountPath: /var/lib/postgresql
+      - name: postgres
+        image: postgres:10.4
+        imagePullPolicy: "IfNotPresent"
+        resources:
+          limits:
+            cpu: 50m
+          requests:
+            cpu: 50m
+        ports:
+        - containerPort: 5432
+        envFrom:
+        - configMapRef:
+            name: postgres-configuration
+        volumeMounts:
+        - name: postgresql-persistent-storage
+          # mountPath: /var/lib/postgresql 20201122
+          mountPath: /var/lib/postgresql/data
+          subPath: data
+      volumes:
+      - name: postgresql-persistent-storage
+        persistentVolumeClaim:
+          claimName: postgresql-persistent-storage-claim
       # volumes:
       #   - name: postgresql-persistent-storage
       #     gcePersistentDisk:
       #       pdName: postgresql-disk
       #       fsType: ext4
-  volumeClaimTemplates:
-    - metadata:
-        name: postgresql-persistent-storage
-      spec:
-        accessModes:
-        - ReadWriteOnce
-        resources:
-          requests:
-            storage: 5G
+  # volumeClaimTemplates: 20201122
+  #   - metadata:
+  #       name: postgresql-persistent-storage
+  #     spec:
+  #       accessModes:
+  #       - ReadWriteOnce
+  #       resources:
+  #         requests:
+  #           storage: 5G
       #     volumeMounts:
       #       - mountPath: /var/lib/postgresql/data
       #         name: postgredb
