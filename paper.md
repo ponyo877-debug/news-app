@@ -32,6 +32,10 @@ CREATE DATABASE test_db;
 
 ## Redis Commnads
 
+## ElasticSearch
+service elasticsearch start
+curl http://127.0.0.1:9200
+
 
 ## Git Commands
 git add .

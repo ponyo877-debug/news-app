@@ -5,11 +5,14 @@ import (
 	"net/http"
 	"strings"
 	"context"
+	"strconv"
+	"encoding/json"
     "github.com/labstack/echo"
     "github.com/PuerkitoBio/goquery"
 	"github.com/mmcdole/gofeed"
 	"go.mongodb.org/mongo-driver/bson"
 	"./mongo"
+	"./elastic"
 )
 
 // SiteInfo is metainfomation of RSS Site
@@ -31,8 +34,11 @@ type SiteRecord struct {
 
 // EsRecord is article infomation for ElasticSearch
 type EsRecord struct {
-	ID    int
-	title string
+	id    		int
+	image 		string
+	publishedAt string
+	titles 		string
+	url			string
 }
 
 func PutPost() echo.HandlerFunc {
@@ -75,8 +81,8 @@ func PutPostTmp() int{
             }
         }
     }
-    esRecord := registerLatestArticleToDB(feedArray)
-	registerLatestArticleToES(esRecord)
+    esId := registerLatestArticleToDB(feedArray)
+	registerLatestArticleToES(esId, feedArray)
 	RegisterLatestArticleToMongo(feedArray)
 	return update_count
 }
@@ -88,7 +94,7 @@ func getImageFromFeed(feed string) string {
 	return ImageURL
 }
 
-func registerLatestArticleToDB(articleList []SiteRecord) []EsRecord {
+func registerLatestArticleToDB(articleList []SiteRecord) []int {
 	db := openDB()
     defer db.Close()
     sql01_02 := "INSERT INTO /* sql01_02 */ articleTBL (title, URL, image, updateDate, click, siteID) VALUES ($1, $2, $3, $4, $5, $6) RETURNING id"
@@ -98,25 +104,48 @@ func registerLatestArticleToDB(articleList []SiteRecord) []EsRecord {
 	// checkError(err)
 	// defer stmt.Close()
     
-    esRecordList := []EsRecord{}
-	var esRecord EsRecord
+    var esIdList []int 
+	var esId int
 	for _, article := range articleList {
         // fmt.Println(article.title, article.URL, article.image, article.updateDate, 0, article.siteID)
         // err = stmt.QueryRow(article.title, article.URL, article.image, article.updateDate, 0, article.siteID).Scan(&esRecord.ID, &esRecord.title)
         // err = stmt.Exec(article.title, article.URL, article.image, article.updateDate, 0, article.siteID)
-        err := db.QueryRow(sql01_02, article.title, article.URL, article.image, article.updateDate, 0, article.siteID).Scan(&esRecord.ID)
+        err := db.QueryRow(sql01_02, article.title, article.URL, article.image, article.updateDate, 0, article.siteID).Scan(&esId)
 		checkError(err)
-        esRecordList = append(esRecordList, esRecord)
+        esIdList = append(esIdList, esId)
     }
-	return esRecordList
+	return esIdList
 }
 
+func jsonStruct(esIt int, doc SiteRecord) string {
+	docStruct := map[string]interface{}{
+		"id":			esIt,
+		"image":		doc.image,
+		"publishedAt":	doc.updateDate,
+		"titles":		doc.title,
+		"url":			doc.URL,
+    }
+    b, err := json.Marshal(docStruct)
+    checkError(err)
+    return string(b)
+}
 
-func registerLatestArticleToES(articleList []EsRecord) {
-	for _, article := range articleList {
-		fmt.Println("registerLatestArticleToES:", article.ID, article.title)
-		// TBD
+func registerLatestArticleToES(esIdList []int, articleList []SiteRecord) {
+	jsonstrings := ""
+	for i := 0; i < len(esIdList); i++ {
+		jsonstrings += "{\"create\":{ \"_index\" : \"test_es\" , \"_id\" : \"" + strconv.Itoa(esIdList[i]) + "\"}}\n"
+		jsonstrings += jsonStruct(esIdList[i], articleList[i]) + "\n"
 	}
+	print(jsonstrings)
+	client := elastic.OpenES()
+
+	res, err := client.Bulk(
+		strings.NewReader(jsonstrings),
+	)
+	defer res.Body.Close()
+
+	//fmt.Println(res)
+	checkError(err)
 }
 
 func RegisterLatestArticleToMongo(articleList []SiteRecord){
