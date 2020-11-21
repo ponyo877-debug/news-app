@@ -66,6 +66,11 @@ spec:
           image: gcr.io/gke-test-287910/getpost:v19
           # image: gcr.io/gke-test-287910/hello-app:v2
           imagePullPolicy: Always
+          resources:
+           limits:
+            cpu: 50m
+           requests:
+            cpu: 50m
           ports:
             - containerPort: 8770
           volumeMounts:

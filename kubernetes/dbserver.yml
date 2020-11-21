@@ -36,6 +36,11 @@ spec:
         - name: postgres
           image: postgres:10.4
           imagePullPolicy: "IfNotPresent"
+          resources:
+            limits:
+              cpu: 50m
+            requests:
+              cpu: 50m
           ports:
             - containerPort: 5432
           envFrom:
