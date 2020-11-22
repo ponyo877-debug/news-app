@@ -15,7 +15,7 @@ kind: PersistentVolumeClaim
 metadata:
   name: postgresql-persistent-storage-claim
 spec:
-  storageClassName: "standard"
+  # torageClassName: "standard"
   accessModes:
   - ReadWriteOnce
   resources:
