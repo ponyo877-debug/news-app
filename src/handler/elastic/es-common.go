@@ -6,6 +6,8 @@ import (
     "strconv"
     "io/ioutil"
     "encoding/json"
+    "net/http"
+    "crypto/tls"
     "github.com/elastic/go-elasticsearch"
 )
 
@@ -38,6 +40,11 @@ func OpenES() *elasticsearch.Client{
         },
         Username: c.User,
         Password: c.Pass,
+        Transport: &http.Transport{
+            TLSClientConfig: &tls.Config{
+                InsecureSkipVerify: true,
+            },
+        },
 	}
 	
 	rdb, err := elasticsearch.NewClient(cfg)
