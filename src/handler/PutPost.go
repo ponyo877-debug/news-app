@@ -83,7 +83,7 @@ func PutPostTmp() int{
     }
     esId := registerLatestArticleToDB(feedArray)
 	registerLatestArticleToES(esId, feedArray)
-	RegisterLatestArticleToMongo(feedArray)
+	// RegisterLatestArticleToMongo(feedArray)
 	return update_count
 }
 

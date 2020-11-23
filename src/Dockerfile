@@ -18,6 +18,8 @@ WORKDIR /go/src/github.com/go-redis/redis/
 RUN git clone https://github.com/go-redis/redis.git .
 RUN git checkout v7
 
+WORKDIR /go/src/github.com/elastic/go-elasticsearch/
+RUN git clone --branch master https://github.com/elastic/go-elasticsearch.git .
 
 
 # Build api
@@ -29,5 +31,6 @@ WORKDIR /usr/local/bin
 COPY --from=builder /work/news-top /usr/local/bin/news-top
 COPY --from=builder /work/config_prd.json /usr/local/bin/config.json
 COPY --from=builder /work/config_redis_prd.json /usr/local/bin/config_redis.json
+COPY --from=builder /work/config_es_prd.json /usr/local/bin/config_es.json
 COPY --from=builder /work/public/index.html /usr/local/bin/public/index.html
 ENTRYPOINT ["/usr/local/bin/news-top"]
