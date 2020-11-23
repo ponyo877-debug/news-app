@@ -12,7 +12,7 @@ spec:
     templates:
     - name: putpost
       container:
-        image: gcr.io/gke-test-287910/putpost:v6
+        image: gcr.io/gke-test-287910/putpost:v8
 
 # apiVersion: argoproj.io/v1alpha1
 # kind: Workflow

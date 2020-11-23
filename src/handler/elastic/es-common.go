@@ -34,7 +34,7 @@ func OpenES() *elasticsearch.Client{
 	cfg := elasticsearch.Config{
         Addresses: []string{
 			// "http://localhost:9200",
-			"http://" + c.Host + ":" + strconv.Itoa(c.Port),
+			"https://" + c.Host + ":" + strconv.Itoa(c.Port),
         },
         Username: c.User,
         Password: c.Pass,

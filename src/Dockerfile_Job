@@ -27,7 +27,7 @@ RUN go build -o news-post news-post.go
 
 FROM golang:1.15-alpine
 WORKDIR /usr/local/bin
-COPY --from=builder /work/news-top /usr/local/bin/news-top
+COPY --from=builder /work/news-post /usr/local/bin/news-post
 COPY --from=builder /work/config_prd.json /usr/local/bin/config.json
 COPY --from=builder /work/config_redis_prd.json /usr/local/bin/config_redis.json
 COPY --from=builder /work/config_es_prd.json /usr/local/bin/config_es.json
