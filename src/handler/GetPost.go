@@ -74,7 +74,8 @@ func GetPostFromTo() echo.HandlerFunc {
                 &feed.image,
                 &feed.updateDate,
                 &feed.click,
-			    &feed.siteID,
+                // &feed.siteID,
+                &feed.siteTitle,
             )
             checkError(err) 
             feedmap := map[string]interface{}{
@@ -83,6 +84,7 @@ func GetPostFromTo() echo.HandlerFunc {
                 "url":         feed.URL,
                 "image":       feed.image,
                 "publishedAt": feed.updateDate,
+                "sitetitle":   feed.siteTitle,
             }
             feedArray = append(feedArray, feedmap)
         }
