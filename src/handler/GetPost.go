@@ -13,14 +13,15 @@ type feedRecord struct {
 	image      string
 	updateDate string
 	click      int
-	siteID     int
+    siteID     int
+    siteTitle  string
 }
 
 func GetPost() echo.HandlerFunc {
     return func(c echo.Context) error {		
 		feed := feedRecord{}
         var feedArray []map[string]interface{}
-        sql01_01 := "SELECT /* sql01_01 */ id, title, URL, image, updateDate, click, siteID FROM articleTBL ORDER BY updateDate DESC LIMIT 15"
+        sql01_01 := "SELECT /* sql01_01 */ A.id, A.title, A.URL, A.image, A.updateDate, A.click, S.title FROM articleTBL A INNER JOIN siteTBL S ON A.siteID = S.ID ORDER BY updateDate DESC LIMIT 15"
         db := openDB()
         defer db.Close()
         selectFeedList, err := db.Query(sql01_01)
@@ -34,7 +35,8 @@ func GetPost() echo.HandlerFunc {
                 &feed.image,
                 &feed.updateDate,
                 &feed.click,
-			    &feed.siteID,
+                // &feed.siteID,
+                &feed.siteTitle,
             )
             checkError(err) 
             feedmap := map[string]interface{}{
@@ -43,6 +45,7 @@ func GetPost() echo.HandlerFunc {
                 "url":         feed.URL,
                 "image":       feed.image,
                 "publishedAt": feed.updateDate,
+                "sitetitle":   feed.siteTitle,
             }
             feedArray = append(feedArray, feedmap)
         }

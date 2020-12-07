@@ -10,16 +10,11 @@ func GetIdsRankingTmp() []map[string]interface{}{
 	defer db.Close()
 	zsetKey := "view_counter"
 
-	// score, err := db.ZScore(zsetKey, postID).Result()
 	idsranking, err := db.ZRevRangeWithScores(zsetKey, 0, 14).Result()
 	checkError(err)
 	
 	var rankArray []map[string]interface{}
 	for _, z := range idsranking {
-		// if z.Member == "null" {
-		// 	continue
-		// }
-		// _, err := strconv.Atoi(z.Member)
 		Member_String, isString := z.Member.(string)
 		if !isString {
 			continue

@@ -14,7 +14,8 @@ func GetRanking() echo.HandlerFunc {
     return func(c echo.Context) error {		
 		feed := feedRecord{}
 		var feedArray []map[string]interface{}
-		sql02_01 := "SELECT /* sql02_01 */ id, title, URL, image, updateDate, click, siteID FROM articleTBL WHERE id = $1"
+		// sql02_01 := "SELECT /* sql02_01 */ id, title, URL, image, updateDate, click, siteID FROM articleTBL WHERE id = $1"
+		sql02_01 := "SELECT /* sql02_01 */ A.id, A.title, A.URL, A.image, A.updateDate, A.click, S.title FROM articleTBL A INNER JOIN siteTBL S ON A.siteID = S.ID WHERE A.id = $1"
 
 		idsRanking := redis.GetIdsRankingTmp()
 		db := openDB()
@@ -33,7 +34,8 @@ func GetRanking() echo.HandlerFunc {
                 &feed.image,
                 &feed.updateDate,
                 &feed.click,
-			    &feed.siteID,
+				// &feed.siteID,
+				&feed.siteTitle,
 			)
 			if err == sql.ErrNoRows {
 				continue
@@ -45,7 +47,8 @@ func GetRanking() echo.HandlerFunc {
                 "titles":      feed.title,
                 "url":         feed.URL,
                 "image":       feed.image,
-                "publishedAt": feed.updateDate,
+				"publishedAt": feed.updateDate,
+				"sitetitle":   feed.siteTitle,
             }
             feedArray = append(feedArray, feedmap)
         }

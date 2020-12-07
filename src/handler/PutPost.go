@@ -31,7 +31,7 @@ type SiteRecord struct {
 	updateDate string
 	siteID     int
 }
-
+/*
 // EsRecord is article infomation for ElasticSearch
 type EsRecord struct {
 	id    		int
@@ -40,7 +40,7 @@ type EsRecord struct {
 	titles 		string
 	url			string
 }
-
+*/
 func PutPost() echo.HandlerFunc {
     return func(c echo.Context) error {
 		update_count := PutPostTmp()
@@ -118,12 +118,18 @@ func registerLatestArticleToDB(articleList []SiteRecord) []int {
 }
 
 func jsonStruct(esIt int, doc SiteRecord) string {
+	db := openDB()
+	defer db.Close()
+	sql01_03 := "SELECT title FROM siteTBL WHERE ID = $1"
+	var sitetitle string
+	err := db.QueryRow(sql01_03, doc.siteID).Scan(&sitetitle)
 	docStruct := map[string]interface{}{
 		"id":			esIt,
 		"image":		doc.image,
 		"publishedAt":	doc.updateDate,
 		"titles":		doc.title,
 		"url":			doc.URL,
+		"sitetitle":    sitetitle,
     }
     b, err := json.Marshal(docStruct)
     checkError(err)
@@ -136,6 +142,7 @@ func registerLatestArticleToES(esIdList []int, articleList []SiteRecord) {
 		jsonstrings += "{\"create\":{ \"_index\" : \"test_es\" , \"_id\" : \"" + strconv.Itoa(esIdList[i]) + "\"}}\n"
 		jsonstrings += jsonStruct(esIdList[i], articleList[i]) + "\n"
 	}
+	
 	print(jsonstrings)
 	client := elastic.OpenES()
 
