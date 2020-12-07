@@ -60,7 +60,7 @@ func GetPostFromTo() echo.HandlerFunc {
         // qlimit := qto - qfrom
 		feed := feedRecord{}
         var feedArray []map[string]interface{}
-        sql01_02 := "SELECT /* sql01_02 */ id, title, URL, image, updateDate, click, siteID FROM articleTBL ORDER BY updateDate DESC LIMIT 15 OFFSET $1"
+        sql01_02 := "SELECT /* sql01_02 */ A.id, A.title, A.URL, A.image, A.updateDate, A.click, S.title FROM articleTBL A INNER JOIN siteTBL S ON A.siteID = S.ID ORDER BY updateDate DESC LIMIT 15 OFFSET $1"
         db := openDB()
         defer db.Close()
         selectFeedList, err := db.Query(sql01_02, strconv.Itoa(qfrom))
