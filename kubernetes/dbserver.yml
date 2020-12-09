@@ -50,8 +50,10 @@ spec:
         resources:
           limits:
             cpu: 50m
+            memory: 100m
           requests:
             cpu: 50m
+            memory: 100m
         ports:
         - containerPort: 5432
         envFrom:
