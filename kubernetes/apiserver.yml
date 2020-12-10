@@ -63,8 +63,8 @@ spec:
           emptyDir: {}
       containers:
         - name: go-echo
-          image: gcr.io/gke-test-287910/getpost:v27
-          # image: gcr.io/gke-test-287910/hello-app:v2
+          image: gcr.io/gke-test-287910/getpost:v28
+          # image: gcr.io/gke-test-287910/hello-app:v21
           imagePullPolicy: Always
           resources:
            requests:
