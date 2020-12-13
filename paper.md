@@ -56,3 +56,11 @@ http://35.221.67.62:9097/
 ## Jenkins
 http://35.200.116.233:8080/
 curl -X POST http://admin:11f6f30c61e90643e40f520729e87ca047@54.248.165.23:8080/job/jenkins-pipeline/build?token=ponyo
+
+var tmp_json = [];
+var tmp_json2 = [];
+_jsonString = await _filePath.readAsString();
+tmp_json2 = json.decode(_jsonString);
+tmp_json.add(tmp_json2.last);
+_jsonString = json.encode(tmp_json);
+_filePath.writeAsString(_jsonString);

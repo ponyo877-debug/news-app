@@ -31,16 +31,7 @@ type SiteRecord struct {
 	updateDate string
 	siteID     int
 }
-/*
-// EsRecord is article infomation for ElasticSearch
-type EsRecord struct {
-	id    		int
-	image 		string
-	publishedAt string
-	titles 		string
-	url			string
-}
-*/
+
 func PutPost() echo.HandlerFunc {
     return func(c echo.Context) error {
 		update_count := PutPostTmp()
@@ -98,18 +89,9 @@ func registerLatestArticleToDB(articleList []SiteRecord) []int {
 	db := openDB()
     defer db.Close()
     sql01_02 := "INSERT INTO /* sql01_02 */ articleTBL (title, URL, image, updateDate, click, siteID) VALUES ($1, $2, $3, $4, $5, $6) RETURNING id"
-    // stmt, err := db.Prepare(sql01_02)
-	// sql01_02 := "INSERT INTO /* sql01_02 */ articleTBL (title, URL, image, updateDate, click, siteID) VALUES ($1, $2, $3, $4, $5, $6) RETURNING (id, title)""
-	
-	// checkError(err)
-	// defer stmt.Close()
-    
     var esIdList []int 
 	var esId int
 	for _, article := range articleList {
-        // fmt.Println(article.title, article.URL, article.image, article.updateDate, 0, article.siteID)
-        // err = stmt.QueryRow(article.title, article.URL, article.image, article.updateDate, 0, article.siteID).Scan(&esRecord.ID, &esRecord.title)
-        // err = stmt.Exec(article.title, article.URL, article.image, article.updateDate, 0, article.siteID)
         err := db.QueryRow(sql01_02, article.title, article.URL, article.image, article.updateDate, 0, article.siteID).Scan(&esId)
 		checkError(err)
         esIdList = append(esIdList, esId)

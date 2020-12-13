@@ -45,12 +45,3 @@ func openDB() *sql.DB{
     checkError(err)
     return db
 }
-/*
-{
-    "host": "postgres",
-    "port": 5433,
-    "user": "test_user",
-    "dbname": "test_db",
-    "pass": "sukuryuu1"
-}
-*/
