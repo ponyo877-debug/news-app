@@ -1,5 +1,7 @@
 src/handler/config.json
 .vscode/sftp.json
+.vscode/config_prd.json
 kubernetes/dbconfigmap.yml
 cicd/memo.txt
 cicd/GKE-test-09d966a2e3f1.json
+scr/config_prd.json
