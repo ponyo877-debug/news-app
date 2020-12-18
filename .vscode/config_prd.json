@@ -1,7 +1,0 @@
-{
-    "host": "postgres.default",
-    "port": 5433,
-    "user": "test_user",
-    "dbname": "test_db",
-    "pass": "sukuryuu1"
-}
