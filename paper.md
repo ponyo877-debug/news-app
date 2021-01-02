@@ -18,7 +18,7 @@ docker push gcr.io/${PROJECT_ID}/get_latest_article_list:v3
 docker build -t gcr.io/${PROJECT_ID}/insert_latest_article_list:v1 -f Dockerfile_cron .
 docker push gcr.io/${PROJECT_ID}/insert_latest_article_list:v1
 
-docker run 
+kubectl run curl-machine --image=radial/busyboxplus:curl -i --tty --rm
 
 
 ## PostgreSQL Commnads

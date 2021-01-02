@@ -1,0 +1,1521 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja">
+  <head>
+    <!-- $Include analytics3.inc$ -->
+    <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-W7N6C9');</script>
+<!-- End Google Tag Manager -->
+<meta charset="UTF-8">
+<!-- DNSプリフェッチ. -->
+<meta http-equiv="x-dns-prefetch-control" content="on">
+<link rel="dns-prefetch" href="//pagead2.googlesyndication.com">
+<link rel="dns-prefetch" href="//googleads.g.doubleclick.net">
+<link rel="dns-prefetch" href="//googleads4.g.doubleclick.net">
+<link rel="dns-prefetch" href="//tpc.googlesyndication.com">
+<link rel="dns-prefetch" href="//www.gstatic.com">
+
+    <!-- link rel="amphtml" href="http://amp.alfalfalfa.com/articles/296717.html" / -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+
+<link rel="stylesheet" href="http://alfalfalfa.com/style.css?1609202916" type="text/css">
+<link rel="alternate" type="application/rss+xml" title="RSS" href="http://alfalfalfa.com/index.rdf">
+<link rel="alternate" type="application/atom+xml" title="Atom" href="http://alfalfalfa.com/atom.xml">
+<link rel="canonical" href="http://alfalfalfa.com/articles/296717.html">
+<link rel="prev" href="http://alfalfalfa.com/articles/296713.html">
+
+
+<script src="https://res.nicoblomaga.jp/common/js/jquery-1.8.2.min.js"></script>
+
+<link rel="shortcut icon" href="https://blogmaterial.nicoblomaga.jp/icon/279/favicon.ico" />
+    <!-- ##<img src="https://articleimage.nicoblomaga.jp/thumb/279/2020/1/7/296717.jpg" /> -->
+    <!-- FFhttps://articleimage.nicoblomaga.jp/image/279/2020/1/d/1decde48d034276faa3924065f301f66b7e3c9661609204626.jpg -->
+    <!-- CC5 -->
+
+    <meta name="p:domain_verify" content="fd437a0eaa70b151346a32590a62165b"/>
+
+
+    <meta name="keywords" content="速報,まとめブログ,アルファルファモザイク,コロナ,飯尾,売れっ子,マネジャー,眼鏡,飯尾さん,タクシー,大井町,悲報,トレードマーク,周囲,週刊誌,温かい雰囲気,隣,交差点,商店街,地元,笑顔,カフェ,喫茶店">
+    <meta name="description" content="２ちゃんねるのスレッドを紹介するブログです。" />
+    <title>【悲報】ずん飯尾さん、裏の顔を週刊誌に撮られてしまう…w</title>
+    <link rel="icon" href="https://blogmaterial.nicoblomaga.jp/icon/279/favicon.ico?1487073344">
+    <meta property="og:title" content="【悲報】ずん飯尾さん、裏の顔を週刊誌に撮られてしまう…w">
+    <meta property="og:image" content="https://articleimage.nicoblomaga.jp/image/279/2020/1/d/1decde48d034276faa3924065f301f66b7e3c9661609204626.jpg" >
+    <meta property="og:type" content="article">
+
+
+    <meta property="og:type" content="blog">
+<meta property="og:title" content="【悲報】ずん飯尾さん、裏の顔を週刊誌に撮られてしまう…w:アルファルファモザイク">
+<meta property="og:description" content="#ずん飯尾">
+<meta property="og:url" content="http://alfalfalfa.com/articles/296717.html">
+<meta property="og:image" content="https://blogmaterial.nicoblomaga.jp/icon/279/smartphone_icon.gif">
+<meta property="og:site_name" content="アルファルファモザイク">
+<meta property="og:locale" content="ja_JP">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="【悲報】ずん飯尾さん、裏の顔を週刊誌に撮られてしまう…w">
+    <meta name="twitter:image" content="https://articleimage.nicoblomaga.jp/image/279/2020/1/d/1decde48d034276faa3924065f301f66b7e3c9661609204626.jpg">
+    <link rel="canonical" href="http://alfalfalfa.com/articles/296717.html">
+
+    <!-- ツイッター書き込みフォーム Start-->
+    <script type="text/javascript">
+
+            var Turl = encodeURIComponent('http://alfalfalfa.com/articles/296717.html');
+            var Ttitle = encodeURIComponent('【悲報】ずん飯尾さん、裏の顔を週刊誌に撮られてしまう…w');
+
+        (function($){ // start jquery
+            $(function(){
+            var Turl = encodeURIComponent('http://alfalfalfa.com/articles/296717.html');
+            var Ttitle = encodeURIComponent('【悲報】ずん飯尾さん、裏の顔を週刊誌に撮られてしまう…w');
+            $('#postTweet input#submitBtn').live('click', function(){
+            var Tweet = $(this).parent().find('#tweet').val();
+            var Tweet = encodeURIComponent(Tweet);
+
+            window.open('https://twitter.com/intent/tweet?text=' + Tweet + ' RT ' + Ttitle + '&url=' + Turl + '&original_referer=' + Turl + '&related=alfalfaPopular', null);
+            return false;
+            });
+
+
+            }); //document.ready
+        })(jQuery); // end jqueryF
+    </script>
+    <!-- ツイッター書き込みフォーム End-->
+
+
+    <script type="text/javascript" src="https://blogmaterial.nicoblomaga.jp/material/279/js/jquery.lazyload.mini.js"></script>
+    <script type="text/javascript" src="https://blogmaterial.nicoblomaga.jp/material/279/js/tab.js"></script>
+    <script type="text/javascript" src="https://blogmaterial.nicoblomaga.jp/material/279/js/comment.js?20190831-3"></script>
+    <script type="text/javascript" src="https://blogmaterial.nicoblomaga.jp/material/279/js/jquery.gifplayer.js"></script>
+    <script type="text/javascript" src="https://blogmaterial.nicoblomaga.jp/material/279/js/okkake1b.js?20150828"></script>
+    <script type="text/javascript" src="https://blogmaterial.nicoblomaga.jp/material/279/js/okkake2b.js?20150828"></script>
+
+
+    <script>
+    var realArticleId = 'http://alfalfalfa.com/articles/296717.html'.match(/\/([\d]+)\.html/)[1];
+    var retweet_body,contlink = '';
+    document.write('<scr' + 'ipt type="text/javascript" src="http://retweet.a-ch.net/js/' + parseInt(realArticleId / 10000) + '/' + realArticleId + '.js"></scr' + 'ipt>');
+    </script>
+    <!-- script type="text/javascript" src="http://blogmaterial.nicoblomaga.jp/material/279/PC_alfaad.js?ver=042301"></script -->
+
+<!-- Criteo Header -->
+<!-- script type="text/javascript" src="//static.criteo.net/js/ld/publishertag.js"></script -->
+
+<!--
+<script type='text/javascript'>
+  var googletag = googletag || {};
+  googletag.cmd = googletag.cmd || [];
+  (function() {
+    var gads = document.createElement('script');
+    gads.async = true;
+    gads.type = 'text/javascript';
+    var useSSL = 'https:' == document.location.protocol;
+    gads.src = (useSSL ? 'https:' : 'http:') +
+      '//www.googletagservices.com/tag/js/gpt.js';
+    var node = document.getElementsByTagName('script')[0];
+    node.parentNode.insertBefore(gads, node);
+  })();
+</script>
+
+<script type='text/javascript'>
+  googletag.cmd.push(function() {
+    googletag.defineSlot('/9400175/al-MainTop728x90-2', [728, 90], 'div-gpt-ad-1468087325636-0').addService(googletag.pubads());
+    googletag.pubads().enableSingleRequest();
+    googletag.enableServices();
+  });
+</script>
+-->
+    <script>function ext_cnt(prefix){$.ajax({url:"//cc.a-ch.net/",data:{"k":prefix},cache:false});}</script>
+
+<!-- 自動広告 -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({
+          google_ad_client: "ca-pub-4840957698714364",
+          enable_page_level_ads: true
+     });
+</script>
+
+<!-- microad ヘッダー 20190628-->
+<script type="text/javascript">
+var microadCompass = microadCompass || {};
+microadCompass.queue = microadCompass.queue || [];
+</script>
+<script type="text/javascript" charset="UTF-8" src="//j.microad.net/js/compass.js" onload="new microadCompass.AdInitializer().initialize();" async></script>
+
+
+
+
+
+  <script src="https://res.nicoblomaga.jp/common/js/mediaplan-min.js?20180601"></script>
+<script>
+<!--
+new BlogParts(279, "https://blogapi.nicoblomaga.jp/").load();
+new HeaderContents("https://blogapi.nicoblomaga.jp/", "pc").start();
+//-->
+</script></head>
+  <body id="article">
+<style>
+<!--
+html body div#matomeSiteHeader, html body div#matomeSiteHeaderDummy {
+    width: 100% !important;
+    height:36px !important;
+}
+html body div#matomeSiteHeader *{
+    margin: 0;
+    padding: 0;
+}
+
+html body div#matomeSiteHeader li{
+    list-style: none !important;
+}
+html body div#matomeSiteHeader img{
+    border: none !important;
+}
+
+html body div#matomeSiteHeader a,
+html body div#matomeSiteHeader a:link{
+    text-decoration: none;
+    background: none;
+}
+
+html body div#matomeSiteHeader{
+    position: fixed !important;
+    top:0 !important;
+    left: 0 !important;
+    z-index:99999 !important;
+    background: #1a1a1a !important;
+    font-size: 12px !important;
+    font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif !important;
+    text-align: left !important;
+}
+html body .nofix div#matomeSiteHeader{
+    position: static !important;
+}
+html body .nofix div#matomeSiteHeaderDummy {
+    height:0 !important;
+}
+
+html body div#matomeSiteHeader .matomeSiteHeaderInner{
+    background: #1a1a1a !important;
+    width: 1024px !important;
+    min-width: 1024px !important;
+    height: 36px !important;
+    margin: 0 auto !important;
+    zoom: 1;
+}
+
+html body div#matomeSiteHeader .matomeSiteHeaderInner:after{
+    content: "" !important;
+    display: block !important;
+    clear: both !important;
+}
+
+html body div#matomeSiteHeader .matomeSiteHeaderNav{
+    float: left !important;
+    overflow: hidden !important;
+    max-width: 368px !important;
+    width: 368px !important;
+    height: 36px !important;
+    white-space: nowrap;
+}
+html body div#matomeSiteHeader .matomeSiteHeaderNav:after{
+    content: "" !important;
+    display: block !important;
+    clear: both !important;
+}
+
+html body div#matomeSiteHeader .matomeSiteHeaderNav li{
+    float: left !important;
+    height: 36px !important;
+    line-height: 36px !important;
+}
+
+html body div#matomeSiteHeader .matomeSiteHeaderNav li:hover{
+    background: #666 !important;
+}
+
+html body div#matomeSiteHeader .matomeSiteHeaderNav li a{
+    display: inline-block !important; *display:inline;*zoom:1;
+    color: #ddd !important;
+    font-size:12px !important;
+}
+
+html body div#matomeSiteHeader .matomeSiteHeaderNav li a span{
+    padding: 0 6px 0 6px !important;
+    cursor: pointer;
+    font-size:12px !important;
+}
+html body div#matomeSiteHeader .matomeSiteHeaderNav li a span span.narrow {
+  padding:0 !important;
+  letter-spacing: -1px;
+}
+
+html body div#matomeSiteHeader .matomeSiteHeaderNav li a:hover{
+    color: #fff !important;
+}
+
+html body div#matomeSiteHeader .matomeSiteHeaderPoweredby {
+    float:right !important;
+    height:36px !important;
+    margin-right:10px;
+}
+html body div#matomeSiteHeader .matomeSiteHeaderPoweredby a {
+    display:block !important;
+    height:36px !important;
+    color:#fff !important;
+    line-height:1 !important;
+    opacity:.4;
+    filter:alpha(opacity = 40);
+}
+html body div#matomeSiteHeader .matomeSiteHeaderPoweredby a:hover {
+    filter:alpha(opacity = 90);
+    opacity:.9;
+}
+html body div#matomeSiteHeader .matomeSiteHeaderPoweredby a span {
+    display:block !important;
+    font-size:10px !important;
+}
+html body div#matomeSiteHeader .matomeSiteHeaderPoweredby a span:first-child {
+    margin-top:8px !important;
+}
+html body div#matomeSiteHeader .matomeSiteHeaderPoweredby a span:last-child {
+    overflow:hidden !important;
+    width:90px !important;
+    height:10px !important;
+    background:transparent url(https://res.nicoblomaga.jp/common/img/map_header.png) no-repeat -92px 0 !important;
+    text-indent:15em !important;
+}
+
+/** marquee */
+html body div#matomeSiteHeader div#marqueeWrapper {
+    overflow: hidden !important;
+    float:left !important;
+    height:36px !important;
+}
+html body div#matomeSiteHeader div#marqueeWrapper:hover button {
+    background-color:#444 !important;
+}
+html body div#matomeSiteHeader div#marqueeWrapper div#marqueeArea,
+html body div#matomeSiteHeader div#marqueeWrapper button {
+    float: left !important;
+}
+html body div#matomeSiteHeader div#marqueeWrapper button {
+    width:14px !important;
+    height:28px !important;
+    margin: 5px 2px 0 !important;
+    padding:0 3px !important;
+    border: none !important;
+    background:transparent url(https://res.nicoblomaga.jp/common/img/map_header.png) no-repeat;
+    color: #999 !important;
+    cursor: pointer;
+    opacity:.5;
+    filter:alpha(opacity = 50);
+}
+html body div#matomeSiteHeader div#marqueeWrapper button#marqueeNextButton {
+    background-position:4px 8px !important;
+}
+html body div#matomeSiteHeader div#marqueeWrapper button#marqueeNextButton:active {
+    background-position:3px 8px !important;
+}
+html body div#matomeSiteHeader div#marqueeWrapper button#marqueePrevButton {
+    background-position:-15px 8px !important;
+}
+html body div#matomeSiteHeader div#marqueeWrapper button#marqueePrevButton:active {
+    background-position:-14px 8px !important;
+}
+html body div#matomeSiteHeader div#marqueeWrapper button:hover {
+    background-color:#333 !important;
+    color:#fff !important;
+    opacity:1;
+    filter:alpha(opacity = 100);
+}
+html body div#matomeSiteHeader div#marqueeWrapper div#marqueeArea {
+    position: relative !important;
+    overflow: hidden !important;
+    width: 500px !important;
+    height: 36px !important;
+    color:#999 !important;
+}
+html body div#matomeSiteHeader div#marqueeWrapper a {
+    display:block !important;
+    min-width:500px !important;
+    height:36px !important;
+    line-height:38px !important;
+    color:#e5bf00 !important;
+}
+html body div#matomeSiteHeader div#marqueeWrapper a:hover {
+    color:#ff0 !important;
+}
+
+html body div#matomeSiteHeader #matomeSiteHeaderFix {
+    float:right !important;
+}
+html body div#matomeSiteHeader #matomeSiteHeaderFix span {
+    display:block !important;
+    margin-top:10px !important;
+    width:18px !important;
+    height:18px !important;
+    background:transparent url(https://res.nicoblomaga.jp/common/img/map_header.png) no-repeat -40px 0 !important;
+    cursor:pointer;
+    opacity:.4;
+    filter:alpha(opacity = 40);
+}
+html body div#matomeSiteHeader #matomeSiteHeaderFix span:hover {
+    opacity:1;
+    filter:alpha(opacity = 100);
+}
+html body .nofix div#matomeSiteHeader #matomeSiteHeaderFix span {
+    background-position:-60px 0 !important;
+}
+html body div#matomeSiteHeader .matomeSiteHeaderInner ul li a.iconNiconico {
+    width: 30px;
+}
+html body div#matomeSiteHeader .matomeSiteHeaderInner ul li a.iconNiconico span {
+    position: relative;
+    display:inline-block;
+    text-indent: -9999px;
+}
+html body div#matomeSiteHeader .matomeSiteHeaderInner ul li a.iconNiconico span:after {
+    content: "";
+    display: block;
+    width: 17px;
+    height: 18px;
+    position: absolute;
+    top: 8px;
+    left: 6px;
+    background: url(https://res.nicoblomaga.jp/common/img/icon_niconico.png) no-repeat 0 0;
+}
+-->
+</style>
+<div id="matomeSiteHeaderArea">
+    <div id="matomeSiteHeaderDummy"></div>
+    <div id="matomeSiteHeader">
+<img src="https://blogapi.nicoblomaga.jp/b.gif?279_a296717_pc" style="position:fixed;">
+        <div class="matomeSiteHeaderInner">
+            <ul class="matomeSiteHeaderNav">
+                <li><a href="https://www.nicovideo.jp/?header" class="iconNiconico"><span>niconico</span></a></li>
+                <li><a href="https://www.nicovideo.jp/video_top?header"><span>動画</span></a></li>
+                <li><a href="https://seiga.nicovideo.jp/?header"><span>静画</span></a></li>
+                <li><a href="https://live.nicovideo.jp/?header"><span>生放送</span></a></li>
+                <li><a href="https://ch.nicovideo.jp/?header"><span><span class="narrow">チャンネル</span></span></a></li>
+                <li><a href="https://ch.nicovideo.jp/portal/blomaga?header"><span><span class="narrow">ブロマガ</span></span></a></li>
+                <li><a href="https://game.nicovideo.jp/atsumaru/?header"><span>RPG<span class="narrow">アツマール</span></span></a></li>
+            </ul>
+            <div id="marqueeWrapper">
+                <button id="marqueeNextButton"><!--◀--></button>
+                <div id="marqueeArea"></div>
+                <button id="marqueePrevButton"><!--▶--></button>
+            </div>
+            <div id="matomeSiteHeaderFix">
+                <span class="icon" title="ヘッダー：追従"></span>
+                <!--<span class="icon" title="ヘッダー：追従"></span>-->
+            </div>
+            <div class="matomeSiteHeaderPoweredby">
+                <a href="https://ch.nicovideo.jp/">
+                    <span>Powered by</span>
+                    <span>ニコニコチャンネル</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W7N6C9"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<!-- facebookタイムライン表示のための準備コード -->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v2.9&appId=1244250059031565";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<!-- facebookタイムライン表示のための準備コード -->
+
+  <!-- $Include analytics2.inc$ -->
+    <!-- ArticleInfo -->
+    <div class="ArticleInfo" style="display:none;">
+      <div id="BlogType">Blomaga</div>
+      <div id="ArticleTitle">【悲報】ずん飯尾さん、裏の顔を週刊誌に撮られてしまう…w</div>
+      <div id="ArticleUrl">http://alfalfalfa.com/articles/296717.html</div>
+      <div id="ArticleAuthor"></div>
+      <div id="ArticleCommentCount">5</div>
+      <div id="ArticleCategory"><span>エンタメ</span></div>
+      <div id="ArticleTags"><ul>
+<li><a href="http://alfalfalfa.com/tag/コロナ">コロナ</a></li>
+<li><a href="http://alfalfalfa.com/tag/飯尾">飯尾</a></li>
+<li><a href="http://alfalfalfa.com/tag/売れっ子">売れっ子</a></li>
+<li><a href="http://alfalfalfa.com/tag/マネジャー">マネジャー</a></li>
+<li><a href="http://alfalfalfa.com/tag/眼鏡">眼鏡</a></li>
+<li><a href="http://alfalfalfa.com/tag/飯尾さん">飯尾さん</a></li>
+<li><a href="http://alfalfalfa.com/tag/タクシー">タクシー</a></li>
+<li><a href="http://alfalfalfa.com/tag/大井町">大井町</a></li>
+<li><a href="http://alfalfalfa.com/tag/悲報">悲報</a></li>
+<li><a href="http://alfalfalfa.com/tag/トレードマーク">トレードマーク</a></li>
+<li><a href="http://alfalfalfa.com/tag/周囲">周囲</a></li>
+<li><a href="http://alfalfalfa.com/tag/週刊誌">週刊誌</a></li>
+<li><a href="http://alfalfalfa.com/tag/温かい雰囲気">温かい雰囲気</a></li>
+<li><a href="http://alfalfalfa.com/tag/隣">隣</a></li>
+<li><a href="http://alfalfalfa.com/tag/交差点">交差点</a></li>
+<li><a href="http://alfalfalfa.com/tag/商店街">商店街</a></li>
+<li><a href="http://alfalfalfa.com/tag/地元">地元</a></li>
+<li><a href="http://alfalfalfa.com/tag/笑顔">笑顔</a></li>
+<li><a href="http://alfalfalfa.com/tag/カフェ">カフェ</a></li>
+<li><a href="http://alfalfalfa.com/tag/喫茶店">喫茶店</a></li></ul></div>
+      <div id="ArticleDate">2020-12-29 10:20:00</div>
+      <div id="ArticleId">296717</div>
+    </div>
+    <div id="wrapper">
+      <!-- ヘッダー start -->
+      <header id="header">
+        <div id="header-inner">
+          <div id="header_menu" class="clearfix">
+            <div id="header_left">
+              <h1 class="blogtitle">
+                <a href="http://alfalfalfa.com" title="アルファルファモザイク">
+                  アルファルファモザイク
+                </a>
+              </h1>
+              <div class="description">
+                <!-- $Include twitter_b.inc$ -->
+              </div>
+            </div>
+            <div id="header_right">
+                        <span class="header_sns">
+				<a href="https://twitter.com/alfalfaGeinow" target="_blank"><img src="https://blogmaterial.nicoblomaga.jp/material/279/blog/img/icon-twitter.png" border="0"></a>
+				<a href="https://www.facebook.com/pages/%E3%82%A2%E3%83%AB%E3%83%95%E3%82%A1%E3%83%AB%E3%83%95%E3%82%A1%E3%83%A2%E3%82%B6%E3%82%A4%E3%82%AF/138490769657396" target="_blank"><img src="https://blogmaterial.nicoblomaga.jp/material/279/blog/img/icon-facebook.png" border="0"></a>
+				<a href="https://feedly.com/i/subscription/feed/http%3A%2F%2Falfalfalfa.com%2Findex.rdf" target="_blank"><img src="https://blogmaterial.nicoblomaga.jp/material/279/blog/img/icon-feedly.png" border="0"></a>
+                        </span>
+              <a href="http://alfalfalfa.com/articles/234245.html">
+                About
+              </a>・
+              <a href="mailto:info@alfalfalfa.com" target="_blank">
+                お問い合わせ
+              </a>
+            </div>
+          </div>
+
+          <div id="header_menub" class="clearfix">
+              <ul class="header_category">
+                  <li class="header_top"><a href="http://alfalfalfa.com/">トップ</a></li>
+                  <li><a href="http://alfalfalfa.com/tag/いいね！">おすすめ</a></li>
+                  <li><a href="http://alfalfalfa.com/archives/cat_189074.html">ニュース</a></li>
+                  <li><a href="http://alfalfalfa.com/archives/cat_189127.html">政治</a></li>
+                  <li class="category_bold"><a href="http://alfalfalfa.com/archives/cat_189065.html">エンタメ</a></li>
+                  <li><a href="http://alfalfalfa.com/archives/cat_361502.html">スポーツ</a></li>
+                  <li class="category_bold"><a href="http://alfalfalfa.com/archives/cat_189087.html">アニメ・マンガ</a></li>
+                  <li><a href="http://alfalfalfa.com/archives/cat_361503.html">声優</a></li>
+                  <li><a href="http://alfalfalfa.com/archives/cat_189079.html">ゲーム</a></li>
+                  <li><a href="http://alfalfalfa.com/archives/cat_189067.html">恋愛</a></li>
+                  <li class="category_bold"><a href="http://alfalfalfa.com/archives/cat_361469.html">注目記事</a></li>
+                  <li><a href="http://alfalfalfa.com/archives/cat_189101.html">ピックアップ</a></li>
+                  <li><a href="http://alfalfalfa.com/articles/210900.html">ランキング</a></li>
+                  <li><a href="http://alfalfalfa.com/articles/234293.html">更新情報(RSS)</a><a href="http://chtool.nicovideo.jp/cht1/chtool/matome_blog/article_edit?channel_id=2602054&article_id=296717" target="_blank">#</a></li>
+<script type="text/javascript">
+  var today = new Date();
+  var year = today.getFullYear();
+  var month = today.getMonth() + 1;
+  var todayurl = 'http://alfalfalfa.com/archives/' + year + '-' + month;
+  document.write('<li><a href="' + todayurl + '.html">今月の記事一覧</a></li>');
+</script>
+
+              </ul>
+          </div>
+        </div>
+      </header>
+      <!-- End of #header -->
+
+      <!-- End of #category_list -->
+      <div id="block_left">
+      <div id="main_column">
+        <div id="main_column_inner">
+
+            <header class="main_article_header">
+              <div class="main_article_header_inner clearfix">
+                <div class="main_article_thumb">
+                  <a href="http://alfalfalfa.com/articles/296717.html">
+                    
+                      <img src="https://articleimage.nicoblomaga.jp/thumb/279/2020/1/7/296717.jpg" />
+                    
+                  </a>
+                </div>
+                <div class="main_article_titleinfo">
+                  <div class="main_article_title">
+                    <a href="http://alfalfalfa.com/articles/296717.html">
+                      <h2>【悲報】ずん飯尾さん、裏の顔を週刊誌に撮られてしまう…w</h2>
+                    </a>
+                  </div>
+                  <div class="main_article_info">
+                    <span class="article_time">
+                      <a href="http://alfalfalfa.com/archives/2020-12.html">
+                          2020-12-29 10:20:00
+                      </a>
+                    </span> <a href="#cate"></a>
+                    <span class="article_category">
+                      
+                        <a href="http://alfalfalfa.com/archives/cat_189065.html">
+                          エンタメ
+                        </a>
+                      
+                      
+                      
+                      <a href="http://alfalfalfa.com/tag/コロナ">コロナ</a>
+                      
+                      <a href="http://alfalfalfa.com/tag/飯尾">飯尾</a>
+                      
+                      <a href="http://alfalfalfa.com/tag/売れっ子">売れっ子</a>
+                      
+                      <a href="http://alfalfalfa.com/tag/マネジャー">マネジャー</a>
+                      
+                      <a href="http://alfalfalfa.com/tag/眼鏡">眼鏡</a>
+                      
+                      <a href="http://alfalfalfa.com/tag/飯尾さん">飯尾さん</a>
+                      
+                      <a href="http://alfalfalfa.com/tag/タクシー">タクシー</a>
+                      
+                      <a href="http://alfalfalfa.com/tag/大井町">大井町</a>
+                      
+                      <a href="http://alfalfalfa.com/tag/悲報">悲報</a>
+                      
+                      <a href="http://alfalfalfa.com/tag/トレードマーク">トレードマーク</a>
+                      
+                      <a href="http://alfalfalfa.com/tag/周囲">周囲</a>
+                      
+                      <a href="http://alfalfalfa.com/tag/週刊誌">週刊誌</a>
+                      
+                      <a href="http://alfalfalfa.com/tag/温かい雰囲気">温かい雰囲気</a>
+                      
+                      <a href="http://alfalfalfa.com/tag/隣">隣</a>
+                      
+                      <a href="http://alfalfalfa.com/tag/交差点">交差点</a>
+                      
+                      <a href="http://alfalfalfa.com/tag/商店街">商店街</a>
+                      
+                      <a href="http://alfalfalfa.com/tag/地元">地元</a>
+                      
+                      <a href="http://alfalfalfa.com/tag/笑顔">笑顔</a>
+                      
+                      <a href="http://alfalfalfa.com/tag/カフェ">カフェ</a>
+                      
+                      <a href="http://alfalfalfa.com/tag/喫茶店">喫茶店</a>
+                      
+                      <span class="rescmt_switch"></span>
+                    </span>
+
+
+
+                  </div>
+                  <!-- End of .main_article_info -->
+                </div>
+                <div class="main_article_comment">
+                  
+                  <a href="#ret">
+                    5
+                  </a>
+                  
+                </div>
+                <!-- End of .main_article_comment-->
+              </div>
+            </header>
+            <!-- End of .main_article_header -->
+
+
+          <!-- aside class="pager">
+            
+            
+            <a rel="prev" href="http://alfalfalfa.com/articles/296713.html">前の記事</a>
+          </aside -->
+          <!-- aside class="popular_articlert" -->
+            <!-- script type="text/javascript">document.write('<scr' + 'ipt type="text/javascript" src="https://blogmaterial.nicoblomaga.jp/material/279/js/headline.js?' + Math.floor((new Date)/1000) + '">' + '</scr' + 'ipt>');</script -->
+          <!-- /aside -->
+          <!-- aside class="ads_728x90" -->
+          <!--  div class="sponsored">スポンサードリンク</div  -->
+          <!-- $Include Pc-ArtMainTopLeft.inc$ -->
+          <!-- /aside -->
+<!-- ① Start -->
+<div class="ads_top">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-format="fluid"
+     data-ad-layout-key="-6t+ed+2i-1n-4w"
+     data-ad-client="ca-pub-4840957698714364"
+     data-ad-slot="3501193984"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+<!-- ① End -->
+<!-- ①ab用タグ Start -->
+<script type='text/javascript' src='//static.criteo.net/js/ld/publishertag.js'></script>
+<div id='crt-1568425' style='width:728px; height:90px;'></div>
+<script type='text/javascript'>
+   Criteo.DisplayAcceptableAdIfAdblocked(
+       {'zoneid' : 1568425,
+        'containerid' : 'crt-1568425',
+    });
+</script>
+<!-- ①ab用タグ End -->
+		<aside class="rss_headline_title">RSSヘッドライン</aside>
+          <aside class="rss_headline">
+            <script type="text/javascript">document.write('<scr' + 'ipt type="text/javascript" src="https://blogmaterial.nicoblomaga.jp/material/279/js/rss/alfa_pc_main_top_left.js?' + Math.floor((new Date)/1000) + '">' + '</scr' + 'ipt>');</script>
+            <script type="text/javascript">document.write('<scr' + 'ipt type="text/javascript" src="https://blogmaterial.nicoblomaga.jp/material/279/js/pc_rssheadline_right.js?' + Math.floor((new Date)/1000) + '">' + '</scr' + 'ipt>');</script>
+
+<script defer type="text/javascript">document.write('<scr' + 'ipt type="text/javascript" src="https://blogmaterial.nicoblomaga.jp/material/279/js/rss/alfa_pc_main_top.js?' + Math.floor((new Date)/1000) + '" >' + '</scr' + 'ipt>');</script>
+<script defer type="text/javascript">document.write('<scr' + 'ipt type="text/javascript" src="https://blogmaterial.nicoblomaga.jp/material/279/js/rss/alfa_pc_main_top_right.js?' + Math.floor((new Date)/1000) + '" >' + '</scr' + 'ipt>');</script>
+
+
+</aside>
+
+          <aside class="ads_728x90">
+          <div class="sponsored">スポンサードリンク</div>
+          <!-- $Include Pc-ArtMainTopRight.inc$ -->
+
+
+
+<div class="clearfix">
+<div style="float:left;margin-left:10px;">
+<!-- 広告⑥ Start -->
+<div>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- al-Pc-RelConRespoArticle-left -->
+<ins class="adsbygoogle"
+style="display:inline-block;width:336px;height:280px"
+data-ad-client="ca-pub-4840957698714364"
+data-ad-slot="1716163004"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+<!-- 広告⑥ End -->
+<!-- 広告⑥Adblock用広告タグ Start -->
+<div>
+<script type='text/javascript' src='//static.criteo.net/js/ld/publishertag.js'></script>
+<div id='crt-1568430' style='width:300px; height:250px;'></div>
+<script type='text/javascript'>
+   Criteo.DisplayAcceptableAdIfAdblocked(
+       {'zoneid' : 1568430,
+        'containerid' : 'crt-1568430',
+    });
+</script>
+</div>
+<!-- 広告⑥Adblock用広告タグ End -->
+</div>
+
+<div style ="float:left;margin-left:30px;">
+<!-- 広告⑦ Start -->
+<div>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- al-Pc-RelConRespoArticle-right -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:336px;height:280px"
+     data-ad-client="ca-pub-4840957698714364"
+     data-ad-slot="8986533968"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+<!-- 広告⑦ End -->
+<!-- 広告⑦ Adblock用広告タグ Start -->
+<div>
+<script type='text/javascript' src='//static.criteo.net/js/ld/publishertag.js'></script>
+<div id='crt-1568431' style='width:300px; height:250px;'></div>
+<script type='text/javascript'>
+   Criteo.DisplayAcceptableAdIfAdblocked(
+       {'zoneid' : 1568431,
+        'containerid' : 'crt-1568431',
+    });
+</script>
+</div>
+<!-- 広告⑦ Adblock用広告タグ Start -->
+</div>
+</div>
+
+          </aside>
+
+        </div>
+              <div class="link_bar clearfix">
+                <div class="link_bar_left">
+                  
+                  ▼<a href="http://alfalfalfa.com/articles/296713.html">
+                    【pickup】【画像】山下智久と問題になった女子高生モデルの御尊顔
+                  </a>
+                  <a href="http://alfalfalfa.com/articles/296713.html#ret">
+                    (コメント)
+                  </a>
+                  
+                </div>
+                <div class="link_bar_right">
+                  
+                </div>
+              </div>
+        <article class="main_article">
+          <a name="top"></a>
+          <div class="main_article_inner">
+            <div class="main_article_contents">
+              <div class="main_article_contents_inner">
+
+                <div class="article_body">
+                  <!-- anchovy --><div class="catch_amz"><a href="https://www.amazon.co.jp/gp/product/4788717115/?tag=alfalfathum-22&linkCode=osi&th=1&psc=1" target="_blank"><img src="https://articleimage.nicoblomaga.jp/image/279/2020/1/d/1decde48d034276faa3924065f301f66b7e3c9661609204626.jpg" border="0" hspace="5" vspace="5" class="body_topimg_amz" alt="コロナ 飯尾 売れっ子 マネジャー 眼鏡に関連した画像-01"></a></div><div id="res_1" class="res_block"><div class="res_info"><span class="res_num">1</span>：<span class="res_name"></span><span class="res_matome"><span class="res_date">2020/12/29(火) 08:30:30.40</span><span class="res_id">ID:Ld8TiuGIM.net</span></span></div><br><div class="res_body">売れっ子になっても地元のカフェに通う飯尾。プライベートでもこの笑顔<br><br>そんな彼が交差点を歩いている姿を目撃したのは９月下旬のこと。トレードマークの眼鏡はかけておらず、周囲の人は彼に気が付いていない様子だ。<br>隣にいるマネジャーらしき女性と談笑している。交差点で女性と別れると、飯尾は商店街で買い物を済ませ、タクシーへと乗り込んだ。<br>向かった先は大井町の喫茶店『G』。温かい雰囲気のアットホームなカフェである。<br><br>「ここは飯尾さんの行きつけとして、以前テレビ番組で紹介されたことがある喫茶店です。売れない時代に週６回、コーヒー１杯で８時間以上粘ったというエピソードを明かしていました。<br>１００本以上のネタがこの喫茶店で生まれているという、飯尾さんにとって“恩返ししたいお店”だそうです」（テレビ誌ライター）<br><br>アイスコーヒーを注文すると、店主やひとりで訪れている女性、向かいに座るカップルと、いつものようにという和やかな雰囲気で会話している。<br>よく店で会うような、気心知れた常連客同士なのかもしれない。<br><br>マスクを外した飯尾の表情も柔らかく、入店から30分以上経っても会話が途切れることはない。テレビで見せるのと同じような笑みを浮かべ、盛り上がっていた。<br>ブレイクしても変わらない「普通の感じ」が“らしい”飯尾なのであった。<br><br><a href="https://amd-pctr.c.yimg.jp/r/iwiz-amd/20201229-00000001-friday-000-1-view.jpg" target="_blank" rel="nofollow">https://amd-pctr.c.yimg.jp/r/iwiz-amd/20201229-00000001-friday-000-1-view.jpg</a><br><a href="https://res.cloudinary.com/gsjebzejhjubm/image/private/s--w2u_ati6--/c_scale,dpr_2,f_auto,t_article_image,w_664/v1609160997/CC2C7372_lgdxfj.jpg" target="_blank" rel="nofollow">https://res.cloudinary.com/gsjebzejhjubm/image/private/s--w2u_ati6--/c_scale,dpr_2,f_auto,t_article_image,w_664/v1609160997/CC2C7372_lgdxfj.jpg</a><br><a href="https://res.cloudinary.com/gsjebzejhjubm/image/private/s--m8ocIQYj--/c_scale,dpr_2,f_auto,t_article_image,w_664/v1609161039/CC2C7362_sdfuyw.jpg" target="_blank" rel="nofollow">https://res.cloudinary.com/gsjebzejhjubm/image/private/s--m8ocIQYj--/c_scale,dpr_2,f_auto,t_article_image,w_664/v1609161039/CC2C7362_sdfuyw.jpg</a><br>※下記リンクより、一部抜粋。続きはソースで<br><a href="https://news.yahoo.co.jp/articles/9121b6f2ba0aa94f5fd255e03b5956dded1ad9ae" target="_blank" rel="nofollow">https://news.yahoo.co.jp/articles/9121b6f2ba0aa94f5fd255e03b5956dded1ad9ae</a></div></div><br><script type="text/javascript">document.write('<scr' + 'ipt type="text/javascript" src="http://blogmaterial.nicoblomaga.jp/material/279/js/bodyb.js?' + Math.floor((new Date)/1000) + '">' + '</scr' + 'ipt>');</script><div id="related-title">関連記事</div><ul class="automatic-related" id="mainmore"><script type="text/javascript">document.write('<scr' + 'ipt type="text/javascript" src="http://blogmaterial.nicoblomaga.jp/material/279/js/kanren2.js?' + Math.floor((new Date)/1000) + '">' + '</scr' + 'ipt>');</script></ul><br><br>
+                </div>
+
+
+
+ 
+
+                <div class="article_bodymore">
+                  <div id="res_6" class="res_block"><div class="res_info"><span class="res_num">6</span>：<span class="res_name"></span><span class="res_matome"><span class="res_date">2020/12/29(火) 08:31:49.94</span><span class="res_id">ID:4evuUo+20.net</span></span></div><br><div class="res_body">ケンコバ路線</div></div><br><br><div id="res_11" class="res_block"><div class="res_info"><span class="res_num">11</span>：<span class="res_name"></span><span class="res_matome"><span class="res_date">2020/12/29(火) 08:34:03.11</span><span class="res_id">ID:y9YI3rcKa.net</span></span></div><br><div class="res_body">どこにニュースバリューあんねん</div></div><br><br><div id="res_15" class="res_block"><div class="res_info"><span class="res_num">15</span>：<span class="res_name"></span><span class="res_matome"><span class="res_date">2020/12/29(火) 08:35:01.49</span><span class="res_id">ID:Fn6o5hzwM.net</span></span></div><br><div class="res_body">ハワイで挙式ぶち上げた後か？</div></div><br><br><div id="res_17" class="res_block"><div class="res_info"><span class="res_num">17</span>：<span class="res_name"></span><span class="res_matome"><span class="res_date">2020/12/29(火) 08:35:40.14</span><span class="res_id">ID:xqpcy1Pm0.net</span></span></div><br><div class="res_body">こういう素朴なところに武田玲奈惹かれたらしい</div></div><br><br><div id="res_19" class="res_block"><div class="res_info"><span class="res_num">19</span>：<span class="res_name"></span><span class="res_matome"><span class="res_date">2020/12/29(火) 08:36:34.27</span><span class="res_id">ID:8Br7BqG0M.net</span></span></div><br><div class="res_body_r1">あかん……<br>張り込んだけどスキャンダルが見つからん……<br>せや！</div></div><br><br><div id="res_23" class="res_block"><div class="res_info"><span class="res_num">23</span>：<span class="res_name"></span><span class="res_matome"><span class="res_date">2020/12/29(火) 08:37:54.60</span><span class="res_id">ID:qvpJoUr30.net</span></span></div><br><div class="res_body_r2">>>19<br>多分それ</div></div><br><br><div id="res_146" class="res_block"><div class="res_info"><span class="res_num">146</span>：<span class="res_name"></span><span class="res_matome"><span class="res_date">2020/12/29(火) 09:09:37.85</span><span class="res_id">ID:lZRIR9QI0.net</span></span></div><br><div class="res_body_r2">>>19<br>草</div></div><br><br><div id="res_20" class="res_block"><div class="res_info"><span class="res_num">20</span>：<span class="res_name"></span><span class="res_matome"><span class="res_date">2020/12/29(火) 08:36:47.29</span><span class="res_id">ID:OpFnrCuW0.net</span></span></div><br><div class="res_body">ヤスの脊髄は治ったのか？</div></div><br><br><div id="res_22" class="res_block"><div class="res_info"><span class="res_num">22</span>：<span class="res_name"></span><span class="res_matome"><span class="res_date">2020/12/29(火) 08:37:54.21</span><span class="res_id">ID:Etj2FLmsM.net</span></span></div><br><div class="res_body">やっぱりな…<br>裏ではこういうやつだと思ってたよ…<br><aside class="in_ads_sec"><div class="in_ads"><script type="text/javascript">document.write('<scr' + 'ipt type="text/javascript" src="http://blogmaterial.nicoblomaga.jp/material/279/SP300x250-1in.js?' + Math.floor((new Date)/1000) + '">' + '</scr' + 'ipt>');</script></div></aside><br></div></div><br><br><div id="res_24" class="res_block"><div class="res_info"><span class="res_num">24</span>：<span class="res_name"></span><span class="res_matome"><span class="res_date">2020/12/29(火) 08:38:04.09</span><span class="res_id">ID:GMeiDaZj0.net</span></span></div><br><div class="res_body_r1">旅行行った先で見る最多芸人<br>地方ロケ多いよねこの人</div></div><br><br><div id="res_29" class="res_block"><div class="res_info"><span class="res_num">29</span>：<span class="res_name"></span><span class="res_matome"><span class="res_date">2020/12/29(火) 08:39:55.60</span><span class="res_id">ID:qvpJoUr30.net</span></span></div><br><div class="res_body_r2">>>24<br>一時期ホンジャマカ石塚はよく見たな<br>そう言えば最近石塚見ないな</div></div><br><br><div id="res_31" class="res_block"><div class="res_info"><span class="res_num">31</span>：<span class="res_name"></span><span class="res_matome"><span class="res_date">2020/12/29(火) 08:40:38.76</span><span class="res_id">ID:DNnYFOsA0.net</span></span></div><br><div class="res_body_r2">>>29<br>テレビでのグルメロケの仕事は全てギャル曽根に回ってくるようになったらしい</div></div><br><br><div id="res_106" class="res_block"><div class="res_info"><span class="res_num">106</span>：<span class="res_name"></span><span class="res_matome"><span class="res_date">2020/12/29(火) 09:00:16.51</span><span class="res_id">ID:kCW1Xvtzd.net</span></span></div><br><div class="res_body_r2">>>29<br>性格クソ悪いから干された</div></div><br><br><div id="res_25" class="res_block"><div class="res_info"><span class="res_num">25</span>：<span class="res_name"></span><span class="res_matome"><span class="res_date">2020/12/29(火) 08:38:04.47</span><span class="res_id">ID:DNnYFOsA0.net</span></span></div><br><div class="res_body_r1">こういう好感度高い芸人のスキャンダルがあるとめちゃくちゃ話題になるからみんな狙うんよな<br>その結果がこれや<br><blockquote class="imgur-embed-pub" lang="ja" data-id="7FIy2Q3"><a href="//imgur.com/7FIy2Q3"> &nbsp; </a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script><br><a href="https://imgur.com/7FIy2Q3.jpg" target="_blank" rel="nofollow">https://imgur.com/7FIy2Q3.jpg</a><br><blockquote class="imgur-embed-pub" lang="ja" data-id="BcJgKAV"><a href="//imgur.com/BcJgKAV"> &nbsp; </a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script><br><a href="https://imgur.com/BcJgKAV.jpg" target="_blank" rel="nofollow">https://imgur.com/BcJgKAV.jpg</a></div></div><br><br><div id="res_26" class="res_block"><div class="res_info"><span class="res_num">26</span>：<span class="res_name"></span><span class="res_matome"><span class="res_date">2020/12/29(火) 08:39:34.09</span><span class="res_id">ID:oPmIPLaca.net</span></span></div><br><div class="res_body_r2">>>25<br>ケンコバは自分から売り込んでるやろ</div></div><br><br><div id="res_32" class="res_block"><div class="res_info"><span class="res_num">32</span>：<span class="res_name"></span><span class="res_matome"><span class="res_date">2020/12/29(火) 08:40:44.82</span><span class="res_id">ID:skC/0unPx.net</span></span></div><br><div class="res_body_r2">>>25<br>高畑充希のケンタッキーも好き</div></div><br><br><div id="res_35" class="res_block"><div class="res_info"><span class="res_num">35</span>：<span class="res_name"></span><span class="res_matome"><span class="res_date">2020/12/29(火) 08:41:37.86</span><span class="res_id">ID:DNnYFOsA0.net</span></span></div><br><div class="res_body_r2">>>32<br>プライベートでも宣伝する芸能人の鑑<br><blockquote class="imgur-embed-pub" lang="ja" data-id="7uDNfBJ"><a href="//imgur.com/7uDNfBJ"> &nbsp; </a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script><br><a href="https://imgur.com/7uDNfBJ.jpg" target="_blank" rel="nofollow">https://imgur.com/7uDNfBJ.jpg</a></div></div><br><br><div id="res_37" class="res_block"><div class="res_info"><span class="res_num">37</span>：<span class="res_name"></span><span class="res_matome"><span class="res_date">2020/12/29(火) 08:42:05.66</span><span class="res_id">ID:gAkFPVLQ0.net</span></span></div><br><div class="res_body_r2">>>35<br>もうCM撮影やんか</div></div><br><br><div id="res_42" class="res_block"><div class="res_info"><span class="res_num">42</span>：<span class="res_name"></span><span class="res_matome"><span class="res_date">2020/12/29(火) 08:43:07.34</span><span class="res_id">ID:hIpCz5Jqa.net</span></span></div><br><div class="res_body_r2">>>35<br>この画が欲しいんでしょ？って目してるやん</div></div><br><br><div id="res_53" class="res_block"><div class="res_info"><span class="res_num">53</span>：<span class="res_name"></span><span class="res_matome"><span class="res_date">2020/12/29(火) 08:44:33.43</span><span class="res_id">ID:M2sng0Sld.net</span></span></div><br><div class="res_body_r2">>>35<br>プライベートすらケンタッキーに捧げる女</div></div><br><br><div id="res_58" class="res_block"><div class="res_info"><span class="res_num">58</span>：<span class="res_name"></span><span class="res_matome"><span class="res_date">2020/12/29(火) 08:45:03.15</span><span class="res_id">ID:YsYfNpAG0.net</span></span></div><br><div class="res_body_r1">刑の執行に抵抗する死刑囚<br><blockquote class="imgur-embed-pub" lang="ja" data-id="Lx2PolK"><a href="//imgur.com/Lx2PolK"> &nbsp; </a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script><br><a href="https://imgur.com/Lx2PolK.jpg" target="_blank" rel="nofollow">https://imgur.com/Lx2PolK.jpg</a><br><blockquote class="imgur-embed-pub" lang="ja" data-id="UVK6pOn"><a href="//imgur.com/UVK6pOn"> &nbsp; </a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script><br><a href="https://imgur.com/UVK6pOn.jpg" target="_blank" rel="nofollow">https://imgur.com/UVK6pOn.jpg</a><br><blockquote class="imgur-embed-pub" lang="ja" data-id="jAUxMeA"><a href="//imgur.com/jAUxMeA"> &nbsp; </a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script><br><a href="https://imgur.com/jAUxMeA.jpg" target="_blank" rel="nofollow">https://imgur.com/jAUxMeA.jpg</a><br><blockquote class="imgur-embed-pub" lang="ja" data-id="7q9r7jd"><a href="//imgur.com/7q9r7jd"> &nbsp; </a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script><br><a href="https://imgur.com/7q9r7jd.jpg" target="_blank" rel="nofollow">https://imgur.com/7q9r7jd.jpg</a></div></div><br><br><div id="res_63" class="res_block"><div class="res_info"><span class="res_num">63</span>：<span class="res_name"></span><span class="res_matome"><span class="res_date">2020/12/29(火) 08:45:37.31</span><span class="res_id">ID:M2sng0Sld.net</span></span></div><br><div class="res_body_r2">>>58<br>これは楽屋泥棒やってますわ<br>死刑ですね</div></div><br><br><div id="res_65" class="res_block"><div class="res_info"><span class="res_num">65</span>：<span class="res_name"></span><span class="res_matome"><span class="res_date">2020/12/29(火) 08:46:01.32</span><span class="res_id">ID:tFz3EYRQd.net</span></span></div><br><div class="res_body_r2">>>58<br>なんて日だ!</div></div><br><br><div id="res_66" class="res_block"><div class="res_info"><span class="res_num">66</span>：<span class="res_name"></span><span class="res_matome"><span class="res_date">2020/12/29(火) 08:46:03.40</span><span class="res_id">ID:9WJt9h6g0.net</span></span></div><br><div class="res_body_r2">>>58<br>革ジャンで誰かわかるやん<br><aside class="in_ads_sec"><div class="in_ads"><script type="text/javascript">document.write('<scr' + 'ipt type="text/javascript" src="http://blogmaterial.nicoblomaga.jp/material/279/SP300x250-2in.js?' + Math.floor((new Date)/1000) + '">' + '</scr' + 'ipt>');</script></div></aside><br></div></div><br><br><div id="res_122" class="res_block"><div class="res_info"><span class="res_num">122</span>：<span class="res_name"></span><span class="res_matome"><span class="res_date">2020/12/29(火) 09:02:57.11</span><span class="res_id">ID:41jiswrFa.net</span></span></div><br><div class="res_body_r2">>>58<br>さすが美女にお持ち帰りされた男</div></div><br><br><div id="res_90" class="res_block"><div class="res_info"><span class="res_num">90</span>：<span class="res_name"></span><span class="res_matome"><span class="res_date">2020/12/29(火) 08:52:00.54</span><span class="res_id">ID:o7eBasXCd.net</span></span></div><br><div class="res_body_r1">ずんのやすは地元商店街の祭りの司会を毎年無償で引き受けるという闇営業してるしロクなコンビじゃないな</div></div><br><br><div id="res_100" class="res_block"><div class="res_info"><span class="res_num">100</span>：<span class="res_name"></span><span class="res_matome"><span class="res_date">2020/12/29(火) 08:57:08.86</span><span class="res_id">ID:kP9sjNmtd.net</span></span></div><br><div class="res_body_r2">>>90<br>自治会の活動に駆り出されるおじさんで草</div></div><br><br><div id="res_103" class="res_block"><div class="res_info"><span class="res_num">103</span>：<span class="res_name"></span><span class="res_matome"><span class="res_date">2020/12/29(火) 08:58:15.35</span><span class="res_id">ID:6y0r/9lZd.net</span></span></div><br><div class="res_body_r2">>>90<br>じゃない方感が強いけどやっぱりそこらの雑兵よりは司会上手いんか</div></div><br><br><div id="res_99" class="res_block"><div class="res_info"><span class="res_num">99</span>：<span class="res_name"></span><span class="res_matome"><span class="res_date">2020/12/29(火) 08:56:32.07</span><span class="res_id">ID:CdUF5+VfM.net</span></span></div><br><div class="res_body">CMやけに多いよな<br>業界で信頼されとるんかな</div></div><br><br><div id="res_101" class="res_block"><div class="res_info"><span class="res_num">101</span>：<span class="res_name"></span><span class="res_matome"><span class="res_date">2020/12/29(火) 08:57:55.88</span><span class="res_id">ID:q7XP59wo0.net</span></span></div><br><div class="res_body">何故か好きな芸人<br>親戚の優しくて面白いおじさん感</div></div><br><br><div id="res_105" class="res_block"><div class="res_info"><span class="res_num">105</span>：<span class="res_name"></span><span class="res_matome"><span class="res_date">2020/12/29(火) 09:00:07.41</span><span class="res_id">ID:jcE9jw0Z0.net</span></span></div><br><div class="res_body_r1"><blockquote class="imgur-embed-pub" lang="ja" data-id="L2FRtdX"><a href="//imgur.com/L2FRtdX"> &nbsp; </a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script><br><a href="https://imgur.com/L2FRtdX.jpg" target="_blank" rel="nofollow">https://imgur.com/L2FRtdX.jpg</a><br><blockquote class="imgur-embed-pub" lang="ja" data-id="4134DSQ"><a href="//imgur.com/4134DSQ"> &nbsp; </a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script><br><a href="https://imgur.com/4134DSQ.jpg" target="_blank" rel="nofollow">https://imgur.com/4134DSQ.jpg</a></div></div><br><br><div id="res_125" class="res_block"><div class="res_info"><span class="res_num">125</span>：<span class="res_name"></span><span class="res_matome"><span class="res_date">2020/12/29(火) 09:04:15.10</span><span class="res_id">ID:2ytUaOJy0.net</span></span></div><br><div class="res_body_r2">>>105<br>たのしそう</div></div><br><br><div id="res_133" class="res_block"><div class="res_info"><span class="res_num">133</span>：<span class="res_name"></span><span class="res_matome"><span class="res_date">2020/12/29(火) 09:05:58.69</span><span class="res_id">ID:ZqBm3hP10.net</span></span></div><br><div class="res_body_r2">>>105<br>出川が誰も買わん形のメガホン買ってるの草</div></div><br><br><div id="res_182" class="res_block"><div class="res_info"><span class="res_num">182</span>：<span class="res_name"></span><span class="res_matome"><span class="res_date">2020/12/29(火) 09:18:37.78</span><span class="res_id">ID:2HHEseM+r.net</span></span></div><br><div class="res_body_r2">>>105<br>久々に神奈中バスで移動中見たくなっちゃうヤバイヤバイ…</div></div><br><br><div id="res_205" class="res_block"><div class="res_info"><span class="res_num">205</span>：<span class="res_name"></span><span class="res_matome"><span class="res_date">2020/12/29(火) 09:26:07.95</span><span class="res_id">ID:iKNrs/FyM.net</span></span></div><br><div class="res_body_r2">>>105<br>1枚目の右の奴、タモリの付き人だったことしか覚えてないんやが名前なんやったっけ</div></div><br><br><div id="res_209" class="res_block"><div class="res_info"><span class="res_num">209</span>：<span class="res_name"></span><span class="res_matome"><span class="res_date">2020/12/29(火) 09:26:52.07</span><span class="res_id">ID:2ytUaOJy0.net</span></span></div><br><div class="res_body_r2">>>205<br>岩井ジョニ男</div></div><br><br><div id="res_213" class="res_block"><div class="res_info"><span class="res_num">213</span>：<span class="res_name"></span><span class="res_matome"><span class="res_date">2020/12/29(火) 09:27:33.60</span><span class="res_id">ID:VuEBU5CY0.net</span></span></div><br><div class="res_body_r2">>>205<br>神田としのり？<br>流石に老けたな</div></div><br><br><div id="res_115" class="res_block"><div class="res_info"><span class="res_num">115</span>：<span class="res_name"></span><span class="res_matome"><span class="res_date">2020/12/29(火) 09:01:43.56</span><span class="res_id">ID:70hUhA/rp.net</span></span></div><br><div class="res_body_r1"><blockquote class="imgur-embed-pub" lang="ja" data-id="1U1K38O"><a href="//imgur.com/1U1K38O"> &nbsp; </a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script><br><a href="https://imgur.com/1U1K38O.jpg" target="_blank" rel="nofollow">https://imgur.com/1U1K38O.jpg</a><br>ザコシもフライデーに裏の顔撮られてたな</div></div><br><br><div id="res_129" class="res_block"><div class="res_info"><span class="res_num">129</span>：<span class="res_name"></span><span class="res_matome"><span class="res_date">2020/12/29(火) 09:05:38.04</span><span class="res_id">ID:ltpYzN+Ed.net</span></span></div><br><div class="res_body_r2">>>115<br>プライベートでもテンガロンハット被ってんのか<br><aside class="in_ads_sec"><div class="in_ads"><script type="text/javascript">document.write('<scr' + 'ipt type="text/javascript" src="http://blogmaterial.nicoblomaga.jp/material/279/SP300x250-3in.js?' + Math.floor((new Date)/1000) + '">' + '</scr' + 'ipt>');</script></div></aside><br></div></div><br><br><div id="res_130" class="res_block"><div class="res_info"><span class="res_num">130</span>：<span class="res_name"></span><span class="res_matome"><span class="res_date">2020/12/29(火) 09:05:40.99</span><span class="res_id">ID:ULr78Osia.net</span></span></div><br><div class="res_body_r2">>>115<br>（ホモか？）</div></div><br><br><div id="res_141" class="res_block"><div class="res_info"><span class="res_num">141</span>：<span class="res_name"></span><span class="res_matome"><span class="res_date">2020/12/29(火) 09:08:36.98</span><span class="res_id">ID:/dTLDu810.net</span></span></div><br><div class="res_body_r2">>>130<br>奥さん子供いるだろザコシ</div></div><br><br><div id="res_134" class="res_block"><div class="res_info"><span class="res_num">134</span>：<span class="res_name"></span><span class="res_matome"><span class="res_date">2020/12/29(火) 09:06:46.84</span><span class="res_id">ID:ZqBm3hP10.net</span></span></div><br><div class="res_body_r2">>>115<br>金正男おるやん</div></div><br><br><div id="res_132" class="res_block"><div class="res_info"><span class="res_num">132</span>：<span class="res_name"></span><span class="res_matome"><span class="res_date">2020/12/29(火) 09:05:46.54</span><span class="res_id">ID:sW0mTHZ+0.net</span></span></div><br><div class="res_body_r1">芸人って性格カスやと落ち目になった途端一気に干されるよな</div></div><br><br><div id="res_144" class="res_block"><div class="res_info"><span class="res_num">144</span>：<span class="res_name"></span><span class="res_matome"><span class="res_date">2020/12/29(火) 09:09:00.52</span><span class="res_id">ID:jCagT2PJ0.net</span></span></div><br><div class="res_body_r2">>>132<br>ゴルゴ松本がそのパターンみたいね<br>体育会系を曲解した結果みたいだけど</div></div><br><br><div id="res_147" class="res_block"><div class="res_info"><span class="res_num">147</span>：<span class="res_name"></span><span class="res_matome"><span class="res_date">2020/12/29(火) 09:09:47.54</span><span class="res_id">ID:DXXTyRg3M.net</span></span></div><br><div class="res_body_r2">>>132<br>芸人に限らず芸能人みんなそうやな<br>メリットの無い嫌な奴と仕事したいかどうかで考えれば残当</div></div><br><br><div id="res_155" class="res_block"><div class="res_info"><span class="res_num">155</span>：<span class="res_name"></span><span class="res_matome"><span class="res_date">2020/12/29(火) 09:11:58.46</span><span class="res_id">ID:ZqBm3hP10.net</span></span></div><br><div class="res_body_r2">>>132<br>ADの頃イキられてた相手をPになった時にわざわざ使う訳ないからな</div></div><br><br><div id="res_140" class="res_block"><div class="res_info"><span class="res_num">140</span>：<span class="res_name"></span><span class="res_matome"><span class="res_date">2020/12/29(火) 09:08:30.41</span><span class="res_id">ID:nGhLlSuF0.net</span></span></div><br><div class="res_body_r1">ももちも張り込まれてたけどなにも起こらなくて仕方なく同じグループのメンバーとおしゃべりしてるとこをすっぱぬかれてた</div></div><br><br><div id="res_154" class="res_block"><div class="res_info"><span class="res_num">154</span>：<span class="res_name"></span><span class="res_matome"><span class="res_date">2020/12/29(火) 09:11:23.15</span><span class="res_id">ID:nGhLlSuF0.net</span></span></div><br><div class="res_body_r2">>>140<br>画像あった<br><blockquote class="imgur-embed-pub" lang="ja" data-id="XjooEng"><a href="//imgur.com/XjooEng"> &nbsp; </a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script><br><a href="https://imgur.com/XjooEng.jpg" target="_blank" rel="nofollow">https://imgur.com/XjooEng.jpg</a></div></div><br><br><div id="res_164" class="res_block"><div class="res_info"><span class="res_num">164</span>：<span class="res_name"></span><span class="res_matome"><span class="res_date">2020/12/29(火) 09:12:54.16</span><span class="res_id">ID:BqOnyrNaM.net</span></span></div><br><div class="res_body_r2">>>154<br>かわいいだけやった</div></div><br><br><div id="res_203" class="res_block"><div class="res_info"><span class="res_num">203</span>：<span class="res_name"></span><span class="res_matome"><span class="res_date">2020/12/29(火) 09:25:55.98</span><span class="res_id">ID:s6DUuTeD0.net</span></span></div><br><div class="res_body_r2">>>154<br>足の太さが倍違う</div></div><br><div id="related-title">関連記事</div><br><ul class="manual-related" id="mainmore"><br><LI class="imageli"><br>    <a href="http://alfalfalfa.com/articles/276730.html?utm_source=alfalfa&utm_medium=kanren_image1" target="_blank" rel="nofollow"><br>        <img src="https://articleimage.nicoblomaga.jp/thumb/279/2020/3/0/276730.jpg"><br>    </a><br>    <span><br>    <a href="http://alfalfalfa.com/articles/276730.html?utm_source=alfalfa&utm_medium=kanren_image1" target="_blank" rel="nofollow">【正論】ずん飯尾「歌舞伎町ってどんな所？」　→</a><br>    </span><br></LI><br><LI class="imageli"><br>    <a href="http://alfalfalfa.com/articles/271329.html?utm_source=alfalfa&utm_medium=kanren_image1" target="_blank" rel="nofollow"><br>        <img src="https://articleimage.nicoblomaga.jp/thumb/279/2019/2/9/271329.jpg"><br>    </a><br>    <span><br>    <a href="http://alfalfalfa.com/articles/271329.html?utm_source=alfalfa&utm_medium=kanren_image1" target="_blank" rel="nofollow">【朗報】ずん・飯尾さん、ここにきて全盛期を迎える。</a><br>    </span><br></LI><br></ul><br><aside class="in_ads_sec"><div class="in_ads"><script type="text/javascript">document.write('<scr' + 'ipt type="text/javascript" src="http://blogmaterial.nicoblomaga.jp/material/279/SP300x250-art-bottom.js?' + Math.floor((new Date)/1000) + '">' + '</scr' + 'ipt>');</script></div></aside><div id="alfalfa_self_tweet"><blockquote class="twitter-tweet" data-lang="ja"><p lang="und" dir="ltr">【悲報】ずん飯尾さん、裏の顔を週刊誌に撮られてしまう…w https://t.co/Lz6cPIuLF7  #ずん飯尾</p> &mdash; アルファルファモザイク (@alfalfaGeinow) <a href="https://twitter.com/alfalfafafa/status/1343729957076226048/">2020年12月29日</a></blockquote><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></div><div class="via">via http://tomcat.2ch.sc/test/read.cgi/livejupiter/1609198230/</div><br><br>
+               </div>
+                  <!-- ホームに戻る Start -->
+                <a href="http://alfalfalfa.com/">
+                  <div class="home-back">
+                      <img src="https://blogmaterial.nicoblomaga.jp/material/279/img/home-icon-512px.png"><span>ホームに戻る</span>
+                  </div>
+                </a>
+                  <!-- ホームに戻る End -->
+	<div class="social-list">
+		<ul>
+			<li class="social-tw">
+				<a href="https://twitter.com/intent/tweet?text=【悲報】ずん飯尾さん、裏の顔を週刊誌に撮られてしまう…w&url=http://alfalfalfa.com/articles/296717.html&original_referer=http://alfalfalfa.com/articles/296717.html" blank="_target"><img src="https://blogmaterial.nicoblomaga.jp/material/279/img/twitter_64x64.png">ツイートする</a>
+			</li>
+			<li class="social-fb">
+				<a href="https://www.facebook.com/login.php?next=https://www.facebook.com/sharer/sharer.php?u=http://alfalfalfa.com/articles/296717.html&t=+【悲報】ずん飯尾さん、裏の顔を週刊誌に撮られてしまう…w&ret=login&display=popup" blank="_target"><img src="https://blogmaterial.nicoblomaga.jp/material/279/img/facebook_64x64.png">シェアする</a>
+			</li>
+		</ul>
+	</div>  
+
+<script defer type="text/javascript">document.write('<scr' + 'ipt type="text/javascript" src="http://blogmaterial.nicoblomaga.jp/material/279/js/rss/bodymoreb.js?' + Math.floor((new Date)/1000) + '" >' + '</scr' + 'ipt>');</script>
+<script defer type="text/javascript">document.write('<scr' + 'ipt type="text/javascript" src="http://blogmaterial.nicoblomaga.jp/material/279/js/rss/bodymoreb2.js?' + Math.floor((new Date)/1000) + '" >' + '</scr' + 'ipt>');</script>
+ 
+              </div>
+              <!-- End of .main_article_contents_inner -->
+            </div>
+            <footer class="main_article_footer">
+              
+              <aside class="related-articles">
+                  <h4>カテゴリ「エンタメ」の最新記事</h4><ul>
+<li><a href="http://alfalfalfa.com/articles/296709.html">【炎上】人気ユーチューバーのフィッシャーズ、不祥事を起こしたメンバー復帰告知動画に批判殺到ｗｗ</a></li>
+<li><a href="http://alfalfalfa.com/articles/296691.html">【画像】北乃きいさん、ブラコンだったｗｗｗｗｗｗ</a></li>
+<li><a href="http://alfalfalfa.com/articles/296695.html">【画像】急死した今井ゆうぞうさん（43）の死因、ガチでヤバい。</a></li>
+<li><a href="http://alfalfalfa.com/articles/296696.html">【悲報】オリラジ藤森さん、突然の知らせに困惑。</a></li>
+<li><a href="http://alfalfalfa.com/articles/296684.html">【画像】山下智久と問題になった女子高生モデルの御尊顔</a></li>
+</ul>
+
+              </aside>
+              
+
+              <!-- 追記したの関連記事-->
+              <div class="right_box">
+                <!-- ### -->
+              </div>
+<!-- 広告⑫ Start -->
+              <div class="ads_box clearfix">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-format="fluid"
+     data-ad-layout-key="-78+ey-1j-2x+bc"
+     data-ad-client="ca-pub-4840957698714364"
+     data-ad-slot="4271538265"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+              </div>
+<!-- 広告⑫ End -->
+<!-- 広告⑫Adblock用広告タグ Start -->
+<div>
+<script type='text/javascript' src='//static.criteo.net/js/ld/publishertag.js'></script>
+<div id='crt-1568436' style='width:728px; height:90px;'></div>
+<script type='text/javascript'>
+   Criteo.DisplayAcceptableAdIfAdblocked(
+       {'zoneid' : 1568436,
+        'containerid' : 'crt-1568436',
+    });
+</script>
+</div>
+<!-- 広告⑫Adblock用広告タグ End -->
+              <div class="chumoku_article">
+                <h2>注目記事</h2>
+                <script type="text/javascript">document.write('<scr' + 'ipt type="text/javascript" src="https://blogmaterial.nicoblomaga.jp/material/279/js/pcchu.js?' + Math.floor((new Date)/1000) + '">' + '</scr' + 'ipt>');</script>
+              </div>
+              <!-- 仕切りスタート -->
+              <div class="menu">
+              【
+                 <a href="#" id="month_archive">更新一覧</a>｜
+                 <a href="#now">注目記事</a>｜
+                
+                    <a href="http://alfalfalfa.com/articles/296713.html" title="【pickup】【画像】山下智久と問題になった女子高生モデルの御尊顔">古い記事</a>｜
+                
+                <a href="#top">△記事トップ</a>｜
+                <a href="http://alfalfalfa.com">▲blogトップ</a>
+                
+              】
+              </div>
+              <div class="link_bar clearfix">
+                <div class="link_bar_left">
+                  
+                  ▼<a href="http://alfalfalfa.com/articles/296713.html">
+                    【pickup】【画像】山下智久と問題になった女子高生モデルの御尊顔
+                  </a>
+                  <a href="http://alfalfalfa.com/articles/296713.html#ret">
+                    (コメント)
+                  </a>
+                  
+                </div>
+                <div class="link_bar_right">
+                  
+                </div>
+              </div>
+              <!-- 仕切りエンド -->
+
+<!-- ツイッターの反応 -->
+              <a name="ret"></a>
+              <!-- コメント用データ -->
+              
+                  
+                  <script type="text/javascript">document.write('<scr' + 'ipt type="text/javascript" src="https://blogmaterial.nicoblomaga.jp/material/279/js/vote_minus.js?' + Math.floor((new Date)/1000) + '">' + '</scr' + 'ipt>');</script>
+                  <script type="text/javascript">
+                  var ar_cmt = [];
+                  ar_cmt = [
+                  {num:"1001",name:"学名ナナシ",date:"2020-12-29 10:36:11",body:"&gt;&gt;11<br><br><br><br>　　　　浅井企画の提灯記事やろｗ　<br><br><br>　　渡部の人力舎が今ヤベーことになってるから虎視眈々とポジションを狙ってると思うで<br><br> ",id:"NzU4NTI4"},
+                  
+                  {num:"1002",name:"学名ナナシ",date:"2020-12-29 10:40:32",body:"&gt;&gt;29日村が持ってった ",id:"NzIwMjEw"},
+                  
+                  {num:"1003",name:"学名ナナシ",date:"2020-12-29 10:48:47",body:"&gt;&gt;6ケンコバの日を公認したのほんま草 ",id:"MmJkZTNm"},
+                  
+                  {num:"1004",name:"学名ナナシ",date:"2020-12-29 10:50:46",body:"&gt;&gt;144<br>ゴルゴ松本なんて刑務所の慰問が職業となりつつあるしな ",id:"MThmYTg0"},
+                  
+                  {num:"1005",name:"学名ナナシ",date:"2020-12-29 10:54:18",body:"&gt;&gt;1<br>そりゃ喫茶店に入ってずっとしかめっ面なんてするわきゃねぇだろ ",id:"NjE5NzIx"},
+                  ];
+                  </script>
+              
+              <!-- コメント用データエンド -->
+
+              
+
+<!-- $Include Pc_MainBottom_336x280x2.inc$ -->
+
+
+
+              <!-- コメント受付時 -->
+              
+                <div id="article_comment">
+                  <h2>
+                      コメントありがとうございます
+                      <!-- Navigation -->
+                      &nbsp;
+                      <span class="comment-back" id="comment_sort_navi"></span>
+                  </h2>
+                  
+                  <a href="#takecomment" style = "margin:10px;">
+                    <b><font color="#C50707">★</font></b>
+                    最新のコメントへ（5）
+                  </a>
+                  &nbsp;<span class="rescmt_switch"></span>
+
+              <aside class="ads_728x90_twbt2">
+              <div class="sponsored_in">スポンサードリンク</div>
+<!-- 広告⑬ Start -->
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-format="fluid"
+     data-ad-layout-key="-7c+eo+1+2-5"
+     data-ad-client="ca-pub-4840957698714364"
+     data-ad-slot="1158673239"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+<!-- 広告⑬ End -->
+<!-- 広告⑬Adblock用広告タグ Start -->
+<script type='text/javascript' src='//static.criteo.net/js/ld/publishertag.js'></script>
+<div id='crt-1568437' style='width:728px; height:90px;'></div>
+<script type='text/javascript'>
+   Criteo.DisplayAcceptableAdIfAdblocked(
+       {'zoneid' : 1568437,
+        'containerid' : 'crt-1568437',
+    });
+</script>
+<!-- 広告⑬Adblock用広告タグ End -->
+              </aside>
+
+                  <!-- コメントループ ここから -->
+                  <div id="commentbody">
+
+                        <script type="text/javascript">
+                        (function(){
+                            if (document.cookie.match(/comment_desc=1/)){
+                                for(var key in ar_cmt){
+                                    document.write(comment_tag(ar_cmt[key],296717));
+                                }
+                            } else {
+                                for(var key in ar_cmt.reverse()){
+                                    document.write(comment_tag(ar_cmt[key],296717));
+                                }
+                            }
+                        })();
+                        </script>
+
+                    <!-- aside class="ads_728x90">
+                    <div class="sponsored_in">スポンサードリンク</div>
+                    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-format="fluid"
+     data-ad-layout-key="-fb+5w+4e-db+86"
+     data-ad-client="ca-pub-4840957698714364"
+     data-ad-slot="6579794027"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+                    </aside -->
+
+                    
+                    <div id="takecomment">
+                            <div class="takecommenthead">
+                                お気軽に一言お願いします。
+
+                                　
+                                    <a href="#article_comment">
+                                        <b><font color="#C50707">★</font></b>
+                                        最新のコメントへ（5）
+                                    </a>
+
+                            </div>
+                            <div id="takecommentbody"></div>
+
+                        </div>
+                  </div>
+                  <!-- End of .commentbody -->
+                  <!-- コメント受付時かつコメントが無い場合 -->
+                  
+
+                  
+                  <script>
+                        /* レスコメントを表示 */
+                        disp_rescmt(296717);
+                  </script>
+                </div>
+
+                <div>
+
+
+
+                </div>
+                <!-- コメントフォーム -->
+                <div id="formbody">
+                    <table cellpadding="0" cellspacing="0" border="0" class="form">
+                        <! -- input id="author" name="author" value="学名ナナシ" onfocus="this.select()" / -->
+                        <form action="https://blogapi.nicoblomaga.jp/comment/279?article_id=296717#errors" method="POST" name="comment_form" onSubmit="$.ajax({url:'http://rc.a-ch.net/',type:'POST',data:{'aid':296717,'com':$('#text').val()},cache:false}); return submitOnce(this.button);">
+                            <input id="author" type="hidden" name="author" value="学名ナナシ">
+                            <tr>
+                                <td nowrap>&nbsp;</td>
+                                <td colspan="3"><textarea id="text" name="body" rows="10" cols="30"></textarea></td>
+                            </tr>
+                            <tr>
+                                <td nowrap>&nbsp;</td>
+                                <td colspan="3" align="left">
+                                    
+                                    <input type="submit" value=" 投稿する " class="button" name="button" />
+
+                                    <br/>
+                                    <br/>
+
+                                    <div class="sidebody">コメントが反映されるまで時間が掛かる場合があります。</div>
+                                    <div class="sidebody">URLの記入はhttpのhを抜いて下さい（宣伝対策です）。</div>
+
+                                </td>
+                            </tr>
+                        </form>
+                    </table>
+                </div><!-- end of formbody -->
+
+                <!-- コメント非受付時 -->
+              
+<div style="margin: 30px 0;"><script type="text/javascript">document.write('<scr' + 'ipt type="text/javascript" src="https://blogmaterial.nicoblomaga.jp/material/279/js/amazon001.js?' + Math.floor((new Date)/1000) + '">' + '</scr' + 'ipt>');</script></div>
+
+              <!-- 仕切りスタート -->
+              <div class="menu">
+              【
+                 <a href="#" id="month_archive">更新一覧</a>｜
+                 <a href="#now">注目記事</a>｜
+                
+                    <a href="http://alfalfalfa.com/articles/296713.html" title="【pickup】【画像】山下智久と問題になった女子高生モデルの御尊顔">古い記事</a>｜
+                
+                <a href="#top">△記事トップ</a>｜
+                <a href="http://alfalfalfa.com">▲blogトップ</a>
+                
+              】
+              </div>
+              <div class="link_bar clearfix">
+                <div class="link_bar_left">
+                  
+                  ▼<a href="http://alfalfalfa.com/articles/296713.html">
+                    【pickup】【画像】山下智久と問題になった女子高生モデルの御尊顔
+                  </a>
+                  <a href="http://alfalfalfa.com/articles/296713.html#ret">
+                    (コメント)
+                  </a>
+                  
+                </div>
+                <div class="link_bar_right">
+                  
+                </div>
+              </div>
+              <!-- 仕切りエンド -->
+
+
+
+              <div class="clearfix">
+             </div>
+            </footer>
+
+
+
+          </div>
+        </article>
+        <!-- End of #main_article -->
+<div id="microad_native">
+<div id="831936356f4596010aa8a96665e64a22" >
+	<script type="text/javascript">
+		microadCompass.queue.push({
+			"spot": "831936356f4596010aa8a96665e64a22"
+		});
+	</script>
+</div>
+<div id="9c4f5e95bef0ef737a450fb563c34352" >
+	<script type="text/javascript">
+		microadCompass.queue.push({
+			"spot": "9c4f5e95bef0ef737a450fb563c34352"
+		});
+	</script>
+</div>
+<div id="7f264ae3c21b974de658c48812e95c01" >
+	<script type="text/javascript">
+		microadCompass.queue.push({
+			"spot": "7f264ae3c21b974de658c48812e95c01"
+		});
+	</script>
+</div>
+</div>
+
+
+
+<script type="text/javascript">document.write('<scr' + 'ipt type="text/javascript" src="https://blogmaterial.nicoblomaga.jp/material/279/js/pc_popcom_ranking_bottom.js?' + Math.floor((new Date)/1000) + '">' + '</scr' + 'ipt>');</script>
+
+
+        <aside id="maincolumn-footer">
+
+        <div class="footer-box">
+         <div class="footer-midashi"><div class="footer-midashi-inner">リンク集</div></div>
+         <ul>
+          <li><a href="http://www.nicovideo.jp/" rel="nofollow" target="_blank">ニコニコ動画</a></li>
+          <li><a href="http://open2ch.net/" rel="nofollow" target="_blank"> おーぷん２ちゃんねる</a></li>
+          <li><a href="http://2chmm.com/" rel="nofollow" target="_blank">2ちゃんねるまとめのまとめ</a></li>
+          <li><a href="http://matome-plus.com/" rel="nofollow" target="_blank">まとめサイト速報＋</a></li>
+          <li><a href="http://labo.tv/2chnews/" rel="nofollow" target="_blank">2ちゃんねるまとめサイトのまとめ</a></li>
+          <li><a href="http://2chmatome2.appspot.com/" rel="nofollow" target="_blank">2chまとめサイトをまとめます</a></li>
+          <li><a href="http://news109.com/" rel="nofollow" target="_blank">にゅーす特報。</a></li>
+          <li><a href="http://news-choice.net/" rel="nofollow" target="_blank">ニュースチョイス</a></li>
+          <li><a href="http://www.shobon.jp/" rel="nofollow" target="_blank">ショボンあんてな</a></li>
+          <li><a href="http://2ch.logpo.jp/" rel="nofollow" target="_blank">LogPo!2ch</a></li>
+          <li><a href="http://www.ne.jp/asahi/asame/shinbun/" rel="nofollow" target="_blank">朝目新聞-asame.com</a></li>
+          <li><a href="http://tbn17.com/" rel="nofollow" target="_blank">TBN　-Today&apos;s Best News-</a></li>
+          <li><a href="http://www.henjinkutsu.net/" rel="nofollow" target="_blank">変人窟c (HJKc)</a></li>
+         </ul>
+         <!-- A href="http://www.ziyu.net/" target=_blank><IMG SRC="https://rranking9.ziyu.net/rranking.gif" alt="アクセスランキング" border="0" width="35" height="11"></A><NOSCRIPT><A href="http://www.ziyu.net/" target=_blank>アクセスランキング</A></NOSCRIPT -->
+
+        </div>
+
+        <div class="footer-box">
+			<div class="footer-midashi"><div class="footer-midashi-inner">Twitterプロフィール</div></div>
+			<div class="clearfix" style ="margin-top: 10px;">
+				<div style="float:left;width:58px;height:58px;background-image:url('https://blogmaterial.nicoblomaga.jp/material/279/img/alfalfa_icon_400x400.gif');background-position:center top;background-repeat:no-repeat;-moz-background-size:cover;background-size:cover;"><!-- a href="https://twitter.com/alfalfaGeinow" target="_blank"><img src="https://blogmaterial.nicoblomaga.jp/material/279/img/alfalfa_icon_400x400.gif"  style="width:60px;height:60px;" ></a -->
+				</div>
+				<div style="float:right;width:138px;">
+				<span style="font-weight:bold;font-size:12px;">アルファルファモザイク</span><br/>
+				<a href="https://twitter.com/alfalfaGeinow"><span style="color: #8899a6;font-size:10px;">@alfalfaPopular</span></a><br/>
+				<span style="font-size:10px">２ちゃんねるスレッドまとめブログ</span><br/>
+				<br/>
+				</div>
+			</div>
+			<!-- aside class="section-box"><a href="https://twitter.com/alfalfaGeinow" class="twitter-follow-button" data-show-count="true">Follow @alfalfaPopular</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></aside -->
+
+			<div class="sidebar_title_buttons">
+				<a href="https://twitter.com/alfalfaGeinow" target="_blank"><img src="https://blogmaterial.nicoblomaga.jp/material/279/blog/img/icon-twitter.png" border="0"></a>
+				<a href="https://www.facebook.com/pages/%E3%82%A2%E3%83%AB%E3%83%95%E3%82%A1%E3%83%AB%E3%83%95%E3%82%A1%E3%83%A2%E3%82%B6%E3%82%A4%E3%82%AF/138490769657396" target="_blank"><img src="https://blogmaterial.nicoblomaga.jp/material/279/blog/img/icon-facebook.png" border="0"></a>
+				<a href="https://feedly.com/i/subscription/feed/http%3A%2F%2Falfalfalfa.com%2Findex.rdf" target="_blank"><img src="https://blogmaterial.nicoblomaga.jp/material/279/blog/img/icon-feedly.png" border="0"></a>
+
+			</div> 
+		
+			
+		</div>
+
+        <div class="footer-box">
+
+
+
+</div>
+
+        </aside>
+      </div>
+      <!-- End of #main_column -->
+      <aside id="sidebar_left">
+        <div id="sidebar_left_inner">
+          <div id="sidebar_left_top"></div>
+          <div id="sidebar_left_contents">
+            <div class="sidewrapper">
+<div class="side">
+<div class="ranking-star">
+<script type="text/javascript">document.write('<scr' + 'ipt type="text/javascript" src="https://blogmaterial.nicoblomaga.jp/material/279/js/ranking_article_link_bottom_pop.js?' + Math.floor((new Date)/1000) + '">' + '</scr' + 'ipt>');</script>
+</div>
+</div>
+</div>
+<div style="margin-bottom:20px;" id="al-Pc-LeftTop336x280">
+<!-- 広告② Start -->
+<div id="im-e91244a72c6e463a82f46ea2de5a4ff8"></div>
+<script async src="//imp-adedge.i-mobile.co.jp/script/v1/spot.js?20181121"></script>
+<script>
+    (window.adsbyimobile = window.adsbyimobile || []).push({ pid: 5488, mid: 28531, asid: 1722192, type: "banner", display: "inline", elementid: "im-e91244a72c6e463a82f46ea2de5a4ff8" })
+</script>
+</div>
+<!-- 広告② End -->
+<!-- 広告②Adblock用広告タグ Start -->
+<div style="">
+<script type='text/javascript' src='//static.criteo.net/js/ld/publishertag.js'></script>
+<div id='crt-1568426' style='width:300px; height:250px;'></div>
+<script type='text/javascript'>
+   Criteo.DisplayAcceptableAdIfAdblocked(
+       {'zoneid' : 1568426,
+        'containerid' : 'crt-1568426',
+    });
+</script>
+<!-- 広告②Adblock用広告タグ End -->
+</div>
+
+<div class="sidewrapper">
+
+<div class="sidetitlebody"><h4 class="sidetitle">おすすめ記事</h4></div>
+<div class="side">
+		<script defer type="text/javascript">document.write('<scr' + 'ipt type="text/javascript" src="http://blogmaterial.nicoblomaga.jp/material/279/js/rss/alfa_left_sidebar001.js?' + Math.floor((new Date)/1000) + '" >' + '</scr' + 'ipt>');</script>
+		<script defer type="text/javascript">document.write('<scr' + 'ipt type="text/javascript" src="http://blogmaterial.nicoblomaga.jp/material/279/js/newser.js?' + Math.floor((new Date)/1000) + '" >' + '</scr' + 'ipt>');</script>
+</div>
+<div class="sidewrapper">
+<div class="side">
+<div style="text-align:center;">
+<script type="text/javascript">document.write('<scr' + 'ipt type="text/javascript" src="https://blogmaterial.nicoblomaga.jp/material/279/js/amazonsidebar.js?' + Math.floor((new Date)/1000) + '">' + '</scr' + 'ipt>');</script>
+</div>
+</div>
+</div>
+<div class="sidewrapper">
+<div class="side">
+<div style="text-align:center;">
+<script type="text/javascript">rakuten_design="slide";rakuten_affiliateId="07be6ded.cada7c3e.0cdf9702.4027aca5";rakuten_items="ctsmatch";rakuten_genreId="0";rakuten_size="200x600";rakuten_target="_blank";rakuten_theme="gray";rakuten_border="off";rakuten_auto_mode="on";rakuten_genre_title="off";rakuten_recommend="on";rakuten_ts="1595572415467";</script><script type="text/javascript" src="https://xml.affiliate.rakuten.co.jp/widget/js/rakuten_widget.js"></script>
+</div>
+</div>
+</div>
+<div class="clearfix">
+<!-- 広告③ Start -->
+<div style="margin-bottom:20px;text-align:center;" class="leftad">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- al-Pc-LeftMiddle02-300x1050 -->
+<ins class="adsbygoogle"
+style="display:inline-block;width:300px;height:1050px"
+data-ad-client="ca-pub-4840957698714364"
+data-ad-slot="2201392202"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+<!-- 広告③ End -->
+<!-- 広告③Adblock用広告タグ Start -->
+<div style="margin-bottom:20px;text-align:center;" class="leftad">
+<div id='crt-1568427' style='width:300px; height:600px;'></div>
+<script type='text/javascript'>
+   Criteo.DisplayAcceptableAdIfAdblocked(
+       {'zoneid' : 1568427,
+        'containerid' : 'crt-1568427',
+    });
+</script>
+</div>
+<!-- 広告③ End -->
+</div>
+<div class="sidewrapper">
+<div class="side">
+<div class="ranking-star">
+<script type="text/javascript">document.write('<scr' + 'ipt type="text/javascript" src="https://blogmaterial.nicoblomaga.jp/material/279/js/ranking_article_link_bottom_comrank.js?' + Math.floor((new Date)/1000) + '">' + '</scr' + 'ipt>');</script>
+</div>
+<div class="ranking-star">
+<script type="text/javascript">document.write('<scr' + 'ipt type="text/javascript" src="https://blogmaterial.nicoblomaga.jp/material/279/js/ranking_article_link_bottom_comnew.js?' + Math.floor((new Date)/1000) + '">' + '</scr' + 'ipt>');</script>
+</div>
+</div>
+</div>
+<div style="text-align: center;background-color: #fff !important;width: 336px;">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- al-Pc-LeftMiddle03-300x1050 -->
+<ins class="adsbygoogle"
+style="display:inline-block;width:300px;height:1050px"
+data-ad-client="ca-pub-4840957698714364"
+data-ad-slot="1498808336"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+<div class="sidewrapper blogparts_freeArea">
+<div class="sidetitlebody"><h4 class="sidetitle">おすすめ記事②</h4></div>
+<div id="BlogParts_aList6" class="side"><script defer type="text/javascript">document.write('<scr' + 'ipt type="text/javascript" src="http://blogmaterial.nicoblomaga.jp/material/279/js/rss/pc_left_002.js?' + Math.floor((new Date)/1000) + '" >' + '</scr' + 'ipt>');</script></div>
+<div class="sidebottom"></div>
+</div>
+<span class="Sticky-Left-header"></span>
+<div id="Sticky-Left" style="width: 336px !important;">
+<div class="clearfix">
+<div style="float:center;text-align: center;" id="Sticky-Left-Inner">
+                <!-- 広告⑤ Start -->
+                <div class="tsuibi_1">
+<script type="text/javascript">
+    (function () {
+        var tc = [], dtag, tc_tl = 0, tc_dist = 0;
+        tc.push({ rate: 5, tag: '<scr' + 'ipt async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></scr' + 'ipt><!-- al-Pc-LeftTrack300x600 --><ins class="adsbygoogle" style="display:inline-block;width:300px;height:1050px" data-ad-client="ca-pub-4840957698714364" data-ad-slot="6597467147"></ins><scr' + 'ipt>(adsbygoogle = window.adsbygoogle || []).push({});</scr' + 'ipt>'});
+        tc.push({ rate: 5, tag: '<div id="im-777851843bf6484f859af2ec1cf0357c"><scr' + 'ipt async src="//imp-adedge.i-mobile.co.jp/script/v1/spot.js?20181121"></scr' + 'ipt><scr' + 'ipt>(window.adsbyimobile=window.adsbyimobile||[]).push({pid:5488,mid:28531,asid:165799,type:"banner",display:"inline",elementid:"im-777851843bf6484f859af2ec1cf0357c"})</scr' + 'ipt></div>'});
+        tc.forEach(function (v) { tc_tl += v['rate']; }); var tc_rnum = Math.floor(Math.random() * tc_tl); tc.some(function (v) { tc_dist += v['rate']; if (tc_rnum < tc_dist) { dtag = v['tag']; return true; } }); $('#Sticky-Left-Inner').html(dtag);
+    }());
+</script>
+                </div>
+                <!-- 広告⑤ End -->
+                <!-- 広告⑤Adblock用広告タグ Start -->
+                <div>
+                    <script type='text/javascript' src='//static.criteo.net/js/ld/publishertag.js'></script>
+                    <div id='crt-1568429' style='width:300px; height:600px;'></div>
+                    <script type='text/javascript'>
+                    Criteo.DisplayAcceptableAdIfAdblocked(
+                        {'zoneid' : 1568429,
+                            'containerid' : 'crt-1568429',
+                        });
+                    </script>
+                </div>
+                <!-- 広告⑤Adblock用広告タグ End -->
+</div>
+</div>
+</div>
+          </div>
+          <div id="sidebar_left_bottom"></div>
+        </div>
+      </aside>
+      <!-- End of #sidebar_left -->
+      </div>
+      <!-- End of #block_left -->
+      <aside id="sidebar_right">
+        <div id="sidebar_right_inner">
+          <div id="sidebar_right_top"></div>
+          <div id="sidebar_right_contents">
+<div class="sidewrapper">
+<div class="sidetitlebody"><h4 class="sidetitle">おすすめニュース</h4></div>
+<div class="side">
+<script type="text/javascript">document.write('<scr' + 'ipt type="text/javascript" src="https://blogmaterial.nicoblomaga.jp/material/279/js/rss/alfa_right_sidebar_top.js?' + Math.floor((new Date)/1000) + '">' + '</scr' + 'ipt>');</script>
+</div></div>
+<div class="sidewrapper">
+<div class="sidetitlebody"><h4 class="sidetitle">厳選ニュース</h4></div>
+<div class="side">
+<script type="text/javascript">document.write('<scr' + 'ipt type="text/javascript" src="https://blogmaterial.nicoblomaga.jp/material/279/js/rss/alfa_q_pc.js?' + Math.floor((new Date)/1000) + '">' + '</scr' + 'ipt>');</script>
+</div></div>
+<div class="sidewrapper">
+<div class="sidetitlebody"><h4 class="sidetitle">おすすめYOUTUBE</h4></div>
+<div class="side">
+<script type="text/javascript">document.write('<scr' + 'ipt type="text/javascript" src="https://blogmaterial.nicoblomaga.jp/material/279/js/rss/alfa_youtube.js?' + Math.floor((new Date)/1000) + '">' + '</scr' + 'ipt>');</script>
+
+<div style="margin:20px 10px;"><a href="https://docs.google.com/forms/d/e/1FAIpQLSf5Ek0LByglfSWeC5iDqhHUrT-KsXzCdxEOWKSvRN1OxrsZ0Q/viewform" target="_blank"><img src="https://blogmaterial.nicoblomaga.jp/material/279/image/bookmark/youtube.jpg" width="280"></a></div>
+</div>
+</div>
+<div class="sidewrapper">
+<div class="sidetitlebody"><h4 class="sidetitle">逆アクセス</h4></div>
+<div class="side">
+<script type="text/javascript">document.write('<scr' + 'ipt type="text/javascript" src="https://blogmaterial.nicoblomaga.jp/material/279/js/reverse_access.js?' + Math.floor((new Date)/1000) + '">' + '</scr' + 'ipt>');</script>
+</div>
+</div>
+<div class="sidewrapper">
+    <div class="sidetitlebody"><h4 class="sidetitle">おすすめ記事</h4></div>
+    <div class="side">
+        <span class="Sticky-Right-header"></span>
+        <div id="Sticky-Right">
+
+                <div class="side">
+                    <ul style="margin: 10px 10px 20px 10px;padding: 10px 0 !important;">
+                        <script defer type="text/javascript">document.write('<scr' + 'ipt type="text/javascript" src="http://blogmaterial.nicoblomaga.jp/material/279/js/rss/pc001.js?' + Math.floor((new Date)/1000) + '">' + '</scr' + 'ipt>');</script>
+                        <script defer type="text/javascript">document.write('<scr' + 'ipt type="text/javascript" src="http://blogmaterial.nicoblomaga.jp/material/279/js/rss/pc002.js?' + Math.floor((new Date)/1000) + '">' + '</scr' + 'ipt>');</script>
+                        <script defer type="text/javascript">document.write('<scr' + 'ipt type="text/javascript" src="http://blogmaterial.nicoblomaga.jp/material/279/js/rss/pc003.js?' + Math.floor((new Date)/1000) + '">' + '</scr' + 'ipt>');</script>
+                        <script defer type="text/javascript">document.write('<scr' + 'ipt type="text/javascript" src="http://blogmaterial.nicoblomaga.jp/material/279/js/rss/pc004.js?' + Math.floor((new Date)/1000) + '">' + '</scr' + 'ipt>');</script>
+                        <script defer type="text/javascript">document.write('<scr' + 'ipt type="text/javascript" src="http://blogmaterial.nicoblomaga.jp/material/279/js/rss/pc005.js?' + Math.floor((new Date)/1000) + '">' + '</scr' + 'ipt>');</script>
+                        <script defer type="text/javascript">document.write('<scr' + 'ipt type="text/javascript" src="http://blogmaterial.nicoblomaga.jp/material/279/js/rss/pc006.js?' + Math.floor((new Date)/1000) + '">' + '</scr' + 'ipt>');</script>
+                        <script defer　type="text/javascript">document.write('<scr' + 'ipt type="text/javascript" src="http://blogmaterial.nicoblomaga.jp/material/279/js/rss/pc007.js?' + Math.floor((new Date)/1000) + '">' + '</scr' + 'ipt>');</script>
+                    </ul>
+<script>
+function scrollToTop() {
+  scrollTo(0, 0);
+ }
+</script>
+<a href="#" class="back_top"><div class="home-back" onclick="scrollToTop()">
+    <img src="https://blogmaterial.nicoblomaga.jp/material/279/img/e_others_417.png"><span>TOPに戻る</span>
+</div>
+</a>
+<script type="text/javascript">
+
+    url= '';img='';link = new Array();imglink = new Array();
+
+    link[0]='http://alfalfalfa.com/tag/%E3%82%B3%E3%83%AD%E3%83%8A?utm_source=alfalfa&utm_medium=covid-19pc';
+    imglink[0]='https://blogmaterial.nicoblomaga.jp/material/279/image/covid-19.jpg';
+    link[1]='http://alfalfalfa.com/archives/cat_189065.html?utm_source=alfalfa&utm_medium=geinoupc';
+    imglink[1]='https://blogmaterial.nicoblomaga.jp/material/279/image/alfalfa-geinou.png';
+    link[2]='http://alfalfalfa.com/tag/%E3%81%84%E3%81%84%E3%81%AD%EF%BC%81?utm_source=alfalfa&utm_medium=alfaosusumepc';
+    imglink[2]='https://blogmaterial.nicoblomaga.jp/material/279/img/iine.jpg';
+    link[3]='http://alfalfalfa.com/tag/%E7%99%BD%E7%B1%B3?utm_source=alfalfa&utm_medium=alfaosusumepc';
+    imglink[3]='https://blogmaterial.nicoblomaga.jp/material/279/image/comment.jpg';
+    rand = Math.floor(Math.random()*link.length);
+    url = link[rand];
+    img = imglink[rand];
+    document.write('<div class="tokusyu" style="text-align:center; margin:10px 0;"><a href="' + url + '"><img src="' + img +'"></a></div>');
+</script>
+
+        </div>
+    </div><!-- side -->
+</div>
+
+          </div>
+          <div id="sidebar_right_bottom"></div>
+        </div>
+      </aside>
+<!-- End of #sidebar_right -->
+    </div>
+    <!-- End of #wrapper -->
+    <div id="fixfooter">
+      <ul>
+        <li>
+          <a href="#ret">
+            <img src="https://blogmaterial.nicoblomaga.jp/material/279/common/images/fixfooter_bt_look_cmnt.gif" alt="コメントを見る" width="41" height="37" />
+          </a>
+        </li>
+        <li>
+          <a href="#text">
+            <img src="https://blogmaterial.nicoblomaga.jp/material/279/common/images/fixfooter_bt_write_cmnt.gif" alt="コメントを書く" width="41" height="35" />
+          </a>
+        </li>
+        
+        <li>
+          <a href="http://alfalfalfa.com/articles/296713.html">
+            <img src="https://blogmaterial.nicoblomaga.jp/material/279/common/images/fixfooter_bt_preview.gif" alt="前の記事へ" width="41" height="34" />
+          </a>
+        </li>
+        
+        
+        <li>
+          <a href="">
+            <img src="https://blogmaterial.nicoblomaga.jp/material/279/common/images/fixfooter_bt_next.gif" alt="次の記事へ" width="41" height="36" />
+          </a>
+        </li>
+        
+        <li>
+          <a href="http://alfalfalfa.com" id="month_archive">
+            <img src="https://blogmaterial.nicoblomaga.jp/material/279/common/images/fixfooter_bt_list.gif" alt="今日の記事一覧" width="41" height="35" />
+          </a>
+        </li>
+        <li>
+          <a href="#header">
+            <img src="https://blogmaterial.nicoblomaga.jp/material/279/common/images/fixfooter_bt_top.gif" alt="トップへ" width="41" height="34" />
+          </a>
+        </li>
+      </ul>
+
+    </div>
+    <!-- End of #wrapper -->
+    <div style="width: 1410px; margin: 0px auto;">
+     <footer id = "footer">
+       <div id ="footer-inner" class="clearfix">
+        <div class="footer-box">
+         <div class="footer-midashi"><div class="footer-midashi-inner">リンク集</div></div>
+         <ul>
+          <li><a href="http://www.nicovideo.jp/" rel="nofollow" target="_blank">ニコニコ動画</a></li>
+          <li><a href="http://open2ch.net/" rel="nofollow" target="_blank"> おーぷん２ちゃんねる</a></li>
+          <li><a href="http://2chmm.com/" rel="nofollow" target="_blank">2ちゃんねるまとめのまとめ</a></li>
+          <li><a href="http://matome-plus.com/" rel="nofollow" target="_blank">まとめサイト速報＋</a></li>
+          <li><a href="http://labo.tv/2chnews/" rel="nofollow" target="_blank">2ちゃんねるまとめサイトのまとめ</a></li>
+          <li><a href="http://2chmatome2.appspot.com/" rel="nofollow" target="_blank">2chまとめサイトをまとめます</a></li>
+          <li><a href="http://news109.com/" rel="nofollow" target="_blank">にゅーす特報。</a></li>
+          <li><a href="http://news-choice.net/" rel="nofollow" target="_blank">ニュースチョイス</a></li>
+          <li><a href="http://www.shobon.jp/" rel="nofollow" target="_blank">ショボンあんてな</a></li>
+          <li><a href="http://2ch.logpo.jp/" rel="nofollow" target="_blank">LogPo!2ch</a></li>
+          <li><a href="http://www.ne.jp/asahi/asame/shinbun/" rel="nofollow" target="_blank">朝目新聞-asame.com</a></li>
+          <li><a href="http://tbn17.com/" rel="nofollow" target="_blank">TBN　-Today&apos;s Best News-</a></li>
+          <li><a href="http://www.henjinkutsu.net/" rel="nofollow" target="_blank">変人窟c (HJKc)</a></li>
+         </ul>
+         <A href="http://www.ziyu.net/" target=_blank><IMG SRC="https://rranking9.ziyu.net/rranking.gif" alt="アクセスランキング" border="0" width="35" height="11"></A><NOSCRIPT><A href="http://www.ziyu.net/" target=_blank>アクセスランキング</A></NOSCRIPT>
+
+        </div>
+        <div class="footer-box"></div>
+        <div class="footer-box">
+			<div class="footer-midashi"><div class="footer-midashi-inner">Twitterプロフィール</div></div>
+			<div class="clearfix" style ="margin-top: 10px;">
+				<div style="float:left;width:58px;height:58px;background-image:url('https://blogmaterial.nicoblomaga.jp/material/279/img/alfalfa_icon_400x400.gif');background-position:center top;background-repeat:no-repeat;-moz-background-size:cover;background-size:cover;"><!-- a href="https://twitter.com/alfalfaGeinow" target="_blank"><img src="https://blogmaterial.nicoblomaga.jp/material/279/img/alfalfa_icon_400x400.gif"  style="width:60px;height:60px;" ></a -->
+				</div>
+				<div style="float:right;width:138px;">
+				<span style="font-weight:bold;font-size:12px;">アルファルファモザイク</span><br/>
+				<a href="https://twitter.com/alfalfaGeinow"><span style="color: #8899a6;font-size:10px;">@alfalfaPopular</span></a><br/>
+				<span style="font-size:10px">２ちゃんねるスレッドまとめブログ</span><br/>
+				<br/>
+				</div>
+			</div>
+			<!-- aside class="section-box"><a href="https://twitter.com/alfalfaGeinow" class="twitter-follow-button" data-show-count="true">Follow @alfalfaPopular</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></aside -->
+
+			<div class="sidebar_title_buttons">
+				<a href="https://twitter.com/alfalfaGeinow" target="_blank"><img src="https://blogmaterial.nicoblomaga.jp/material/279/blog/img/icon-twitter.png" border="0"></a>
+				<a href="https://www.facebook.com/pages/%E3%82%A2%E3%83%AB%E3%83%95%E3%82%A1%E3%83%AB%E3%83%95%E3%82%A1%E3%83%A2%E3%82%B6%E3%82%A4%E3%82%AF/138490769657396" target="_blank"><img src="https://blogmaterial.nicoblomaga.jp/material/279/blog/img/icon-facebook.png" border="0"></a>
+				<a href="https://feedly.com/i/subscription/feed/http%3A%2F%2Falfalfalfa.com%2Findex.rdf" target="_blank"><img src="https://blogmaterial.nicoblomaga.jp/material/279/blog/img/icon-feedly.png" border="0"></a>
+			</div> 
+		
+			
+		</div>
+
+       </div>
+      </footer>
+    </div>
+    <div id="hidden">
+      <div id="comment_count">5</div>
+    </div>
+    
+    <script>
+        if(parseInt(Date.parse("2020-12-29 10:20:00".replace(/-/g,'/'))/1000) < parseInt(new Date()/1000) - 172800){
+            document.write('<scr' + 'ipt type="text/javascript" src="http://cvote.a-ch.net/data/' + parseInt(296717 / 100000) + '/296717.js?' + Math.floor((new Date)/1000) + '"></scr' + 'ipt>');
+        } else {
+            document.write('<scr' + 'ipt type="text/javascript" src="https://blogmaterial.nicoblomaga.jp/material/279/js/cvote/296717.js?' + Math.floor((new Date)/1000) + '"></scr' + 'ipt>');
+        }
+        for(i = 1001; i <= 5 + 1000; i++) {
+            if(document.getElementById('cvbtn' + i)) {
+                document.getElementById('cvbtn' + i).style.visibility = 'visible';
+            }
+        }
+    </script>
+    
+    <script>
+    $('.gifs').gifplayer();
+</script>
+
+    <!-- i-mobile 2017/03/22 -->
+    <script type="text/javascript" src="//imp-adedge.i-mobile.co.jp/script/imp_spot_define.js?20160817"></script>
+    <script type="text/javascript">
+      IMobile.IMP.showSpot({pid:5488,mid:28531,asid:1333037,type:"native",display:"inline"});
+      IMobile.IMP.showSpot({pid:5488,mid:28531,asid:1333034,type:"native",display:"inline"});
+    </script>
+    <!-- i-mobile 2017/03/22 End -->
+<div style="width:100%;position:fixed;bottom:0;left:0;right:0;z-index:999999;"><div id="im-1fa67ea88fb74b8c8f11212f4729e748">
+  <script async src="//imp-adedge.i-mobile.co.jp/script/v1/spot.js?20181121"></script>
+  <script>(window.adsbyimobile=window.adsbyimobile||[]).push({pid:5488,mid:28531,asid:1717740,type:"banner",display:"inline",elementid:"im-1fa67ea88fb74b8c8f11212f4729e748"})</script>
+</div></div>
+  </body>
+</html>

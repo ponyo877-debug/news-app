@@ -1,0 +1,79 @@
+import 'dart:async';
+import 'dart:convert';
+import 'package:flutter/material.dart';
+import 'package:webview_flutter/webview_flutter.dart';
+import 'package:html/parser.dart';
+import 'package:http/http.dart' as http;
+
+// javascript in jQuery
+// https://day-journal.com/memo/try-043/
+
+// VIPPER‚È‰´: delete main ads
+// $('.i-amphtml-inabox.i-amphtml-singledoc.i-amphtml-standalone.i-amphtml-iframed').remove()
+
+// add_20201227
+// WebViewController _controller;
+
+
+class MatomeWebView extends StatelessWidget {
+  final String title;
+  final String selectedUrl;
+  String outerHtmlstring = 'None';
+
+  // add_20201227
+  WebViewController _controller;
+
+  // final Completer<WebViewController> controller = Completer<WebViewController>();
+
+  MatomeWebView({this.title, this.selectedUrl});
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      /*
+        appBar: AppBar(
+          title: Text(title),
+        ),
+
+       */
+        body: WebView(
+          // initialUrl: selectedUrl,
+          //javascriptMode: JavascriptMode.unrestricted,
+          onWebViewCreated: (WebViewController webViewController) {
+            // controller.complete(webViewController);
+            _loadUri(selectedUrl);
+            print('finished _loadUri');
+            var Htmlstring = outerHtmlstring == 'None' ? '<html><body>Waiting</body></html>': outerHtmlstring;
+            var modified_Url = Uri.dataFromString(
+                outerHtmlstring, //'<html><body>hello world</body></html>',
+                mimeType: 'text/html',
+                encoding: Encoding.getByName('utf-8'))
+                .toString();
+            _controller = webViewController;
+            _controller.loadUrl(modified_Url);
+          },
+          /*
+          onPageFinished: (String url) {
+            print("exexute javascript");
+            _controller
+                .evaluateJavascript("document.body.style.display=\"none\";");
+          },
+           */
+        ));
+  }
+
+  _loadUri(loaduri) async {
+    print(loaduri + ' update now1');
+    var response = await http.Client().get(Uri.parse(loaduri));
+    print("Response status: ${response.statusCode}");
+    // print("Response body: ${response.body}");
+    if (response.statusCode == 200) {
+      var document = parse(response.body);
+      // print(response.body + 'update now4');
+      outerHtmlstring = document.outerHtml;
+      // print(outerHtmlstring + 'update now5');
+    } else {
+      throw Exception();
+    }
+  }
+}

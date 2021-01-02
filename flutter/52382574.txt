@@ -1,0 +1,2180 @@
+<?xml version="1.0" encoding="EUC-JP"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" id="ldblog-standard">
+<head>
+
+
+
+
+<meta name="google-site-verification" content="0yUUhZOYqVOrcYBJ-Tw1lYw-D7kiorCn-4kDbnhK-ac" />
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=euc-jp" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" /><link rel="shortcut icon" type="image/vnd.microsoft.icon" href="https://livedoor.blogimg.jp/news4vip2/imgs/2/b/favicon.ico" /><link rel="icon" href="https://livedoor.blogimg.jp/news4vip2/imgs/2/b/2b6a2183.png" />
+<link rel="stylesheet" href="https://parts.blog.livedoor.jp/css/template.css?v=20190826" type="text/css" />
+<link rel="stylesheet" href="https://parts.blog.livedoor.jp/css/comment2/heart.css?v=20180704" type="text/css" />
+<link rel="stylesheet" href="https://parts.blog.livedoor.jp/css/comment2/icon.css?v=20180704" type="text/css" />
+<link rel="stylesheet" href="http://news4vip.livedoor.biz/site.css?_=20200313122334" type="text/css" /><link rel="alternate" type="application/rss+xml" title="RSS" href="http://news4vip.livedoor.biz/index.rdf" />
+<link rel="alternate" type="application/atom+xml" title="Atom" href="http://news4vip.livedoor.biz/atom.xml" /><link rel="canonical" href="http://news4vip.livedoor.biz/archives/52382574.html" />
+<link rel="mixi-check-alternate" media="mixi-device-mobile" type="text/html" href="http://blog.m.livedoor.jp/news4vip2/article/52382574" />
+<link rel="mixi-check-alternate" media="mixi-device-smartphone" type="text/html" href="http://news4vip.livedoor.biz/archives/52382574.html" />
+<script type="text/javascript" src="https://parts.blog.livedoor.jp/js/jquery-1.11.1.min.js"></script>
+
+<meta http-equiv="Content-Type" content="text/html; charset=euc-jp" />
+<link rel="stylesheet" href="css/lightbox.css" type="text/css" media="screen" />
+<script src="js/prototype.js" type="text/javascript"></script>
+<script src="js/scriptaculous.js?load=effects" type="text/javascript"></script>
+<link rel="alternate" media="handheld" type="application/xhtml+xml" href="http://blog.m.livedoor.jp/news4vip2/" />
+
+<title>【画像】海外のゲーム会社「日本ってよく知らんけど多分こんな感じだろｗ」→結果ｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗ : 【2ch】ニュー速クオリティ</title>
+<META name="description" content="2ちゃんねるのニュー速VIP・ニュー速板の面白記事を紹介">
+<meta name="keywords" content="【画像】海外のゲーム会社「日本ってよく知らんけど多分こんな感じだろｗ」→結果ｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗ,画像">
+
+<meta property="og:type" content="article" />
+<meta property="og:title" content="【画像】海外のゲーム会社「日本ってよく知らんけど多分こんな感じだろｗ」→結果ｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗ :【2ch】ニュー速クオリティ" />
+<meta property="og:description" content="1: 名無しのニュー速クオリティさん 2020/06/26(金) 12:19:08.578 ID:ID:2+XgHgNvd.net       ええやん 引用元: http://viper.2ch.sc/test/read.cgi/news4vip/1593141548" />
+<meta property="og:url" content="http://news4vip.livedoor.biz/archives/52382574.html" />
+<meta property="og:image" content="https://livedoor.blogimg.jp/news4vip2/imgs/e/2/e24f9bda-s.jpg" />
+<meta property="og:site_name" content="【2ch】ニュー速クオリティ" />
+<meta property="og:locale" content="ja_JP" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@news4vip2" />
+<meta name="twitter:image:src" content="https://livedoor.blogimg.jp/news4vip2/imgs/e/2/e24f9bda-s.jpg">
+
+<link rel="alternate" media="handheld" type="application/xhtml+xml" href="http://news4vip.livedoor.biz/" />
+
+
+<!-- Add Google Analytics Tag // -->
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-49265084-1', 'auto');
+ga('send', 'pageview');
+</script>
+<!-- // Add Google Analytics Tag -->
+
+
+<!-- Add LINE Analytics Tag // -->
+<script>
+(function(g,d){var v='release/stable';
+g._trmq=[];g._trm=function(){g._trmq.push(arguments)};
+g.onerror=function(m,f,l,c){g._trm('send','exception',m,f,l,c)};
+var h=location.protocol==='https:'?'https://d.line-scdn.net':'http://d.line-cdn.net';
+var s=d.createElement('script');s.async=1;
+s.src=h+'/n/_4/torimochi.js/public/v1/'+v+'/min/torimochi.js';
+var t=d.getElementsByTagName('script')[0];t.parentNode.insertBefore(s,t);
+})(window, document);
+_trm('enable', {
+    productKey: 'livedoor-blog-real'
+});
+_trm('send', 'pageview',{'dimension1'  : '1289762'});
+</script>
+<!-- // Add LINE Analytics Tag -->
+
+<meta name="referrer" content="always">
+<meta name="referrer" content="unsafe-url">
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-1638469-43"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+
+var blogId = '1289762';
+if (blogId) {
+  gtag('config', 'UA-1638469-43', {
+    'custom_map': {'dimension1': 'blog_id'},
+    'blog_id': blogId
+  });
+} else {
+  gtag('config', 'UA-1638469-43');
+}
+</script>
+
+</head>
+<!-- ............... Header ............... -->
+
+<body><script type="text/javascript"><!--
+var ld_blog_vars = {
+  provider_id : '1',
+  provider_name : 'livedoor',
+  id : '1289762',
+  name : 'news4vip2',
+  charset : 'euc-jp',
+  url : 'http://news4vip.livedoor.biz/',
+  title : '【2ch】ニュー速クオリティ',
+  blog_design: {
+      version: 1
+  },
+  blog_category: {
+    id: '243',
+    permalink: 'https://blog.livedoor.com/category/243/',
+    name: 'まとめ(総合) > まとめ',
+    is_adult : 0,
+    is_gambling : 0,
+    hierarchy: [{ id: '431', name: 'まとめ(総合)', permalink: 'https://blog.livedoor.com/category/431/' },{ id: '243', name: 'まとめ', permalink: 'https://blog.livedoor.com/category/243/' }]
+  },
+  current_page : {
+    type : 'article',    page : ''
+  },
+  articles : [ {
+       id : '52382574',
+       permalink : 'http://news4vip.livedoor.biz/archives/52382574.html',
+       title : '【画像】海外のゲーム会社「日本ってよく知らんけど多分こんな感じだろｗ」→結果ｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗ',
+       categories : [ { id:'', name:'', permalink:'' }, { id:'', name:'', permalink:'' } ],
+       date : '2020-12-29 23:45:49'
+}   ]
+};
+//-->
+</script><div id="analyzer_tags" style="display:none">
+<script type="text/javascript" src="https://parts.blog.livedoor.jp/js/c2.js?v=20191010"></script>
+<script type="text/javascript">blog_counter('news4vip2', 1289762, 'http://news4vip.livedoor.biz/')</script>
+</div><script type="text/javascript" src="https://parts.blog.livedoor.jp/js/smartphone.js?v=20200824"></script>
+<script type="text/javascript" src="http://news4vip.livedoor.biz/settings/header.js?v=20190705"></script><script type="text/javascript" src="http://news4vip.livedoor.biz/settings/ad.js"></script>
+<script type="text/javascript">
+var palette_src = 'https://parts.blog.livedoor.jp/img/emoji/1/palette.png';
+if (typeof IMAGE_CACHE == 'object' && IMAGE_CACHE['emoji_palette']) IMAGE_CACHE['emoji_palette'].src = palette_src;
+</script>
+
+
+<script src="//rss-loader.com/interres/channelz/246/loader.js"></script>
+
+
+
+
+
+
+
+<!-- ▼オーバーレイ広告 -->
+<script type="text/javascript">
+window['adingo_fluct_back_opacity'] = 0;
+</script>
+<div id="fluct">
+<script type="text/javascript" src="https://cdn-fluct.sh.adingo.jp/f.js?G=1000098930"></script>
+<script type="text/javascript">
+//<![CDATA[
+if(typeof(adingoFluct)!="undefined") adingoFluct.showAd('1000150097');
+//]]>
+</script>
+</div>
+<script type="text/javascript">
+var unit = 1000150097;
+var adjustWidth = function (e) {
+  var width = window.innerWidth;
+  if (width >= 1320) {
+    e.style.width = '1320px';
+    var l = (width - 1320) / 2 - 55;
+    e.style.left = l + 'px';
+  }
+};
+var appendCloseBtn = function (e, unit) {
+  e.style.overflow = '';
+  var d = document.createElement('div');
+  d.setAttribute('id', 'adingoFluctBottomtrackingCloseBtn_' + unit);
+  d.setAttribute('style', 'position:absolute;width:29px;height:29px;top:-30px;left:0px;margin:0;padding:0;display:block;');
+  d.setAttribute('onclick', 'document.getElementById(\'fluct\').style.display=\'none\';');
+  var u = document.getElementById('fluct_ad_unit_' + unit);
+  u.insertBefore(d, u.firstChild);
+  var i = document.createElement('img');
+  i.setAttribute('style', 'width:29px;height:29px;vertical-align:top !important;cursor:pointer;');
+  i.setAttribute('src', 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAdBAMAAACkvXo8AAAAJFBMVEXe3t5JSUnm5uampqbCwsJSUlKBgYHV1dW5ubns7Oxubm5lZWVX+dL4AAAAhElEQVQY07WQwQ'
+    + 'mAMAxFC4KKJ4P0Lk6gF88VF1DoAHYOT67gxPabL+oAzSmPl/SHmtb8KgVX/u6GnnxYF5tManIuHloeb4J1UTfc1wFoMgZmaDIGVmrmB2py3PYvI1usI6sexb+MbNxARjZuIEPrkeQpatywkHfNDh'
+    + 'u50JfKJP97dt9qL6ZVE1NJDVX1AAAAAElFTkSuQmCC');
+  d.appendChild(i);
+};
+var e = document.getElementById('adingoFluctBottomtracking_' + unit);
+adjustWidth(e, unit);
+appendCloseBtn(e, unit);
+</script>
+<!-- ▲オーバーレイ広告 -->
+
+
+<h1>【画像】海外のゲーム会社「日本ってよく知らんけど多分こんな感じだろｗ」→結果ｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗ</h1>
+<a name="top"></a>
+<div id="outline">
+
+<!--▼ヘッダー-->
+<div id="header_outline">
+<a href="http://news4vip.livedoor.biz/" title="トップページへ" id="top" name="top">
+</a>
+</div>
+
+
+
+<!--▼メニュー-->
+
+
+
+
+
+
+
+<div class="menubar"><ul id="menu_bar"><li><a href="http://news4vip.livedoor.biz/">トップページ</a></li><li><a href="http://www.2ch.net/" target="_blank">2ちゃんねる</a></li><li class="menu-bookmark"><a href="javascript:window.external.AddFavorite('http://news4vip.livedoor.biz/','ニュー速クオリティ')">お気に入りに追加</a></li><li class="menu-twitter"><a href="http://twitter.com/#!/news4vip2" title="twitter" target="_blank">Twitter</a></li><li class="menu-rss"><a href="http://blog.livedoor.jp/news4vip2/index.rdf" target="_blank" title="RSS" rel="nofollow"  >RSS</a></li><li class="menu-mail"><a title="メールフォームへ" href="http://news4vip.livedoor.biz/archives/50122482.html" rel="nofollow">当サイトについて・お問い合わせ</a></li></ul>
+
+</div>
+
+
+
+
+
+<script type="text/javascript" src="//p.permalink-system.com/parts/4/43c11d61cf047c94024ee15b6ede1f0b.js" charset="utf-8"></script>
+
+<div id="container">
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--▼サイドバー左-->
+<div id="left">
+<div class="plugin2_outline">
+<div class="plugin2_body">
+<!-- ..... PluginList A ..... -->
+
+
+
+
+<div class="plugin-memo sidewrapper">
+<div class="sidetitlebody">
+<div class="sidetitle"></div>
+</div>
+<div class="sidetop"></div>
+<div class="side">
+スポンサードリンク
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- クオ　左サイドバー -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-9623041308833249"
+     data-ad-slot="3975175310"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
+
+</br>
+超オススメ↓
+<a target="_blank"  href="https://www.amazon.co.jp/gp/product/4990984900/ref=as_li_tl?ie=UTF8&camp=247&creative=1211&creativeASIN=4990984900&linkCode=as2&tag=hasimotti2150-22&linkId=fe643c01ecca61017cb401455e649ffe"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=JP&ASIN=4990984900&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=hasimotti2150-22" ></a><img src="//ir-jp.amazon-adsystem.com/e/ir?t=hasimotti2150-22&l=am2&o=9&a=4990984900" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+</br>
+
+<a target="_blank"  href="https://www.amazon.co.jp/gp/product/4088822048/ref=as_li_tl?ie=UTF8&camp=247&creative=1211&creativeASIN=4088822048&linkCode=as2&tag=hasimotti2150-22&linkId=bfe13dee48cb7fe63c7df50950071b73"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=JP&ASIN=4088822048&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=hasimotti2150-22" ></a><img src="//ir-jp.amazon-adsystem.com/e/ir?t=hasimotti2150-22&l=am2&o=9&a=4088822048" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+
+
+</br>
+
+
+
+<a target="_blank"  href="https://www.amazon.co.jp/gp/product/B084FT2B7H/ref=as_li_tl?ie=UTF8&camp=247&creative=1211&creativeASIN=B084FT2B7H&linkCode=as2&tag=hasimotti2150-22&linkId=362ab7acf7cb80238ee81624af98271c"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=JP&ASIN=B084FT2B7H&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=hasimotti2150-22" ></a><img src="//ir-jp.amazon-adsystem.com/e/ir?t=hasimotti2150-22&l=am2&o=9&a=B084FT2B7H" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+</br>
+
+
+<a target="_blank"  href="https://www.amazon.co.jp/gp/product/4040734998/ref=as_li_tl?ie=UTF8&camp=247&creative=1211&creativeASIN=4040734998&linkCode=as2&tag=hasimotti2150-22&linkId=839d0c825a579211405844841c78fc03"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=JP&ASIN=4040734998&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=hasimotti2150-22" ></a><img src="//ir-jp.amazon-adsystem.com/e/ir?t=hasimotti2150-22&l=am2&o=9&a=4040734998" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+
+
+</br>
+
+
+<a target="_blank"  href="https://www.amazon.co.jp/gp/product/4815605335/ref=as_li_tl?ie=UTF8&camp=247&creative=1211&creativeASIN=4815605335&linkCode=as2&tag=hasimotti2150-22&linkId=89adb80bf84a5ec3340f3c9c1280590e"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=JP&ASIN=4815605335&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=hasimotti2150-22" ></a><img src="//ir-jp.amazon-adsystem.com/e/ir?t=hasimotti2150-22&l=am2&o=9&a=4815605335" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+
+
+
+</br>
+
+
+
+<a target="_blank"  href="https://www.amazon.co.jp/gp/product/4065184665/ref=as_li_tl?ie=UTF8&camp=247&creative=1211&creativeASIN=4065184665&linkCode=as2&tag=hasimotti2150-22&linkId=790e1227888825125d4191685ec8e739"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=JP&ASIN=4065184665&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=hasimotti2150-22" ></a><img src="//ir-jp.amazon-adsystem.com/e/ir?t=hasimotti2150-22&l=am2&o=9&a=4065184665" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+
+</div>
+<div class="sidebottom"></div>
+</div><!-- // plugin-memo -->
+
+<div class="plugin-popular_articles_with_image sidewrapper">
+  <div class="sidetitlebody">
+    <div class="sidetitle">人気記事(画像付)</div>
+  </div>
+  <div class="sidetop"></div>
+  <div class="side">
+
+<div class="popularArticlesWithImage plugin A"
+     id="popularArticlesWithImagePlugin-317496">
+<ul></ul>
+<script type="text/javascript" src="https://parts.blog.livedoor.jp/plugin/popular_articles_with_image_plugin.js?v=20160803"></script>
+<script type="text/html" id="tmpl-popularArticlesWithImagePlugin-317496">
+<li class="popularArticleWithImage">
+<div>
+<a href="<%= article.url %>" title="<%= article.title %>">
+<div class="image <%= article.image.thumbnail ? '' : 'noimage' %>">
+<% if (article.image.thumbnail) { %>
+<img id="image-popularArticlesWithImagePlugin-317496-<%= article.id%>"
+     src="<%= article.image.thumbnail %>"
+     alt="" />
+<% } %>
+</div>
+<% if (comment) { %>
+<div class="comment" id="comment-popularArticlesWithImagePlugin-317496-<%= article.id%>"></div>
+<% } else if (retweet) { %>
+<div class="retweet" id="retweet-popularArticlesWithImagePlugin-317496-<%= article.id%>"></div>
+<% } else if (pv) { %>
+<div class="pv"><%= article.count %>PV</div>
+<% } %>
+<div class="title" id="title-popularArticlesWithImagePlugin-317496-<%= article.id%>"><%= article.title %></div>
+</a>
+</div>
+</li>
+</script>
+
+<script type="text/javascript">
+(function(){
+var opts = {
+id:      'popularArticlesWithImagePlugin-317496',
+asPlugin: true,
+type:    'A',
+offset:  Number('0'),
+count:   Number('30'),
+
+rangeType:'week0',
+
+
+
+width: null,
+retweet: false,
+comment: false,
+pv: false,
+color: {
+ foreground:'' || null,
+ background:'#01a6fd' || null
+},
+imageWidth:  Number('170' || 0) || null,
+imageHeight: Number('180' || 0) || null,lastProperty: null
+};
+(new LDBlogPopularArticlesWithImagePlugin(opts)).init();
+})();
+</script>
+</div>
+
+</div>
+<div class="sidebottom"></div>
+</div>
+
+<a target="_blank"  href="https://www.amazon.co.jp/gp/product/B07RQSYN4D/ref=as_li_tl?ie=UTF8&camp=247&creative=1211&creativeASIN=B07RQSYN4D&linkCode=as2&tag=hasimotti2150-22&linkId=afa8b0b0f7babc6aed73c658f1e01367"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=JP&ASIN=B07RQSYN4D&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=hasimotti2150-22" ></a><img src="//ir-jp.amazon-adsystem.com/e/ir?t=hasimotti2150-22&l=am2&o=9&a=B07RQSYN4D" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+
+
+
+</br>
+
+<a target="_blank"  href="https://www.amazon.co.jp/gp/product/B07R15HXP5/ref=as_li_tl?ie=UTF8&camp=247&creative=1211&creativeASIN=B07R15HXP5&linkCode=as2&tag=hasimotti2150-22&linkId=c6f113e5bb747fdd73479e8fb71ef517"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=JP&ASIN=B07R15HXP5&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=hasimotti2150-22" ></a><img src="//ir-jp.amazon-adsystem.com/e/ir?t=hasimotti2150-22&l=am2&o=9&a=B07R15HXP5" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+
+</br>
+<a target="_blank"  href="https://www.amazon.co.jp/gp/product/B07RQTLPL3/ref=as_li_tl?ie=UTF8&camp=247&creative=1211&creativeASIN=B07RQTLPL3&linkCode=as2&tag=hasimotti2150-22&linkId=1e4ab204f2aecefe38faf4a41e497ccc"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=JP&ASIN=B07RQTLPL3&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=hasimotti2150-22" ></a><img src="//ir-jp.amazon-adsystem.com/e/ir?t=hasimotti2150-22&l=am2&o=9&a=B07RQTLPL3" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+
+<div class="plugin-memo sidewrapper">
+<div class="sidetitlebody">
+<div class="sidetitle"></div>
+</div>
+<div class="sidetop"></div>
+<div class="side">
+スポンサードリンク
+
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- クオ　左サイドバー -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-9623041308833249"
+     data-ad-slot="3975175310"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
+
+</br>
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- クオ　左サイドバー -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-9623041308833249"
+     data-ad-slot="3975175310"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
+
+
+
+
+
+
+</div>
+<div class="sidebottom"></div>
+</div><!-- // plugin-memo -->
+
+
+
+
+
+</div>
+</div>
+</div>
+<!--▲サイドバー左-->
+
+<div id="center">
+
+<!--▼headline-->
+<div id="headline">
+<iframe src="http://news4vip.livedoor.biz/rss-test3.html" name="New" width="738" height="240" frameborder="1"></iframe>
+</div>
+
+
+
+
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- クオＲＳＳ　下 -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:738px;height:90px"
+     data-ad-client="ca-pub-9623041308833249"
+     data-ad-slot="1546955541"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
+
+
+
+
+
+
+<center><!-- ここから -->
+<!-- ここまで -->
+</center>
+
+
+
+
+<!--▼エントリー記事-->
+
+<div class="menu"><a href="http://news4vip.livedoor.biz/archives/52382532.html">前の記事</a>│<a href="http://news4vip.livedoor.biz/archives/52382534.html">次の記事</a></div>
+
+
+
+
+
+<div class="ently_outline">
+<h2 class="ently_title"><a href="http://news4vip.livedoor.biz/archives/52382574.html" title="【画像】海外のゲーム会社「日本ってよく知らんけど多分こんな感じだろｗ」→結果ｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗ"><span class="title-data">【画像】海外のゲーム会社「日本ってよく知らんけど多分こんな感じだろｗ」→結果ｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗ</span></a></h2>
+
+<div class="ently_navi_top">
+<div>
+<span class="dayarchive"><a href="http://news4vip.livedoor.biz/archives/52382574.html"><abbr title="2020年12月29日"><span class="date-data">2020年12月29日</span></abbr></a></span>
+<span class="ently_navi-comment">&nbsp;&nbsp;<a href="http://news4vip.livedoor.biz/archives/52382574.html#comments" title="【画像】海外のゲーム会社「日本ってよく知らんけど多分こんな感じだろｗ」→結果ｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗ">コメント(<span class="cm-data">18</span>)</a></span>　&nbsp;&nbsp;
+
+</div>
+</div>
+
+
+
+
+
+
+<div class="ently_body">
+<div class="ently_text" id="ently_text">
+
+<div id="ad_rs" class="ad_rs_c"></div><div  class="t_h ">1: <span  style="font-weight: bold; color: green;">名無しのニュー速クオリティさん</span> <span  style="color: gray;">2020/06/26(金) 12:19:08.578 <em  style="color: #4518ed; background-color: #ebb61a; font-weight: bold;" class="specified">ID:ID:2+XgHgNvd.net</em></span></div><div  class="t_b " style="font-size: 16px;line-height: 24px;color: #0000cd;font-weight: bold;padding-left:NaNpx;margin-bottom:NaNpx;margin-top:NaNpx;line-height:normal;"> <img  src="https://livedoor.blogimg.jp/news4vip2/imgs/e/2/e24f9bda-s.jpg" class="add-new-image" data-img-id="1" origin="https://livedoor.blogimg.jp/news4vip2/imgs/e/2/e24f9bda.jpg" img-type="rep"> <br /> <img  src="https://livedoor.blogimg.jp/news4vip2/imgs/e/3/e36fadb6-s.jpg" class="add-new-image" data-img-id="2" origin="https://livedoor.blogimg.jp/news4vip2/imgs/e/3/e36fadb6.jpg" img-type="rep"> <br /> <img  src="https://livedoor.blogimg.jp/news4vip2/imgs/0/d/0de6c32b-s.jpg" class="add-new-image" data-img-id="3" origin="https://livedoor.blogimg.jp/news4vip2/imgs/0/d/0de6c32b.jpg" img-type="rep"> <br /> ええやん </div><br /><br /><br /><br /><p  style="color:gray;text-align:right;">引用元: <a  href="http://viper.2ch.sc/test/read.cgi/news4vip/1593141548" target="_blank">http://viper.2ch.sc/test/read.cgi/news4vip/1593141548</a></p>
+</div>
+
+
+
+
+
+
+<!-- Google AdSense -->
+<div class="google-2ad-m">
+<div class="g-ad1">
+<script async='async' src='https://www.googletagservices.com/tag/js/gpt.js'></script>
+<script>
+  var googletag = googletag || {};
+  googletag.cmd = googletag.cmd || [];
+</script>
+<script>
+  googletag.cmd.push(function() {
+    googletag.defineSlot('/38090360/livedoorBlog/PC/A/PC_A_336280_1', [336, 280], 'div-gpt-ad-1539315625451-0').addService(googletag.pubads());
+    googletag.enableServices();
+  });
+</script>
+<!-- /38090360/livedoorBlog/PC/A/PC_A_336280_1 -->
+<div id='div-gpt-ad-1539315625451-0' style='height:280px; width:336px;'>
+<script>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1539315625451-0'); });
+</script>
+</div>
+</div>
+
+<div class="g-ad2">
+<script async='async' src='https://www.googletagservices.com/tag/js/gpt.js'></script>
+<script>
+  var googletag = googletag || {};
+  googletag.cmd = googletag.cmd || [];
+</script>
+<script>
+  googletag.cmd.push(function() {
+    googletag.defineSlot('/38090360/livedoorBlog/PC/A/PC_A_336280_2', [336, 280], 'div-gpt-ad-1539322322865-0').addService(googletag.pubads());
+    googletag.enableServices();
+  });
+</script>
+<!-- /38090360/livedoorBlog/PC/A/PC_A_336280_2 -->
+<div id='div-gpt-ad-1539322322865-0' style='height:280px; width:336px;'>
+<script>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1539322322865-0'); });
+</script>
+</div>
+</div>
+</div>
+<!-- /Google AdSense -->
+<a name="more"></a><div class="article-body-more"><div  style="background-color: white; padding: 5px; margin: 5px; line-height: 1.9; border: 1px solid rgb(105, 105, 105);">
+
+
+
+<span  style="font-size: 16px;"><span  style="font-size: 16px;"><span  style="font-weight: bold; color: rgb(255, 0, 0);">pickup</span><br />
+
+
+
+<a  target="_blank" href="http://2ch-c.net/?gt=20191114231501&amp;eid=5348645">【唖然】ブラック企業さん、とんでもない労働条件の求人票を出してしまい無事炎上ｗｗｗｗｗｗｗｗｗｗｗｗｗ</a>
+<br /><br />
+
+
+<a  target="_blank" href="http://2ch-c.net/?gt=20191118151501&amp;eid=5359396">沢尻エリカ、中山秀征に言われた一言がきっかけで人生が狂い始めていたｗｗｗ</a>
+<br /><br />
+
+<a  target="_blank" href="http://2ch-c.net/?gt=20191114141501&amp;eid=5347354">【画像】とある男性の何気ないCoCo壱への苦言に、女性たちが怒り狂うｗｗｗ</a><br /><br />
+
+
+
+<a  target="_blank" href="http://2ch-c.net/?gt=20191119041501&amp;eid=5361105">【悲報】志村けん、若いテレビ局スタッフを棒で殴り続けるパワハラ野郎だった…</a>
+<br /><br />
+
+
+
+<a  target="_blank" href="http://2ch-c.net/?gt=20191117171501&amp;eid=5356695">【画像】ナスカの地上絵、とんでもないオーパーツが新発見されててワロタｗｗｗ</a>
+<br /><br />
+
+
+<a  target="_blank" href="http://2ch-c.net/?gt=20191119031501&amp;eid=5361045">沢尻エリカ容疑者、違法薬物の入手先を暴露してしまうｗｗｗ</a>
+<br />
+<br />
+
+
+<a  target="_blank" href="http://2ch-c.net/?gt=20191122131501&amp;eid=5371064">【画像】嬢「この仕事辞めるって言ったら客から来たラインをご覧ください」</a>
+<br />
+<br />
+
+
+
+
+<a  href="http://tokkaban.com/?article_id=2137210&amp;code=191016138">【台風19号】東京都さん、最強の都市だった…ご覧ください…</a>
+<br />
+<br />
+
+
+<a  target="_blank" href="http://2ch-c.net/?gt=20191111061501&amp;eid=5337381">【画像】女さん、タトゥー入れてただけで温泉に入れず結婚も破談になるｗｗｗ</a>
+
+<br /><br />
+
+
+<a  target="_blank" href="http://2ch-c.net/?gt=20191112191501&amp;eid=5342051">【画像】ももクロさん、唯一の自慢だったライブ観客動員数がヤバイことにｗｗｗｗｗｗ</a>
+
+
+
+<br /><br />
+
+
+<a  href="http://blog-news.doorblog.jp/archives/56178986.html?t=%E3%80%90%E6%82%B2%E5%A0%B1%E3%80%91%E5%AE%87%E5%9E%A3%E7%BE%8E%E9%87%8C%E3%81%95%E3%82%93%E3%81%AE%E7%84%A1%E4%BF%AE%E6%AD%A3%E3%80%81" target="_blank">【悲報】宇垣美里さんの無修正、流出</a>
+
+
+
+<br /><br />
+
+
+
+</span><b><b>
+<br />
+</b></b></span><b><b>
+
+</b></b></div><b><b>
+<br />
+
+<a  target="_blank" onclick="javascript:_gaq.push(['_trackPageview', '/しいアンテナ中段/']);" href="http://2ch-c.net/?gt=20200112211501&amp;eid=5523247"><img  border="0" height="180" width="300" src="https://livedoor.blogimg.jp/news4vip2/imgs/2/e/2e164c2d.jpg"><br  clear="all">
+<span  style="color: rgb(255, 0, 255);">	
+
+
+【画像】業務スーパー５袋の激安カレーがヤバ過ぎるｗｗｗｗｗｗｗｗ
+</span></a>
+<br /><br />
+
+
+<div  id="f984a"><center>
+<div  style="position: relative;width: 100vw;padding-top: 95%;overflow:auto;-webkit-overflow-scrolling:touch;left: -5%;">
+<iframe src="http://news4vip.livedoor.biz/nsq.html" frameborder="0" style="position:absolute;top:0;left:0;width:100%;height:100%;display:block;" scrolling="no"></iframe></div>
+</center></div>
+
+<br /><br /><br /><div  class="t_h ">2: <span  style="font-weight: bold; color: green;">名無しのニュー速クオリティさん</span> <span  style="color: gray;">2020/06/26(金) 12:19:39.169 ID:TwxvZXGl0.net</span></div><div  style="font-size: 16px;line-height: 24px;color: #dc143c;font-weight: bold;padding-left:NaNpx;margin-bottom:NaNpx;margin-top:NaNpx;line-height:normal;" class="t_b "> だいたい合ってる </div><br /><br /><br /><br /><div  class="t_h ">4: <span  style="font-weight: bold; color: green;">名無しのニュー速クオリティさん</span> <span  style="color: gray;">2020/06/26(金) 12:19:59.053 ID:/f+2qAKq0.net</span></div><div  style="font-size: 16px;line-height: 24px;font-weight: bold;padding-left:NaNpx;margin-bottom:NaNpx;margin-top:NaNpx;line-height:normal;" class="t_b "> 流石に知ったうえで作ってると思う </div><br /><br /><br /><br /><div  class="t_h ">5: <span  style="font-weight: bold; color: green;">名無しのニュー速クオリティさん</span> <span  style="color: gray;">2020/06/26(金) 12:20:04.442 ID:0SF0nMfn0.net</span></div><div  style="font-size: 16px;line-height: 24px;font-weight: bold;padding-left:NaNpx;margin-bottom:NaNpx;margin-top:NaNpx;line-height:normal;" class="t_b "> こういう見た目のところはこんなに綺麗じゃない <br /> ゴミとかゲロとかいっぱいある </div><br /><br /><br /><br /><div  class="t_h ">6: <span  style="font-weight: bold; color: green;">名無しのニュー速クオリティさん</span> <span  style="color: gray;">2020/06/26(金) 12:20:20.821 ID:/jOHBAAFp.net</span></div><div  style="font-size: 16px;line-height: 24px;font-weight: bold;padding-left:NaNpx;margin-bottom:NaNpx;margin-top:NaNpx;line-height:normal;" class="t_b "> あってねーわ　わざとちょっと違う風に作ってるんだろ </div><br /><br /><br /><br /><div  class="t_h ">7: <span  style="font-weight: bold; color: green;">名無しのニュー速クオリティさん</span> <span  style="color: gray;">2020/06/26(金) 12:20:24.301 ID:TgFuUVcGM.net</span></div><div  style="font-size: 16px;line-height: 24px;font-weight: bold;padding-left:NaNpx;margin-bottom:NaNpx;margin-top:NaNpx;line-height:normal;" class="t_b "> ほんとに今年リリースされるのか心配 </div><br /><br /><br /><br /><div  class="t_h ">8: <span  style="font-weight: bold; color: green;">名無しのニュー速クオリティさん</span> <span  style="color: gray;">2020/06/26(金) 12:20:26.523 ID:9KiGqyBq0.net</span></div><div  style="font-size: 16px;line-height: 24px;font-weight: bold;padding-left:NaNpx;margin-bottom:NaNpx;margin-top:NaNpx;line-height:normal;" class="t_b "> GANTZっぽい </div><br /><br /><br /><br /><div  class="t_h ">9: <span  style="font-weight: bold; color: green;">名無しのニュー速クオリティさん</span> <span  style="color: gray;">2020/06/26(金) 12:20:36.918 ID:KWR/gD8d0.net</span></div><div  style="font-size: 16px;line-height: 24px;font-weight: bold;padding-left:NaNpx;margin-bottom:NaNpx;margin-top:NaNpx;line-height:normal;" class="t_b "> 空きPOO有り </div><br /><br /><br /><br /><div  class="t_h ">10: <span  style="font-weight: bold; color: green;">名無しのニュー速クオリティさん</span> <span  style="color: gray;">2020/06/26(金) 12:21:18.588 ID:WlfSn32L0.net</span></div><div  style="font-size: 16px;line-height: 24px;font-weight: bold;padding-left:NaNpx;margin-bottom:NaNpx;margin-top:NaNpx;line-height:normal;" class="t_b "> 香港ってサイバーパンク感あるよね </div><br /><br /><br /><br /><div  class="t_h ">11: <span  style="font-weight: bold; color: green;">名無しのニュー速クオリティさん</span> <span  style="color: gray;">2020/06/26(金) 12:21:29.425 ID:cIq3k2sz0.net</span></div><div  style="font-size: 16px;line-height: 24px;color: #a52a2a;font-weight: bold;padding-left:NaNpx;margin-bottom:NaNpx;margin-top:NaNpx;line-height:normal;" class="t_b "> 中華街モチーフなら正解じゃん </div><br /><br /><br /><br /><div  class="t_h ">12: <span  style="font-weight: bold; color: green;">名無しのニュー速クオリティさん</span> <span  style="color: gray;">2020/06/26(金) 12:21:33.426 ID:ms0UBHdu0.net</span></div><div  style="font-size: 16px;line-height: 24px;font-weight: bold;padding-left:NaNpx;margin-bottom:NaNpx;margin-top:NaNpx;line-height:normal;" class="t_b "> めちゃくちゃ中国じゃん </div><br /><br /><br /><br /><div  class="t_h ">13: <span  style="font-weight: bold; color: green;">名無しのニュー速クオリティさん</span> <span  style="color: gray;">2020/06/26(金) 12:21:47.999 ID:zkIyoaeS0.net</span></div><div  style="font-size: 16px;line-height: 24px;font-weight: bold;padding-left:NaNpx;margin-bottom:NaNpx;margin-top:NaNpx;line-height:normal;" class="t_b "> わざと微妙にしてる場合も多い </div><br /><br /><br /><br /><div  class="t_h ">14: <span  style="font-weight: bold; color: green;">名無しのニュー速クオリティさん</span> <span  style="color: gray;">2020/06/26(金) 12:22:02.051 ID:irsObEgA0.net</span></div><div  style="font-size: 16px;line-height: 24px;font-weight: bold;padding-left:NaNpx;margin-bottom:NaNpx;margin-top:NaNpx;line-height:normal;" class="t_b "> 店の雰囲気とかは完全に中華圏の文化だな <br /> 店の前に4人席のテーブル出してたり <br /> 日本人は道路に物を置くと迷惑っていう良識を持ってるからそんな下品なことしない </div><br /><br /><br /><br /><div  style="margin-left:NaNpx;" class="t_h t_i">21: <span  style="font-weight: bold; color: green;">名無しのニュー速クオリティさん</span> <span  style="color: gray;">2020/06/26(金) 12:23:21.696 ID:ah39fbFLd.net</span></div><div  style="font-size: 16px;line-height: 24px;font-weight: bold;padding-left:NaNpx;margin-bottom:NaNpx;margin-top:NaNpx;line-height:normal;" class="t_b t_i"> <a  class="reply_link" target="_blank" rel="noopener noreferrer" href="../test/read.cgi/news4vip/1593141548/14"><span  class="anchor" style="color: rgb(30, 147, 232);">&gt;&gt;14</span></a> <br /> 飲み屋街とか出してね？ </div><br /><br /><br /><br /><div  style="margin-left:NaNpx;" class="t_h t_i">92: <span  style="font-weight: bold; color: green;">名無しのニュー速クオリティさん</span> <span  style="color: gray;">2020/06/26(金) 12:44:16.481 ID:Xd9vSrdc0.net</span></div><div  style="font-size: 16px;line-height: 24px;font-weight: bold;padding-left:NaNpx;margin-bottom:NaNpx;margin-top:NaNpx;line-height:normal;" class="t_b t_i"> <a  class="reply_link" target="_blank" rel="noopener noreferrer" href="../test/read.cgi/news4vip/1593141548/14"><span  class="anchor" style="color: rgb(30, 147, 232);">&gt;&gt;14</span></a> <br /> 高円寺の駅前来いや </div><br /><br /><br /><br /><div  class="t_h ">15: <span  style="font-weight: bold; color: green;">名無しのニュー速クオリティさん</span> <span  style="color: gray;">2020/06/26(金) 12:22:25.035 ID:unq6DADId.net</span></div><div  style="font-size: 16px;line-height: 24px;font-weight: bold;padding-left:NaNpx;margin-bottom:NaNpx;margin-top:NaNpx;line-height:normal;" class="t_b "> 3枚目空調服着てる？ <br /> 日本だけなのかな </div><br /><br /><br /><br /><div  class="t_h ">16: <span  style="font-weight: bold; color: green;">名無しのニュー速クオリティさん</span> <span  style="color: gray;">2020/06/26(金) 12:22:29.919 ID:IA1o306mM.net</span></div><div  style="font-size: 16px;line-height: 24px;color: #008000;font-weight: bold;padding-left:NaNpx;margin-bottom:NaNpx;margin-top:NaNpx;line-height:normal;" class="t_b "> ブレードランナーのあの感じだろ </div><br /><br /><br /><br /><div  class="t_h ">18: <span  style="font-weight: bold; color: green;">名無しのニュー速クオリティさん</span> <span  style="color: gray;">2020/06/26(金) 12:22:45.407 ID:IoGZdkz8d.net</span></div><div  style="font-size: 16px;line-height: 24px;font-weight: bold;padding-left:NaNpx;margin-bottom:NaNpx;margin-top:NaNpx;line-height:normal;" class="t_b "> こんなクソでか車日本じゃ売れないぞ </div><br /><br /><br /><br /><div  class="t_h ">20: <span  style="font-weight: bold; color: green;">名無しのニュー速クオリティさん</span> <span  style="color: gray;">2020/06/26(金) 12:23:03.959 ID:GE1ZQII2a.net</span></div><div  style="font-size: 16px;line-height: 24px;font-weight: bold;padding-left:NaNpx;margin-bottom:NaNpx;margin-top:NaNpx;line-height:normal;" class="t_b "> 台湾っぽい </div><br /><br /><br /><br /><div  class="t_h ">22: <span  style="font-weight: bold; color: green;">名無しのニュー速クオリティさん</span> <span  style="color: gray;">2020/06/26(金) 12:23:41.815 ID:4tWJlLkHd.net</span></div><div  style="font-size: 16px;line-height: 24px;font-weight: bold;padding-left:NaNpx;margin-bottom:NaNpx;margin-top:NaNpx;line-height:normal;" class="t_b "> こういうのでいいんだよこういうので </div><br /><br /><br /><br /><div  class="t_h ">23: <span  style="font-weight: bold; color: green;">名無しのニュー速クオリティさん</span> <span  style="color: gray;">2020/06/26(金) 12:23:48.172 ID:LVlLJtg/a.net</span></div><div  style="font-size: 16px;line-height: 24px;font-weight: bold;padding-left:NaNpx;margin-bottom:NaNpx;margin-top:NaNpx;line-height:normal;" class="t_b "> 鳥居が電柱化してんじゃん </div><br /><br /><br /><br /><div  style="margin-left:NaNpx;" class="t_h t_i">38: <span  style="font-weight: bold; color: green;">名無しのニュー速クオリティさん</span> <span  style="color: gray;">2020/06/26(金) 12:28:17.443 ID:vk3STnpM0.net</span></div><div  style="font-size: 16px;line-height: 24px;font-weight: bold;padding-left:NaNpx;margin-bottom:NaNpx;margin-top:NaNpx;line-height:normal;" class="t_b t_i"> <a  class="reply_link" target="_blank" rel="noopener noreferrer" href="../test/read.cgi/news4vip/1593141548/23"><span  class="anchor" style="color: rgb(30, 147, 232);">&gt;&gt;23</span></a> <br /> 現実の商店街もたまにある </div><br /><br /><br /><br /><div  class="t_h ">25: <span  style="font-weight: bold; color: green;">名無しのニュー速クオリティさん</span> <span  style="color: gray;">2020/06/26(金) 12:24:13.013 ID:Pud6uJTr0.net</span></div><div  style="font-size: 16px;line-height: 24px;font-weight: bold;padding-left:NaNpx;margin-bottom:NaNpx;margin-top:NaNpx;line-height:normal;" class="t_b "> ホテルばっかだな </div><br /><br /><br /><br /><div  class="t_h ">26: <span  style="font-weight: bold; color: green;">名無しのニュー速クオリティさん</span> <span  style="color: gray;">2020/06/26(金) 12:24:13.036 ID:NG0BtQrR0.net</span></div><div  style="font-size: 16px;line-height: 24px;color: #800080;font-weight: bold;padding-left:NaNpx;margin-bottom:NaNpx;margin-top:NaNpx;line-height:normal;" class="t_b "> 完全に中国とか香港とか東南アジアの雰囲気やんけ <br /> 明らかに東アジアじゃない </div><br /><br /><br /><br /><div  style="margin-left:NaNpx;" class="t_h t_i">133: <span  style="font-weight: bold; color: green;">名無しのニュー速クオリティさん</span> <span  style="color: gray;">2020/06/26(金) 13:45:31.008 ID:PuUBDH+a0.net</span></div><div  style="font-size: 16px;line-height: 24px;font-weight: bold;padding-left:NaNpx;margin-bottom:NaNpx;margin-top:NaNpx;line-height:normal;" class="t_b t_i"> <a  class="reply_link" target="_blank" rel="noopener noreferrer" href="../test/read.cgi/news4vip/1593141548/26"><span  class="anchor" style="color: rgb(30, 147, 232);">&gt;&gt;26</span></a> <br /> 中国と東南アジアの風景を一緒くたにしてる時点で中国も東南アジアもよく知らずに語ってることはよく伝わった </div><br /><br /><br /><br /><div  class="t_h ">28: <span  style="font-weight: bold; color: green;">名無しのニュー速クオリティさん</span> <span  style="color: gray;">2020/06/26(金) 12:24:55.827 ID:zVG6p5HO0.net</span></div><div  style="font-size: 16px;line-height: 24px;font-weight: bold;padding-left:NaNpx;margin-bottom:NaNpx;margin-top:NaNpx;line-height:normal;" class="t_b "> 日本はもっとつまらん雰囲気 </div><br /><br /><br /><br /><div  class="t_h ">29: <span  style="font-weight: bold; color: green;">名無しのニュー速クオリティさん</span> <span  style="color: gray;">2020/06/26(金) 12:25:07.321 ID:pWYHAckcd.net</span></div><div  style="font-size: 16px;line-height: 24px;font-weight: bold;padding-left:NaNpx;margin-bottom:NaNpx;margin-top:NaNpx;line-height:normal;" class="t_b "> もっとゴシック体使って！ </div><br /><br /><br /><br /><div  class="t_h ">32: <span  style="font-weight: bold; color: green;">名無しのニュー速クオリティさん</span> <span  style="color: gray;">2020/06/26(金) 12:25:37.445 ID:ljlGpl5Da.net</span></div><div  style="font-size: 16px;line-height: 24px;font-weight: bold;padding-left:NaNpx;margin-bottom:NaNpx;margin-top:NaNpx;line-height:normal;" class="t_b "> 日本はこんなかっこいいサイバーパンクみたいな感じじゃないけど <br /> 美化しすぎだろ </div><br /><br /><br /><br /><div  class="t_h ">33: <span  style="font-weight: bold; color: green;">名無しのニュー速クオリティさん</span> <span  style="color: gray;">2020/06/26(金) 12:26:01.012 ID:6Y1gdr2x0.net</span></div><div  style="font-size: 16px;line-height: 24px;color: #800080;font-weight: bold;padding-left:NaNpx;margin-bottom:NaNpx;margin-top:NaNpx;line-height:normal;" class="t_b "> PODだろ </div><br /><br /><br /><br /><div  class="t_h ">35: <span  style="font-weight: bold; color: green;">名無しのニュー速クオリティさん</span> <span  style="color: gray;">2020/06/26(金) 12:26:44.433 ID:9XX+62/u0.net</span></div><div  style="font-size: 16px;line-height: 24px;font-weight: bold;padding-left:NaNpx;margin-bottom:NaNpx;margin-top:NaNpx;line-height:normal;" class="t_b "> 残念ながら日本はこんなにカッコよくない </div><br /><br /><br /><br /><div  class="t_h ">37: <span  style="font-weight: bold; color: green;">名無しのニュー速クオリティさん</span> <span  style="color: gray;">2020/06/26(金) 12:28:12.942 ID:pJpRaRly0.net</span></div><div  style="font-size: 16px;line-height: 24px;font-weight: bold;padding-left:NaNpx;margin-bottom:NaNpx;margin-top:NaNpx;line-height:normal;" class="t_b "> 道が汚すぎる渋谷の裏路地じゃねーんだから </div><br /><br /><br /><br /><div  id="f984a"><center>
+<div  style="position: relative;width: 100vw;padding-top: 95%;overflow:auto;-webkit-overflow-scrolling:touch;left: -5%;">
+<iframe src="http://news4vip.livedoor.biz/nsq.html" frameborder="0" style="position:absolute;top:0;left:0;width:100%;height:100%;display:block;" scrolling="no"></iframe></div>
+</center></div>
+
+
+<b><a  target="_blank" href="http://newpuru.doorblog.jp/archives/56172565.html?id=24995284&amp;c=all">	
+【激写】山本彩がメスの顔になった瞬間を撮られてしまうｗｗｗｗｗ</a>
+<br /><br />
+
+<b><a  target="_blank" href="http://newpuru.doorblog.jp/archives/56168382.html?id=24988885&amp;c=all">	
+【画像】高校女子陸上部の専属マッサージ師になった結果ｗｗｗｗｗｗｗｗｗｗ</a><br /><br />
+
+
+
+<a  target="_blank" href="http://newser.cc/news/20191007?order=link&amp;ni=2244832">
+【画像】女を喜ばせる最高のテクニックが話題にｗｗｗｗｗｗｗｗｗｗｗ</a>
+<br /><br />
+
+
+
+<a  target="_blank" href="http://newser.cc/news/20191007?order=link&amp;ni=2243483">	
+	
+【悲報】最低賃金１０００円の実現でこれから日本で起きるヤバすぎる現実がこちら・・・・</a>
+<br /><br />
+
+
+
+
+
+
+<a  href="http://newmofu.doorblog.jp/archives/54022957.html?url=lmth.6393159%2Fsevihcra%2Fmoc.32retsispiv%2F%2F%3Aptth" onclick="javascript:_gaq.push(['_trackPageview', '/にゅーもふ/']);" target="_blank"><img  src="https://livedoor.blogimg.jp/news4vip2/imgs/5/f/5f10bd21.gif" width="200" height="200" border="0"><br  clear="all">
+<span  style="color: rgb(255, 0, 255);">	
+
+
+声出して笑ったgifｗｗｗｗｗｗｗｗｗｗｗｗｗ
+</span></a>
+<br /><br />
+
+
+
+<a  href="http://2ch-c.net/?gt=20191201201501&amp;eid=5398730" onclick="javascript:_gaq.push(['_trackPageview', '/しぃアンテナ/']);" target="_blank"><img  src="https://livedoor.blogimg.jp/news4vip2/imgs/8/e/8ec5a4e1.png" width="300" height="250" border="0"><br  clear="all">
+<span  style="color: rgb(255, 0, 255);">	
+
+
+【画像】東京の超高級マンション凄すぎｗｗｗｗｗｗｗｗ
+</span></a>
+<br />
+
+
+
+<br />
+
+<div  id="f984a"><center>
+<div  style="position: relative;width: 100vw;padding-top: 95%;overflow:auto;-webkit-overflow-scrolling:touch;left: -5%;">
+<iframe src="http://news4vip.livedoor.biz/nsq.html" frameborder="0" style="position:absolute;top:0;left:0;width:100%;height:100%;display:block;" scrolling="no"></iframe></div>
+</center></div><div  class="t_h ">40: <span  style="font-weight: bold; color: green;">名無しのニュー速クオリティさん</span> <span  style="color: gray;">2020/06/26(金) 12:28:29.492 ID:Tr3gotG0M.net</span></div><div  style="font-size: 16px;line-height: 24px;font-weight: bold;padding-left:NaNpx;margin-bottom:NaNpx;margin-top:NaNpx;line-height:normal;" class="t_b "> 24時間なのに閉まってる </div><br /><br /><br /><br /><div  class="t_h ">41: <span  style="font-weight: bold; color: green;">名無しのニュー速クオリティさん</span> <span  style="color: gray;">2020/06/26(金) 12:28:39.633 ID:IA1o306mM.net</span></div><div  style="font-size: 16px;line-height: 24px;font-weight: bold;padding-left:NaNpx;margin-bottom:NaNpx;margin-top:NaNpx;line-height:normal;" class="t_b "> サイバーパンク知らんやつのが多い世代か </div><br /><br /><br /><br /><div  class="t_h ">42: <span  style="font-weight: bold; color: green;">名無しのニュー速クオリティさん</span> <span  style="color: gray;">2020/06/26(金) 12:29:12.291 ID:irsObEgA0.net</span></div><div  style="font-size: 16px;line-height: 24px;font-weight: bold;padding-left:NaNpx;margin-bottom:NaNpx;margin-top:NaNpx;line-height:normal;" class="t_b "> 香港とかはこういう雰囲気だよね <br /> 日本はもっと地味で大人しい </div><br /><br /><br /><br /><div  class="t_h ">44: <span  style="font-weight: bold; color: green;">名無しのニュー速クオリティさん</span> <span  style="color: gray;">2020/06/26(金) 12:31:18.931 ID:7JPcOTgdM.net</span></div><div  style="font-size: 16px;line-height: 24px;font-weight: bold;padding-left:NaNpx;margin-bottom:NaNpx;margin-top:NaNpx;line-height:normal;" class="t_b "> 何となくネオンの色が日本ぽくない <br /> 看板がおかしいくらいかね </div><br /><br /><br /><br /><div  class="t_h ">45: <span  style="font-weight: bold; color: green;">名無しのニュー速クオリティさん</span> <span  style="color: gray;">2020/06/26(金) 12:31:19.027 ID:D4AvTFcb0.net</span></div><div  style="font-size: 16px;line-height: 24px;font-weight: bold;padding-left:NaNpx;margin-bottom:NaNpx;margin-top:NaNpx;line-height:normal;" class="t_b "> 室外機の位置とかネオンの感じとか同じの台湾で見たわ <br /> むしろじゃあサイバーパンクしか知らんやつアジア圏旅行したほうがいいよ </div><br /><br /><br /><br /><div  class="t_h ">46: <span  style="font-weight: bold; color: green;">名無しのニュー速クオリティさん</span> <span  style="color: gray;">2020/06/26(金) 12:31:46.983 ID:o1Khl3WvM.net</span></div><div  style="font-size: 16px;line-height: 24px;font-weight: bold;padding-left:NaNpx;margin-bottom:NaNpx;margin-top:NaNpx;line-height:normal;" class="t_b "> 鳥居はネタとしても中国っぽくねこれ？ </div><br /><br /><br /><br /><div  style="margin-left:NaNpx;" class="t_h t_i">93: <span  style="font-weight: bold; color: green;">名無しのニュー速クオリティさん</span> <span  style="color: gray;">2020/06/26(金) 12:44:17.319 ID:ftvnhVDPx.net</span></div><div  style="font-size: 16px;line-height: 24px;font-weight: bold;padding-left:NaNpx;margin-bottom:NaNpx;margin-top:NaNpx;line-height:normal;" class="t_b t_i"> <a  class="reply_link" target="_blank" rel="noopener noreferrer" href="../test/read.cgi/news4vip/1593141548/46"><span  class="anchor" style="color: rgb(30, 147, 232);">&gt;&gt;46</span></a> <br /> 実際の日本にもこんな風に鳥居が立ってるところがあったはず </div><br /><br /><br /><br /><div  class="t_h ">49: <span  style="font-weight: bold; color: green;">名無しのニュー速クオリティさん</span> <span  style="color: gray;">2020/06/26(金) 12:32:09.819 ID:HoFAhTKja.net</span></div><div  style="font-size: 16px;line-height: 24px;color: #800080;font-weight: bold;padding-left:NaNpx;margin-bottom:NaNpx;margin-top:NaNpx;line-height:normal;" class="t_b "> 香港とか台湾な感じがする </div><br /><br /><br /><br /><div  class="t_h ">51: <span  style="font-weight: bold; color: green;">名無しのニュー速クオリティさん</span> <span  style="color: gray;">2020/06/26(金) 12:32:40.051 ID:8zoaGgtH0.net</span></div><div  style="font-size: 16px;line-height: 24px;font-weight: bold;padding-left:NaNpx;margin-bottom:NaNpx;margin-top:NaNpx;line-height:normal;" class="t_b "> 正直楽しそうだから行ってみたいけど治安悪そう <br /> 日本ってこんな治安悪そうに見えんのかね </div><br /><br /><br /><br /><div  class="t_h ">53: <span  style="font-weight: bold; color: green;">名無しのニュー速クオリティさん</span> <span  style="color: gray;">2020/06/26(金) 12:32:58.785 ID:QCrGTa/Sd.net</span></div><div  style="font-size: 16px;line-height: 24px;font-weight: bold;padding-left:NaNpx;margin-bottom:NaNpx;margin-top:NaNpx;line-height:normal;" class="t_b "> 衰退した近未来の日本って感じ <br /> AKIRAの世界観だな </div><br /><br /><br /><br /><div  class="t_h ">54: <span  style="font-weight: bold; color: green;">名無しのニュー速クオリティさん</span> <span  style="color: gray;">2020/06/26(金) 12:33:01.723 ID:xf0wXsTid.net</span></div><div  style="font-size: 16px;line-height: 24px;color: #800080;font-weight: bold;padding-left:NaNpx;margin-bottom:NaNpx;margin-top:NaNpx;line-height:normal;" class="t_b "> 中々雰囲気あってええやん </div><br /><br /><br /><br /><div  style="margin-left:NaNpx;" class="t_h t_i">55: <span  style="font-weight: bold; color: green;">名無しのニュー速クオリティさん</span> <span  style="color: gray;">2020/06/26(金) 12:33:17.901 ID:gyAsKF3z0.net</span></div><div  style="font-size: 16px;line-height: 24px;font-weight: bold;padding-left:NaNpx;margin-bottom:NaNpx;margin-top:NaNpx;line-height:normal;" class="t_b t_i"> <a  class="reply_link" target="_blank" rel="noopener noreferrer" href="../test/read.cgi/news4vip/1593141548/1"><span  class="anchor" style="color: rgb(30, 147, 232);">&gt;&gt;1</span></a> <br /> なんか、日本州になったイメージだなｗ </div><br /><br /><br /><br /><div  class="t_h ">56: <span  style="font-weight: bold; color: green;">名無しのニュー速クオリティさん</span> <span  style="color: gray;">2020/06/26(金) 12:33:19.730 ID:ljlGpl5Da.net</span></div><div  style="font-size: 16px;line-height: 24px;font-weight: bold;padding-left:NaNpx;margin-bottom:NaNpx;margin-top:NaNpx;line-height:normal;" class="t_b "> 日本はせいぜいこんなもん <br /> <img  img-type="rep" origin="https://livedoor.blogimg.jp/news4vip2/imgs/5/0/50ca02bc.jpg" data-img-id="4" class="add-new-image" src="https://livedoor.blogimg.jp/news4vip2/imgs/5/0/50ca02bc-s.jpg"> </div><br /><br /><br /><br /><div  style="margin-left:NaNpx;" class="t_h t_i">57: <span  style="font-weight: bold; color: green;">名無しのニュー速クオリティさん</span> <span  style="color: gray;">2020/06/26(金) 12:34:05.494 ID:QCrGTa/Sd.net</span></div><div  style="font-size: 16px;line-height: 24px;font-weight: bold;padding-left:NaNpx;margin-bottom:NaNpx;margin-top:NaNpx;line-height:normal;" class="t_b t_i"> <a  class="reply_link" target="_blank" rel="noopener noreferrer" href="../test/read.cgi/news4vip/1593141548/56"><span  class="anchor" style="color: rgb(30, 147, 232);">&gt;&gt;56</span></a> <br /> 雰囲気似ててワロタ </div><br /><br /><br /><br /><div  style="margin-left:NaNpx;" class="t_h t_i">60: <span  style="font-weight: bold; color: green;">名無しのニュー速クオリティさん</span> <span  style="color: gray;">2020/06/26(金) 12:34:32.710 ID:GAZCH5xkM.net</span></div><div  style="font-size: 16px;line-height: 24px;font-weight: bold;padding-left:NaNpx;margin-bottom:NaNpx;margin-top:NaNpx;line-height:normal;" class="t_b t_i"> <a  class="reply_link" target="_blank" rel="noopener noreferrer" href="../test/read.cgi/news4vip/1593141548/56"><span  class="anchor" style="color: rgb(30, 147, 232);">&gt;&gt;56</span></a> <br /> こういう画像見るとカメラの力ってすげーって思う </div><br /><br /><br /><br /><div  class="t_h ">58: <span  style="font-weight: bold; color: green;">名無しのニュー速クオリティさん</span> <span  style="color: gray;">2020/06/26(金) 12:34:16.436 .net</span></div><div  style="font-size: 16px;line-height: 24px;font-weight: bold;padding-left:NaNpx;margin-bottom:NaNpx;margin-top:NaNpx;line-height:normal;" class="t_b "> だいたい合ってる </div><br /><br /><br /><br /><div  class="t_h ">59: <span  style="font-weight: bold; color: green;">名無しのニュー速クオリティさん</span> <span  style="color: gray;">2020/06/26(金) 12:34:18.022 ID:ZI+efxZX0.net</span></div><div  style="font-size: 16px;line-height: 24px;font-weight: bold;padding-left:NaNpx;margin-bottom:NaNpx;margin-top:NaNpx;line-height:normal;" class="t_b "> いいところを切り取ってカッコよくした感じだな </div><br /><br /><br /><br /><div  class="t_h ">61: <span  style="font-weight: bold; color: green;">名無しのニュー速クオリティさん</span> <span  style="color: gray;">2020/06/26(金) 12:34:43.670 ID:8zoaGgtH0.net</span></div><div  style="font-size: 16px;line-height: 24px;font-weight: bold;padding-left:NaNpx;margin-bottom:NaNpx;margin-top:NaNpx;line-height:normal;" class="t_b "> 偏見でもいいからもっとアニメにまみれた世界観の日本が見てみたい </div><br /><br /><br /><br /><div  class="t_h ">63: <span  style="font-weight: bold; color: green;">名無しのニュー速クオリティさん</span> <span  style="color: gray;">2020/06/26(金) 12:35:06.786 ID:Hwf8dVGTp.net</span></div><div  style="font-size: 16px;line-height: 24px;font-weight: bold;padding-left:NaNpx;margin-bottom:NaNpx;margin-top:NaNpx;line-height:normal;" class="t_b "> 海外から見たら日中韓の文化の違いなんてわからんだろうしこんなもんだよね <br /> <br /> 日本から見たら例えばノルウェースウェーデンフィンランドの違いなんてよくわからんしな </div><br /><br /><br /><br /><div  style="margin-left:NaNpx;" class="t_h t_i">69: <span  style="font-weight: bold; color: green;">名無しのニュー速クオリティさん</span> <span  style="color: gray;">2020/06/26(金) 12:36:12.901 ID:ljlGpl5Da.net</span></div><div  style="font-size: 16px;line-height: 24px;font-weight: bold;padding-left:NaNpx;margin-bottom:NaNpx;margin-top:NaNpx;line-height:normal;" class="t_b t_i"> <a  class="reply_link" target="_blank" rel="noopener noreferrer" href="../test/read.cgi/news4vip/1593141548/63"><span  class="anchor" style="color: rgb(30, 147, 232);">&gt;&gt;63</span></a> <br /> スウェーデンとフィンランドは流石にわかるだろ <br /> イケアとサーモンがスウェーデン <br /> ムーミンがフィンランド </div><br /><br /><br /><br /><div  class="t_h ">64: <span  style="font-weight: bold; color: green;">名無しのニュー速クオリティさん</span> <span  style="color: gray;">2020/06/26(金) 12:35:09.759 ID:n5ArgJzd0.net</span></div><div  style="font-size: 16px;line-height: 24px;color: #800080;font-weight: bold;padding-left:NaNpx;margin-bottom:NaNpx;margin-top:NaNpx;line-height:normal;" class="t_b "> 俺は押井守が描くような <br /> 古びた下町がいいな </div><br /><br /><br /><br /><div  class="t_h ">65: <span  style="font-weight: bold; color: green;">名無しのニュー速クオリティさん</span> <span  style="color: gray;">2020/06/26(金) 12:35:14.558 ID:IA1o306mM.net</span></div><div  style="font-size: 16px;line-height: 24px;font-weight: bold;padding-left:NaNpx;margin-bottom:NaNpx;margin-top:NaNpx;line-height:normal;" class="t_b "> サイバーパンクは80年代ぐらいだからその頃比較するといいかも </div><br /><br /><br /><br /><div  style="margin-left:NaNpx;" class="t_h t_i">72: <span  style="font-weight: bold; color: green;">名無しのニュー速クオリティさん</span> <span  style="color: gray;">2020/06/26(金) 12:37:52.893 ID:YK5G2kQup.net</span></div><div  style="font-size: 16px;line-height: 24px;font-weight: bold;padding-left:NaNpx;margin-bottom:NaNpx;margin-top:NaNpx;line-height:normal;" class="t_b t_i"> <a  class="reply_link" target="_blank" rel="noopener noreferrer" href="../test/read.cgi/news4vip/1593141548/65"><span  class="anchor" style="color: rgb(30, 147, 232);">&gt;&gt;65</span></a> <br /> 龍が如く0だな </div><br /><br /><br /><br /><div  class="t_h ">67: <span  style="font-weight: bold; color: green;">名無しのニュー速クオリティさん</span> <span  style="color: gray;">2020/06/26(金) 12:35:44.723 ID:Y057Dkd6a.net</span></div><div  style="font-size: 16px;line-height: 24px;font-weight: bold;padding-left:NaNpx;margin-bottom:NaNpx;margin-top:NaNpx;line-height:normal;" class="t_b "> 空きPOD </div><br /><br /><br /><br /><div  class="t_h ">76: <span  style="font-weight: bold; color: green;">名無しのニュー速クオリティさん</span> <span  style="color: gray;">2020/06/26(金) 12:38:40.235 ID:EXZQ1b5WM.net</span></div><div  style="font-size: 16px;line-height: 24px;font-weight: bold;padding-left:NaNpx;margin-bottom:NaNpx;margin-top:NaNpx;line-height:normal;" class="t_b "> 台南の市街地がまさにこんな感じ <br /> 中途半端に日本語とカタカナがあるのも似てるわ </div><br /><br /><br /><br /><div  class="t_h ">77: <span  style="font-weight: bold; color: green;">名無しのニュー速クオリティさん</span> <span  style="color: gray;">2020/06/26(金) 12:38:50.130 ID:iZJ8TekM0.net</span></div><div  style="font-size: 16px;line-height: 24px;font-weight: bold;padding-left:NaNpx;margin-bottom:NaNpx;margin-top:NaNpx;line-height:normal;" class="t_b "> 最後の浜松町とか大門の辺りかな </div><br /><br /><br /><br /><div  class="t_h ">80: <span  style="font-weight: bold; color: green;">名無しのニュー速クオリティさん</span> <span  style="color: gray;">2020/06/26(金) 12:39:21.887 ID:ytNrvwEmM.net</span></div><div  style="font-size: 16px;line-height: 24px;font-weight: bold;padding-left:NaNpx;margin-bottom:NaNpx;margin-top:NaNpx;line-height:normal;" class="t_b "> で問題はこの舞台で何するの？ <br /> やっぱりFPSでリアルな殺しあい？ </div><br /><br /><br /><br /><div  style="margin-left:NaNpx;" class="t_h t_i">85: <span  style="font-weight: bold; color: green;">名無しのニュー速クオリティさん</span> <span  style="color: gray;">2020/06/26(金) 12:40:44.867 ID:irsObEgA0.net</span></div><div  style="font-size: 16px;line-height: 24px;font-weight: bold;padding-left:NaNpx;margin-bottom:NaNpx;margin-top:NaNpx;line-height:normal;" class="t_b t_i"> <a  class="reply_link" target="_blank" rel="noopener noreferrer" href="../test/read.cgi/news4vip/1593141548/80"><span  class="anchor" style="color: rgb(30, 147, 232);">&gt;&gt;80</span></a> <br /> そうだよ </div><br /><br /><br /><br /><div  style="margin-left:NaNpx;" class="t_h t_i">91: <span  style="font-weight: bold; color: green;">名無しのニュー速クオリティさん</span> <span  style="color: gray;">2020/06/26(金) 12:43:56.383 ID:ytNrvwEmM.net</span></div><div  style="font-size: 16px;line-height: 24px;font-weight: bold;padding-left:NaNpx;margin-bottom:NaNpx;margin-top:NaNpx;line-height:normal;" class="t_b t_i"> <a  class="reply_link" target="_blank" rel="noopener noreferrer" href="../test/read.cgi/news4vip/1593141548/85"><span  class="anchor" style="color: rgb(30, 147, 232);">&gt;&gt;85</span></a> <br /> 結局それかよ…外人はどんだけ殺人欲求溜め込んでんだ… </div><br /><br /><br /><br /><div  class="t_h ">84: <span  style="font-weight: bold; color: green;">名無しのニュー速クオリティさん</span> <span  style="color: gray;">2020/06/26(金) 12:40:15.613 ID:s763QLoh0.net</span></div><div  style="font-size: 16px;line-height: 24px;color: #ff0000;font-weight: bold;padding-left:NaNpx;margin-bottom:NaNpx;margin-top:NaNpx;line-height:normal;" class="t_b "> むしろこんな感じであってほしい <br /> 鉄コン筋クリートとかの世界観好き </div><br /><br /><br /><br /><div  id="f984a"><center>
+<div  style="position: relative;width: 100vw;padding-top: 95%;overflow:auto;-webkit-overflow-scrolling:touch;left: -5%;">
+<iframe src="http://news4vip.livedoor.biz/nsq.html" frameborder="0" style="position:absolute;top:0;left:0;width:100%;height:100%;display:block;" scrolling="no"></iframe></div>
+</center></div>
+
+
+<div  class="kiziad" style="margin-bottom:0px;">
+  <div  class="adleft">
+ <script async="" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- クオ　記事下 -->
+<ins  data-ad-slot="2832117055" data-ad-client="ca-pub-9623041308833249" style="display:inline-block;width:350px;height:300px" class="adsbygoogle"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+  </div>
+  <div  class="adright">
+  <script async="" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- クオ　記事下 -->
+<ins  data-ad-slot="2832117055" data-ad-client="ca-pub-9623041308833249" style="display:inline-block;width:350px;height:300px" class="adsbygoogle"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+  </div>
+  <hr  class="clear">
+<!-- / .kiziad --></div>
+
+
+
+
+
+
+
+<span  style="font-size: large;">
+
+
+
+
+<br /><b></b></span><b><a  target="_blank" href="http://moudamepo.com/pick.cgi?code=2142&amp;date=1575783002">【GIF】インドの高速道路、日本人ドライバーには無理ｗｗｗｗｗ</a><br /><br />
+
+
+<a  target="_blank" href="http://moudamepo.com/pick.cgi?code=2142&amp;date=1575786650">【画像】業務スーパーの牡蠣（800g）がヤバいｗｗｗｗｗｗｗｗｗｗｗ</a>
+<br /> 
+
+<a  target="_blank" href="http://moudamepo.com/pick.cgi?code=2142&amp;date=1575846006">【画像】アメリカのデトロイトの現在がヤバすぎる・・・</a><br /> <br />
+
+<a  target="_blank" href="http://moudamepo.com/pick.cgi?code=2142&amp;date=1575784808">【画像】この社員寮の飯が刑務所並に酷すぎる件ｗｗｗｗｗ</a><br /> <br />
+
+<a  href="http://tokkaban.com/?article_id=2138710&amp;code=191017107">【動画】愛知で突然ヤバイやつに襲われるドラレコ、ガチで怖い</a><br /> <br />
+
+
+
+<a  href="http://tokkaban.com/?article_id=2137885&amp;code=191017054">【画像】漫画家さん、いよいよ欲望をそのまま作品にしてしまう</a>
+
+
+<br /> <br />
+
+
+<b><a  target="_blank" href="http://2ch-c.net/?gt=20191119061501&amp;eid=5361252">【画像】父親が娘の彼氏を寝取り、32年間連れ添った夫と離婚へｗｗｗ【えっ？】</a><br /><br />
+
+
+
+
+<b><a  target="_blank" href="http://2ch-c.net/?gt=20191120221501&amp;eid=5366370">【画像】LINE、世界での立ち位置がヤバかった件ｗｗｗｗｗｗｗｗｗｗｗｗ</a>
+
+
+<br /><br />
+
+
+<b><a  href="http://matomeantena.com/feed/30000043726928">【悲報】道端アンジェリカと旦那、美人局だったと判明ｗｗｗ怖すぎィ・・・</a>
+
+<br /><br />
+<b></b><a  target="_blank" href="http://2ch-c.net/?gt=20191121111501&amp;eid=5367807">【画像】￥980の『ワークマン』の靴が最強すぎるｗｗｗｗｗ</a><br /> <br />
+<br /><br />
+
+</b></b></b></b></b></b><b><b><b><b><b>
+
+
+<a  href="http://newmofu.doorblog.jp/archives/54006109.html?url=lmth.8881159%2Fsevihcra%2F448nykbr%2Fpj.roodevil.golb%2F%2F%3Aptth" onclick="javascript:_gaq.push(['_trackPageview', '/ワロタあんてな/']);" target="_blank"><img  width="300" border="0" height="260" src="https://livedoor.blogimg.jp/news4vip2/imgs/c/1/c1b2af90.jpg"><br  clear="all">
+<span  style="color: rgb(255, 0, 255);">	
+史上最悪の放送事故ｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗ 	
+</span></a></b></b></b></b></b></b></b>
+
+</div>
+<div id="ad2"></div>
+
+<br>
+
+
+<script type="text/javascript" src="//p.permalink-system.com/parts/e/ea5476c881f09e73578f78e44aae8327.js" charset="utf-8"></script>
+
+</br>
+
+
+<div id="myplace"></div>
+
+
+</br>
+
+<!-- Google AdSense -->
+<div class="google-2ad-b">
+<div class="g-ad1">
+<script async='async' src='https://www.googletagservices.com/tag/js/gpt.js'></script>
+<script>
+  var googletag = googletag || {};
+  googletag.cmd = googletag.cmd || [];
+</script>
+<script>
+  googletag.cmd.push(function() {
+    googletag.defineSlot('/38090360/livedoorBlog/PC/A/PC_A_336280_3', [336, 280], 'div-gpt-ad-1539335862192-0').addService(googletag.pubads());
+    googletag.enableServices();
+  });
+</script>
+<!-- /38090360/livedoorBlog/PC/A/PC_A_336280_3 -->
+<div id='div-gpt-ad-1539335862192-0' style='height:280px; width:336px;'>
+<script>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1539335862192-0'); });
+</script>
+</div>
+</div>
+
+<div class="g-ad2">
+</div>
+</div>
+<!-- /Google AdSense -->
+
+<div id="ldblog_related_articles_5d45a372">
+
+<div class="related-articles with-image ldblog_related_articles_5d45a372" data-category-id="00000" data-article-rows="2">
+<h3>カテゴリなしの他の記事</h3>
+<ul id="ldblog_related_articles_5d45a372_00000"></ul>
+</div>
+</div>
+<script type="text/html" id="ldblog_related_articles_5d45a372_tmpl">
+<% for(var i=0,l=articles.length;i<l;i++) {%><% if(i>=rows) break; %>
+<li><a href="<%=articles[i].permalink%>">
+<% if (articles[i].image_url) { %>
+<div class="related-article-image"><img src="<%= articles[i].image_url %>" alt="" /></div>
+<% } else { %>
+<div class="related-article-image noimage">
+</div>
+<% } %>
+<div class="related-article-title"><%=articles[i].title%></div>
+</a></li>
+<% } %>
+</script>
+<script type="text/javascript" src="https://parts.blog.livedoor.jp/js/related_articles.js?t=20180221"></script>
+<script type="text/javascript">
+(function(){
+RelatedArticles.load('ldblog_related_articles_5d45a372', '52382574');
+})();
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--/ently_text-->
+
+<div class="ently_navi-info">
+&nbsp;&nbsp;</span>
+
+<br />
+
+
+
+<span class="article-tags">
+</span>
+</div>
+<iframe src="http://www.facebook.com/plugins/like.php?href=http://news4vip.livedoor.biz/archives/52382574.html&amp;layout=standard&amp;show_faces=true&amp;width=450&amp;action=like&amp;colorscheme=light&amp;height=80" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:450px; height:80px;" allowTransparency="true"></iframe>
+
+<!-- articleFooter End -->
+<div class="article-footer">
+<ul class="article-post">
+<li class="article-comment-count"><a href="http://news4vip.livedoor.biz/archives/52382574.html#comments" title="コメント一覧へ">コメント( 18 )</a></li>
+<li class="article-tool-box">    
+<iframe src="https://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fnews4vip.livedoor.biz%2Farchives%2F52382574.html&amp;send=false&amp;layout=button_count&amp;width=110&amp;show_faces=false&amp;action=like&amp;size=small&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:110px; height:21px;" allowTransparency="true" allow="encrypted-media"></iframe>
+</li>
+
+<li class="article-tool-tweet"><a href="http://b.hatena.ne.jp/entry/http://news4vip.livedoor.biz/archives/52382574.html" class="hatena-bookmark-button" data-hatena-bookmark-layout="standard" title="このエントリーをはてなブックマークに追加"><img src="http://b.st-hatena.com/images/entry-button/button-only.gif" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a><script type="text/javascript" src="http://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script></li>
+
+<li class="article-tool-tweet"> <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://news4vip.livedoor.biz/archives/52382574.html" data-count="horizontal">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script></li>
+
+<li class="article-tool-mixi2"><a href="http://mixi.jp/share.pl" class="mixi-check-button" data-key="2b13b1b6d1716d3bf6e15068c2b101cca6dd1dbd" data-button="button-1">Check</a><script type="text/javascript" src="http://static.mixi.jp/js/share.js"></script></li>
+</div>
+
+<div class="menu"><a href="http://news4vip.livedoor.biz/archives/52382532.html">前の記事</a>　│<a href="http://news4vip.livedoor.biz/">このBlogのトップへ</a>│　<a href="http://news4vip.livedoor.biz/archives/52382534.html">次の記事</a></div>
+
+<center>
+<br>
+<iframe id='a591c36b' name='a591c36b' src='http://d.href.asia/nw/d/afr.php?zoneid=418&amp;cb=INSERT_RANDOM_NUMBER_HERE' frameborder='0' scrolling='no' width='468' height='60'><a href='http://d.href.asia/nw/d/ck.php?n=a9173369&amp;cb=INSERT_RANDOM_NUMBER_HERE' target='_blank'><img src='http://d.href.asia/nw/d/avw.php?zoneid=418&amp;cb=INSERT_RANDOM_NUMBER_HERE&amp;n=a9173369' border='0' alt='' /></a></iframe></center>
+
+
+<!-- articleFooter End -->
+
+
+</br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="sub">
+
+
+
+
+
+</div>
+
+<center><iframe id='a591c36b' name='a591c36b' src='http://d.href.asia/nw/d/afr.php?zoneid=418&amp;cb=INSERT_RANDOM_NUMBER_HERE' frameborder='0' scrolling='no' width='468' height='60'><a href='http://d.href.asia/nw/d/ck.php?n=a9173369&amp;cb=INSERT_RANDOM_NUMBER_HERE' target='_blank'><img src='http://d.href.asia/nw/d/avw.php?zoneid=418&amp;cb=INSERT_RANDOM_NUMBER_HERE&amp;n=a9173369' border='0' alt='' /></a></iframe>
+<!-- ここまで -->
+</center>
+
+<!--▼コメント-->
+
+<a name="comments"></a>
+
+<h4 id="comment">この記事へのコメント</h4>
+
+<div id="comment-1" style="width:0;height:0;"></div>
+
+<div id="comment">
+<div id="comment_text">1.&nbsp;&nbsp;<span>Posted by&nbsp;&nbsp;<span>名無しクオリティ</span>&nbsp;&nbsp;&nbsp;投稿日：2020年12月29日 23:58</span>
+
+<p>言うても２０７７年の設定やろ？<br>
+今のまま外国人ガバガバ受け入れてたら半世紀後にはこのぐらいカオス化してそうだわ</p></div>
+</div>
+
+<div id="comment-2" style="width:0;height:0;"></div>
+
+<div id="comment">
+<div id="comment_text">2.&nbsp;&nbsp;<span>Posted by&nbsp;&nbsp;<span>名無しクオリティ</span>&nbsp;&nbsp;&nbsp;投稿日：2020年12月30日 00:00</span>
+
+<p>外人にはこれくらい景観が無秩序に見えるんだろうなぁ<br>
+日本人から見ても無秩序ではあるけど、流石にこれ見ると無秩序の中に秩序がある事がわかる</p></div>
+</div>
+
+<div id="comment-3" style="width:0;height:0;"></div>
+
+<div id="comment">
+<div id="comment_text">3.&nbsp;&nbsp;<span>Posted by&nbsp;&nbsp;<span>名無し</span>&nbsp;&nbsp;&nbsp;投稿日：2020年12月30日 00:13</span>
+
+<p>きたねえ街だなおい。<br>
+<br>
+目が腐ってんじゃねーのか？</p></div>
+</div>
+
+<div id="comment-4" style="width:0;height:0;"></div>
+
+<div id="comment">
+<div id="comment_text">4.&nbsp;&nbsp;<span>Posted by&nbsp;&nbsp;<span>名無しクオリティ</span>&nbsp;&nbsp;&nbsp;投稿日：2020年12月30日 00:17</span>
+
+<p>めっちゃ台湾やな。</p></div>
+</div>
+
+<div id="comment-5" style="width:0;height:0;"></div>
+
+<div id="comment">
+<div id="comment_text">5.&nbsp;&nbsp;<span>Posted by&nbsp;&nbsp;<span>名無しクオリティ</span>&nbsp;&nbsp;&nbsp;投稿日：2020年12月30日 00:31</span>
+
+<p>昔の香港の裏通りって感じだ。<br>
+鳥居そばにビルやらはたまに見かける実在の光景。</p></div>
+</div>
+
+<div id="comment-6" style="width:0;height:0;"></div>
+
+<div id="comment">
+<div id="comment_text">6.&nbsp;&nbsp;<span>Posted by&nbsp;&nbsp;<span>名無しクオリティ</span>&nbsp;&nbsp;&nbsp;投稿日：2020年12月30日 00:33</span>
+
+<p>第47代合衆国大統領ってこんな感じやろなあ　と日本人が想像した結果があのゲーム</p></div>
+</div>
+
+<div id="comment-7" style="width:0;height:0;"></div>
+
+<div id="comment">
+<div id="comment_text">7.&nbsp;&nbsp;<span>Posted by&nbsp;&nbsp;<span>名無しクオリティ</span>&nbsp;&nbsp;&nbsp;投稿日：2020年12月30日 00:33</span>
+
+<p>アイエッ！</p></div>
+</div>
+
+<div id="comment-8" style="width:0;height:0;"></div>
+
+<div id="comment">
+<div id="comment_text">8.&nbsp;&nbsp;<span>Posted by&nbsp;&nbsp;<span>名無しクオリティ</span>&nbsp;&nbsp;&nbsp;投稿日：2020年12月30日 00:38</span>
+
+<p>日本の看板はもうちょっと無難でダサいよな、サイバーパンクな雰囲気がでる感じじゃない、看板のセンスは明治大正の方が独特の雰囲気ある</p></div>
+</div>
+
+<div id="comment-9" style="width:0;height:0;"></div>
+
+<div id="comment">
+<div id="comment_text">9.&nbsp;&nbsp;<span>Posted by&nbsp;&nbsp;<span>名無しクオリティ</span>&nbsp;&nbsp;&nbsp;投稿日：2020年12月30日 00:40</span>
+
+<p>2077年のカリフォルニアの日本人街という設定だから日本ではない</p></div>
+</div>
+
+<div id="comment-10" style="width:0;height:0;"></div>
+
+<div id="comment">
+<div id="comment_text">10.&nbsp;&nbsp;<span>Posted by&nbsp;&nbsp;<span>名無しクオリティ</span>&nbsp;&nbsp;&nbsp;投稿日：2020年12月30日 00:46</span>
+
+<p>このゲームの舞台は日本じゃ無いからな？<br>
+80年台の日本の成長がそのまま続いて日本が世界を牛耳ってる世界なのよね<br>
+<br>
+この世界の日本風の街並みって<br>
+よく映画とかであるヘンテコ日本の街並みでは無く<br>
+そのヘンテコ日本の街並みを作ろうとして作ってる感じ<br>
+<br>
+</p></div>
+</div>
+
+<div id="comment-11" style="width:0;height:0;"></div>
+
+<div id="comment">
+<div id="comment_text">11.&nbsp;&nbsp;<span>Posted by&nbsp;&nbsp;<span>名無しクオリティ</span>&nbsp;&nbsp;&nbsp;投稿日：2020年12月30日 01:03</span>
+
+<p>そもそも日本じゃなくてカリフォルニアだし<br>
+サイバーパンクだからわざとなのに馬鹿なのか<br>
+</p></div>
+</div>
+
+<div id="comment-12" style="width:0;height:0;"></div>
+
+<div id="comment">
+<div id="comment_text">12.&nbsp;&nbsp;<span>Posted by&nbsp;&nbsp;<span>名無し</span>&nbsp;&nbsp;&nbsp;投稿日：2020年12月30日 01:05</span>
+
+<p>にっぽんを、ばかにするな！</p></div>
+</div>
+
+<div id="comment-13" style="width:0;height:0;"></div>
+
+<div id="comment">
+<div id="comment_text">13.&nbsp;&nbsp;<span>Posted by&nbsp;&nbsp;<span>名無しクオリティ</span>&nbsp;&nbsp;&nbsp;投稿日：2020年12月30日 01:08</span>
+
+<p>香港じゃん</p></div>
+</div>
+
+<div id="comment-14" style="width:0;height:0;"></div>
+
+<div id="comment">
+<div id="comment_text">14.&nbsp;&nbsp;<span>Posted by&nbsp;&nbsp;<span>名無し</span>&nbsp;&nbsp;&nbsp;投稿日：2020年12月30日 01:09</span>
+
+<p>何人か言ってるけど設定は日本じゃないからな。実際にゲームやってるけど、ゲーム内の日本人キャラが街を見て下品で赴きが無いって言ってたハズ<br>
+アジア系のNPCはブサイクだけど製作者はちゃんと日本の事わかってると思うよ</p></div>
+</div>
+
+<div id="comment-15" style="width:0;height:0;"></div>
+
+<div id="comment">
+<div id="comment_text">15.&nbsp;&nbsp;<span>Posted by&nbsp;&nbsp;<span>名無し</span>&nbsp;&nbsp;&nbsp;投稿日：2020年12月30日 02:02</span>
+
+<p>ゆうても山岡邸みたいなの作られてもそれはそれで違うしなぁ<br>
+等身大の日本とか全く映えんし</p></div>
+</div>
+
+<div id="comment-16" style="width:0;height:0;"></div>
+
+<div id="comment">
+<div id="comment_text">16.&nbsp;&nbsp;<span>Posted by&nbsp;&nbsp;<span>名無しクオリティ</span>&nbsp;&nbsp;&nbsp;投稿日：2020年12月30日 02:56</span>
+
+<p>HOテル 空きうんこ有り</p></div>
+</div>
+
+<div id="comment-17" style="width:0;height:0;"></div>
+
+<div id="comment">
+<div id="comment_text">17.&nbsp;&nbsp;<span>Posted by&nbsp;&nbsp;<span>名無しクオリティ</span>&nbsp;&nbsp;&nbsp;投稿日：2020年12月30日 04:17</span>
+
+<p>鳥居は伏見桃山の鳥居やんけ</p></div>
+</div>
+
+<div id="comment-18" style="width:0;height:0;"></div>
+
+<div id="comment">
+<div id="comment_text">18.&nbsp;&nbsp;<span>Posted by&nbsp;&nbsp;<span>名無し</span>&nbsp;&nbsp;&nbsp;投稿日：2020年12月30日 05:14</span>
+
+<p>違和感を覚えるのは、道路と歩道の幅だな<br>
+あとはだいたい合ってる</p></div>
+</div>
+
+
+
+</div>
+<!--▼コメントの投稿-->
+
+
+<div class="commentForm">
+<h5 id="comment-form">コメントの投稿</h5>
+
+
+
+<center><iframe id='a591c36b' name='a591c36b' src='http://d.href.asia/nw/d/afr.php?zoneid=418&amp;cb=INSERT_RANDOM_NUMBER_HERE' frameborder='0' scrolling='no' width='468' height='60'><a href='http://d.href.asia/nw/d/ck.php?n=a9173369&amp;cb=INSERT_RANDOM_NUMBER_HERE' target='_blank'><img src='http://d.href.asia/nw/d/avw.php?zoneid=418&amp;cb=INSERT_RANDOM_NUMBER_HERE&amp;n=a9173369' border='0' alt='' /></a></iframe>
+<!-- ここまで -->
+</center>
+
+<form method="post" action="https://comment.blogcms.jp/livedoor/news4vip2/52382574/post#errors" method="POST" name="comment_form" onSubmit="javacript:setCommentAuthor(this); return submitOnce(this.button);">
+<input type="hidden" name="mode" value="regist" />
+<input type="hidden" name="comment[no]" value="1180" />
+<dl>
+<dt><label for="name">名前</label></dt>
+<dd><input id="author" name="author"  size="40" value="名無しクオリティ" onfocus="this.select()"></dd>
+<dt><label for="comment">コメント</label></dt>
+<dd>
+<textarea id="text" cols="45" rows="6" name="body" ></textarea></dd>
+
+</dl>
+<p><input type="submit" value="コメントを書き込む" /></p>
+</form>
+<div class="comment-cap"></div>
+
+</div>
+
+</div>
+<!--▲エントリー記事-->
+
+<!--▼ページナビ-->
+
+<div class="menu"><a href="http://news4vip.livedoor.biz/archives/52382532.html">前の記事</a>　│<a href="http://news4vip.livedoor.biz/">このBlogのトップへ</a>│　<a href="http://news4vip.livedoor.biz/archives/52382534.html">次の記事</a></div>
+
+<div class="pagetop">
+<span class="pagetop_navi"><a href="#">このページの上へ</a></span>
+</div>
+
+</div><!-- mainColumn End -->
+
+<!--▼サイドバー右-->
+
+
+
+
+
+
+
+<div id="right">
+ <div class="plugin2_outline">
+  <div class="plugin2_body">
+   <!-- ..... PluginList A ..... -->
+   
+
+
+
+スポンサードリンク
+
+
+
+
+
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- クオ　ＴＯＰ -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-9623041308833249"
+     data-ad-slot="8038204096"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
+
+
+
+<div class="plugin-memo sidewrapper">
+<div class="sidetitlebody">
+<div class="sidetitle"></div>
+</div>
+<div class="sidetop"></div>
+<div class="side">
+<script type="text/javascript" src="//p.permalink-system.com/parts/9/927e82d5387d8a2a5c84dbdb97c23ce1.js" charset="utf-8"></script>
+
+<a  href="http://matomeantena.com/feed/30000044937449" onclick="javascript:_gaq.push(['_trackPageview', '/しいアンテナ中段/']);" target="_blank"><img  src="https://livedoor.blogimg.jp/news4vip2/imgs/b/5/b598b329-s.jpg" width="280" height="200" border="0"><br  clear="all">
+<span  style="color: rgb(255, 0, 255);">	
+
+
+<b>【画像】ワイ、初めてのキャバクラ5000円ポッキリと言われて何となく行った結果ｗｗｗｗｗｗｗｗ</b>
+</span></a>
+
+</br>
+
+<a  href="http://matomeantena.com/feed/30000044977858" onclick="javascript:_gaq.push(['_trackPageview', '/しいアンテナ中段/']);" target="_blank"><img  src="https://livedoor.blogimg.jp/news4vip2/imgs/0/4/040e03d1.jpg" width="280" height="200" border="0"><br  clear="all">
+<span  style="color: rgb(255, 0, 255);">	
+
+
+<b>【画像】　ツイッター「セブンに犬いた」(ﾊﾟｼｬ)　→結果ｗｗｗ</b>
+</span></a>
+
+</br>
+
+
+<a  href="http://matomeantena.com/feed/30000044995345" onclick="javascript:_gaq.push(['_trackPageview', '/しいアンテナ中段/']);" target="_blank"><img  src="https://livedoor.blogimg.jp/news4vip2/imgs/d/2/d2a80ee4.jpg" width="280" height="200" border="0"><br  clear="all">
+<span  style="color: rgb(255, 0, 255);">	
+
+
+<b>【画像】アフガニスタンで射殺された医師さん、ガチで砂漠を緑に変えていた・・・</b>
+</span></a>
+
+</br>
+
+
+<a  href="http://matomeantena.com/feed/30000044918561" onclick="javascript:_gaq.push(['_trackPageview', '/しいアンテナ中段/']);" target="_blank"><img  src="https://livedoor.blogimg.jp/news4vip2/imgs/b/b/bb3bcbef.png" width="280" height="200" border="0"><br  clear="all">
+<span  style="color: rgb(255, 0, 255);">	
+
+
+<b>【画像】昭和天皇死亡直前のテレビが怖すぎるｗｗｗ</b>
+</span></a>
+
+</br>
+
+
+
+<a  href="http://matomeantena.com/feed/30000044733592" onclick="javascript:_gaq.push(['_trackPageview', '/しいアンテナ中段/']);" target="_blank"><img  src="https://livedoor.blogimg.jp/news4vip2/imgs/0/5/05391264.jpg" width="280" height="200" border="0"><br  clear="all">
+<span  style="color: rgb(255, 0, 255);">	
+
+
+<b>【驚愕】歯茎にサメの細胞を注入するとヤバイことにｗｗｗｗｗｗｗｗｗ</b>
+</span></a>
+
+</br>
+
+
+
+<a  href="http://matomeantena.com/feed/30000042374739" onclick="javascript:_gaq.push(['_trackPageview', '/しいアンテナ中段/']);" target="_blank"><img  src="https://livedoor.blogimg.jp/news4vip2/imgs/3/1/3110cfd1.jpg" width="280" height="200" border="0"><br  clear="all">
+<span  style="color: rgb(255, 0, 255);">	
+
+
+<b>ドコモショップの闇が深すぎる件・・・</b>
+</span></a>
+
+</br>
+</div>
+<div class="sidebottom"></div>
+</div><!-- // plugin-memo -->
+
+<div class="plugin-memo sidewrapper">
+<div class="sidetitlebody">
+<div class="sidetitle">Follow Me!</div>
+</div>
+<div class="sidetop"></div>
+<div class="side">
+<div>
+<iframe src="//www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fnews4vip&amp;width=280&amp;height=80&amp;colorscheme=light&amp;show_faces=false&amp;border_color&amp;stream=false&amp;header=true" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:280px; height:80px;" allowTransparency="true"></iframe><br>
+
+<a href="https://www.facebook.com/news4vip" target="_blank"><img src="http://news4vip.livedoor.biz/image/design/facebook_280.png" border="0" alt="Facebook" /></a>
+<br>
+<a href="http://twitter.com/#!/news4vip2" target="_blank"><img src="http://news4vip.livedoor.biz/image/design/twitter_280.png" border="0" alt="twitter" style="margin-top: 5px;" /></a>
+</div>
+
+</br>
+
+スポンサードリンク
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- クオ　ＴＯＰ -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-9623041308833249"
+     data-ad-slot="8038204096"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
+
+
+
+</div>
+<div class="sidebottom"></div>
+</div><!-- // plugin-memo -->
+
+<div class="plugin-search_internal sidewrapper">
+<div class="sidetitlebody">
+<div class="sidetitle">記事検索</div>
+</div>
+<div class="sidetop"></div>
+<div class="side">
+ <form action="http://news4vip.livedoor.biz/search" method="GET" style="padding:0;margin:0px;">
+ <input type="TEXT" name="q" class="sf">
+ <input type="SUBMIT" value="検索" class="sfbtn">
+ </form>
+</div>
+<div class="sidebottom"></div>
+</div><!-- // plugin-search_internal -->
+<div class="plugin-categorize sidewrapper" id="plugin-categorize-210593">
+    <div class="sidetitlebody">
+        <div class="sidetitle">カテゴリ別</div>
+    </div>
+    <div class="sidetop"></div>
+    <div class="side">
+
+
+      
+
+        <div style="text-align: center;"><form style="margin:0px;padding:0px;">
+            <select name="u" onChange="JavaScript:location.href=this.value;return false;">
+                <option value="" selected>カテゴリを選択</option>
+            
+        
+                <option value="http://news4vip.livedoor.biz/archives/cat_50036660.html" onChange="JavaScript:location.href=this.value;return false;">ネタ (2274)</option>
+        
+            
+        
+                <option value="http://news4vip.livedoor.biz/archives/cat_50036661.html" onChange="JavaScript:location.href=this.value;return false;">芸能 (874)</option>
+        
+            
+        
+                <option value="http://news4vip.livedoor.biz/archives/cat_50036662.html" onChange="JavaScript:location.href=this.value;return false;">音楽 (32)</option>
+        
+            
+        
+                <option value="http://news4vip.livedoor.biz/archives/cat_50036663.html" onChange="JavaScript:location.href=this.value;return false;">雑談 (684)</option>
+        
+            
+        
+                <option value="http://news4vip.livedoor.biz/archives/cat_50036664.html" onChange="JavaScript:location.href=this.value;return false;">PC (113)</option>
+        
+            
+        
+                <option value="http://news4vip.livedoor.biz/archives/cat_50036665.html" onChange="JavaScript:location.href=this.value;return false;">画像 (120)</option>
+        
+            
+        
+                <option value="http://news4vip.livedoor.biz/archives/cat_50036666.html" onChange="JavaScript:location.href=this.value;return false;">動画 (33)</option>
+        
+            
+        
+                <option value="http://news4vip.livedoor.biz/archives/cat_50036667.html" onChange="JavaScript:location.href=this.value;return false;">ありがち (6)</option>
+        
+            
+        
+                <option value="http://news4vip.livedoor.biz/archives/cat_50036668.html" onChange="JavaScript:location.href=this.value;return false;">女の子・デート (20)</option>
+        
+            
+        
+                <option value="http://news4vip.livedoor.biz/archives/cat_50036669.html" onChange="JavaScript:location.href=this.value;return false;">オカルト (18)</option>
+        
+            
+        
+                <option value="http://news4vip.livedoor.biz/archives/cat_50036670.html" onChange="JavaScript:location.href=this.value;return false;">雑学 (15)</option>
+        
+            
+        
+                <option value="http://news4vip.livedoor.biz/archives/cat_50036671.html" onChange="JavaScript:location.href=this.value;return false;">趣味・オタク (73)</option>
+        
+            
+        
+                <option value="http://news4vip.livedoor.biz/archives/cat_50036672.html" onChange="JavaScript:location.href=this.value;return false;">旅行 (18)</option>
+        
+            
+        
+                <option value="http://news4vip.livedoor.biz/archives/cat_50036673.html" onChange="JavaScript:location.href=this.value;return false;">コピペ (5)</option>
+        
+            
+        
+                <option value="http://news4vip.livedoor.biz/archives/cat_50036674.html" onChange="JavaScript:location.href=this.value;return false;">アルバイト (2)</option>
+        
+            
+        
+                <option value="http://news4vip.livedoor.biz/archives/cat_50036687.html" onChange="JavaScript:location.href=this.value;return false;">映画 (27)</option>
+        
+            
+        
+                <option value="http://news4vip.livedoor.biz/archives/cat_50037282.html" onChange="JavaScript:location.href=this.value;return false;">アンケート (5)</option>
+        
+            
+        
+                <option value="http://news4vip.livedoor.biz/archives/cat_50037392.html" onChange="JavaScript:location.href=this.value;return false;">PCツール系 (13)</option>
+        
+            
+        
+                <option value="http://news4vip.livedoor.biz/archives/cat_50037472.html" onChange="JavaScript:location.href=this.value;return false;">質問ある？ (8)</option>
+        
+            
+        
+            
+        
+                <option value="http://news4vip.livedoor.biz/archives/cat_50037558.html" onChange="JavaScript:location.href=this.value;return false;">アスキーアート (23)</option>
+        
+            
+        
+                <option value="http://news4vip.livedoor.biz/archives/cat_50037559.html" onChange="JavaScript:location.href=this.value;return false;">ニコニコ (3)</option>
+        
+            
+        
+                <option value="http://news4vip.livedoor.biz/archives/cat_50037561.html" onChange="JavaScript:location.href=this.value;return false;">役に立つ (10)</option>
+        
+            
+        
+                <option value="http://news4vip.livedoor.biz/archives/cat_50037579.html" onChange="JavaScript:location.href=this.value;return false;">声優 (5)</option>
+        
+            
+        
+                <option value="http://news4vip.livedoor.biz/archives/cat_50037607.html" onChange="JavaScript:location.href=this.value;return false;">店員ネタ (9)</option>
+        
+            
+        
+                <option value="http://news4vip.livedoor.biz/archives/cat_50037618.html" onChange="JavaScript:location.href=this.value;return false;">IT業界 (20)</option>
+        
+            
+        
+            
+        
+                <option value="http://news4vip.livedoor.biz/archives/cat_50037682.html" onChange="JavaScript:location.href=this.value;return false;">感動 (1)</option>
+        
+            
+        
+            
+        
+                <option value="http://news4vip.livedoor.biz/archives/cat_50037838.html" onChange="JavaScript:location.href=this.value;return false;">海外ニュース (213)</option>
+        
+            
+        
+                <option value="http://news4vip.livedoor.biz/archives/cat_50037870.html" onChange="JavaScript:location.href=this.value;return false;">知識 (18)</option>
+        
+            
+        
+                <option value="http://news4vip.livedoor.biz/archives/cat_50037903.html" onChange="JavaScript:location.href=this.value;return false;">mac (11)</option>
+        
+            
+        
+                <option value="http://news4vip.livedoor.biz/archives/cat_50037904.html" onChange="JavaScript:location.href=this.value;return false;">地方ネタ (180)</option>
+        
+            
+        
+                <option value="http://news4vip.livedoor.biz/archives/cat_50037906.html" onChange="JavaScript:location.href=this.value;return false;">ねこ (7)</option>
+        
+            
+        
+                <option value="http://news4vip.livedoor.biz/archives/cat_50037931.html" onChange="JavaScript:location.href=this.value;return false;">スイーツ（笑） (14)</option>
+        
+            
+        
+                <option value="http://news4vip.livedoor.biz/archives/cat_50038333.html" onChange="JavaScript:location.href=this.value;return false;">声優 (7)</option>
+        
+            
+        
+                <option value="http://news4vip.livedoor.biz/archives/cat_50038843.html" onChange="JavaScript:location.href=this.value;return false;">痛いニュース (205)</option>
+        
+            
+        
+                <option value="http://news4vip.livedoor.biz/archives/cat_50038844.html" onChange="JavaScript:location.href=this.value;return false;">読書 (18)</option>
+        
+            
+        
+            
+        
+                <option value="http://news4vip.livedoor.biz/archives/cat_50046846.html" onChange="JavaScript:location.href=this.value;return false;">リンク集・まとめ (1)</option>
+        
+            
+        
+                <option value="http://news4vip.livedoor.biz/archives/cat_50048335.html" onChange="JavaScript:location.href=this.value;return false;">smartphone (26)</option>
+        
+            
+        
+                <option value="http://news4vip.livedoor.biz/archives/cat_50051974.html" onChange="JavaScript:location.href=this.value;return false;">旅行 (7)</option>
+        
+            
+        
+                <option value="http://news4vip.livedoor.biz/archives/cat_50036648.html" onChange="JavaScript:location.href=this.value;return false;">ニュース (1051)</option>
+        
+            
+        
+                <option value="http://news4vip.livedoor.biz/archives/cat_50036649.html" onChange="JavaScript:location.href=this.value;return false;">ゲーム (261)</option>
+        
+            
+        
+                <option value="http://news4vip.livedoor.biz/archives/cat_50036645.html" onChange="JavaScript:location.href=this.value;return false;">漫画 (80)</option>
+        
+            
+        
+                <option value="http://news4vip.livedoor.biz/archives/cat_50036646.html" onChange="JavaScript:location.href=this.value;return false;">アニメ (97)</option>
+        
+            
+        
+                <option value="http://news4vip.livedoor.biz/archives/cat_50036647.html" onChange="JavaScript:location.href=this.value;return false;">食生活・レシピ (117)</option>
+        
+            
+        
+                <option value="http://news4vip.livedoor.biz/archives/cat_50036650.html" onChange="JavaScript:location.href=this.value;return false;">日常・生活 (69)</option>
+        
+            
+        
+                <option value="http://news4vip.livedoor.biz/archives/cat_50036651.html" onChange="JavaScript:location.href=this.value;return false;">便利 (8)</option>
+        
+            
+        
+            
+        
+                <option value="http://news4vip.livedoor.biz/archives/cat_50053900.html" onChange="JavaScript:location.href=this.value;return false;">良スレ (11)</option>
+        
+            
+        
+                <option value="http://news4vip.livedoor.biz/archives/cat_50054342.html" onChange="JavaScript:location.href=this.value;return false;">ニュークオ今日の良スレ (14)</option>
+        
+            
+        
+                <option value="http://news4vip.livedoor.biz/archives/cat_50054344.html" onChange="JavaScript:location.href=this.value;return false;">笑ったら死亡 (2)</option>
+        
+            
+        
+                <option value="http://news4vip.livedoor.biz/archives/cat_50054348.html" onChange="JavaScript:location.href=this.value;return false;">洒落怖 (3)</option>
+        
+    </select>
+        </form></div>
+
+    </div>    
+    <div class="sidebottom"></div>
+</div><!-- // plugin-categorize -->
+
+<div class="plugin-monthly sidewrapper" id="plugin-monthly-210577">
+<div class="sidetitlebody">
+<div class="sidetitle">過去ログ</div>
+</div>
+<div class="sidetop"></div>
+<div class="side">
+
+
+<div class="sidebody"><a href="javascript:void(0)" class="year">2020</a>
+<a href="javascript:void(0)" class="toggleIndicator">[+]</a>
+<div style="display: none;" class="month">
+<div><a href="http://news4vip.livedoor.biz/archives/2020-12.html">2020年12月</a></div>
+
+<div><a href="http://news4vip.livedoor.biz/archives/2020-11.html">2020年11月</a></div>
+
+<div><a href="http://news4vip.livedoor.biz/archives/2020-10.html">2020年10月</a></div>
+
+<div><a href="http://news4vip.livedoor.biz/archives/2020-09.html">2020年09月</a></div>
+
+<div><a href="http://news4vip.livedoor.biz/archives/2020-08.html">2020年08月</a></div>
+
+<div><a href="http://news4vip.livedoor.biz/archives/2020-07.html">2020年07月</a></div>
+
+<div><a href="http://news4vip.livedoor.biz/archives/2020-06.html">2020年06月</a></div>
+
+<div><a href="http://news4vip.livedoor.biz/archives/2020-05.html">2020年05月</a></div>
+
+<div><a href="http://news4vip.livedoor.biz/archives/2020-04.html">2020年04月</a></div>
+
+<div><a href="http://news4vip.livedoor.biz/archives/2020-03.html">2020年03月</a></div>
+
+<div><a href="http://news4vip.livedoor.biz/archives/2020-02.html">2020年02月</a></div>
+
+<div><a href="http://news4vip.livedoor.biz/archives/2020-01.html">2020年01月</a></div>
+
+</div></div>
+<div class="sidebody"><a href="javascript:void(0)" class="year">2019</a>
+<a href="javascript:void(0)" class="toggleIndicator">[+]</a>
+<div style="display: none;" class="month">
+<div><a href="http://news4vip.livedoor.biz/archives/2019-12.html">2019年12月</a></div>
+
+<div><a href="http://news4vip.livedoor.biz/archives/2019-11.html">2019年11月</a></div>
+
+<div><a href="http://news4vip.livedoor.biz/archives/2019-10.html">2019年10月</a></div>
+
+<div><a href="http://news4vip.livedoor.biz/archives/2019-09.html">2019年09月</a></div>
+
+<div><a href="http://news4vip.livedoor.biz/archives/2019-08.html">2019年08月</a></div>
+
+<div><a href="http://news4vip.livedoor.biz/archives/2019-07.html">2019年07月</a></div>
+
+<div><a href="http://news4vip.livedoor.biz/archives/2019-06.html">2019年06月</a></div>
+
+<div><a href="http://news4vip.livedoor.biz/archives/2019-05.html">2019年05月</a></div>
+
+<div><a href="http://news4vip.livedoor.biz/archives/2019-04.html">2019年04月</a></div>
+
+<div><a href="http://news4vip.livedoor.biz/archives/2019-03.html">2019年03月</a></div>
+
+<div><a href="http://news4vip.livedoor.biz/archives/2019-02.html">2019年02月</a></div>
+
+<div><a href="http://news4vip.livedoor.biz/archives/2019-01.html">2019年01月</a></div>
+
+</div></div>
+<div class="sidebody"><a href="javascript:void(0)" class="year">2018</a>
+<a href="javascript:void(0)" class="toggleIndicator">[+]</a>
+<div style="display: none;" class="month">
+<div><a href="http://news4vip.livedoor.biz/archives/2018-12.html">2018年12月</a></div>
+
+<div><a href="http://news4vip.livedoor.biz/archives/2018-11.html">2018年11月</a></div>
+
+<div><a href="http://news4vip.livedoor.biz/archives/2018-10.html">2018年10月</a></div>
+
+<div><a href="http://news4vip.livedoor.biz/archives/2018-09.html">2018年09月</a></div>
+
+<div><a href="http://news4vip.livedoor.biz/archives/2018-08.html">2018年08月</a></div>
+
+<div><a href="http://news4vip.livedoor.biz/archives/2018-07.html">2018年07月</a></div>
+
+<div><a href="http://news4vip.livedoor.biz/archives/2018-06.html">2018年06月</a></div>
+
+<div><a href="http://news4vip.livedoor.biz/archives/2018-05.html">2018年05月</a></div>
+
+<div><a href="http://news4vip.livedoor.biz/archives/2018-04.html">2018年04月</a></div>
+
+<div><a href="http://news4vip.livedoor.biz/archives/2018-03.html">2018年03月</a></div>
+
+<div><a href="http://news4vip.livedoor.biz/archives/2018-02.html">2018年02月</a></div>
+
+<div><a href="http://news4vip.livedoor.biz/archives/2018-01.html">2018年01月</a></div>
+
+</div></div>
+<div class="sidebody"><a href="javascript:void(0)" class="year">2017</a>
+<a href="javascript:void(0)" class="toggleIndicator">[+]</a>
+<div style="display: none;" class="month">
+<div><a href="http://news4vip.livedoor.biz/archives/2017-12.html">2017年12月</a></div>
+
+<div><a href="http://news4vip.livedoor.biz/archives/2017-11.html">2017年11月</a></div>
+
+<div><a href="http://news4vip.livedoor.biz/archives/2017-10.html">2017年10月</a></div>
+
+<div><a href="http://news4vip.livedoor.biz/archives/2017-09.html">2017年09月</a></div>
+
+<div><a href="http://news4vip.livedoor.biz/archives/2017-08.html">2017年08月</a></div>
+
+<div><a href="http://news4vip.livedoor.biz/archives/2017-07.html">2017年07月</a></div>
+
+<div><a href="http://news4vip.livedoor.biz/archives/2017-06.html">2017年06月</a></div>
+
+<div><a href="http://news4vip.livedoor.biz/archives/2017-05.html">2017年05月</a></div>
+
+<div><a href="http://news4vip.livedoor.biz/archives/2017-04.html">2017年04月</a></div>
+
+<div><a href="http://news4vip.livedoor.biz/archives/2017-03.html">2017年03月</a></div>
+
+<div><a href="http://news4vip.livedoor.biz/archives/2017-02.html">2017年02月</a></div>
+
+<div><a href="http://news4vip.livedoor.biz/archives/2017-01.html">2017年01月</a></div>
+
+</div></div>
+<div class="sidebody"><a href="javascript:void(0)" class="year">2016</a>
+<a href="javascript:void(0)" class="toggleIndicator">[+]</a>
+<div style="display: none;" class="month">
+<div><a href="http://news4vip.livedoor.biz/archives/2016-12.html">2016年12月</a></div>
+
+<div><a href="http://news4vip.livedoor.biz/archives/2016-11.html">2016年11月</a></div>
+
+<div><a href="http://news4vip.livedoor.biz/archives/2016-10.html">2016年10月</a></div>
+
+<div><a href="http://news4vip.livedoor.biz/archives/2016-09.html">2016年09月</a></div>
+
+</div></div>
+<div class="sidebody"><a href="javascript:void(0)" class="year">2015</a>
+<a href="javascript:void(0)" class="toggleIndicator">[+]</a>
+<div style="display: none;" class="month">
+<div><a href="http://news4vip.livedoor.biz/archives/2015-02.html">2015年02月</a></div>
+
+</div></div>
+<div class="sidebody"><a href="javascript:void(0)" class="year">2014</a>
+<a href="javascript:void(0)" class="toggleIndicator">[+]</a>
+<div style="display: none;" class="month">
+<div><a href="http://news4vip.livedoor.biz/archives/2014-10.html">2014年10月</a></div>
+
+<div><a href="http://news4vip.livedoor.biz/archives/2014-02.html">2014年02月</a></div>
+
+<div><a href="http://news4vip.livedoor.biz/archives/2014-01.html">2014年01月</a></div>
+
+</div></div>
+<div class="sidebody"><a href="javascript:void(0)" class="year">2013</a>
+<a href="javascript:void(0)" class="toggleIndicator">[+]</a>
+<div style="display: none;" class="month">
+<div><a href="http://news4vip.livedoor.biz/archives/2013-12.html">2013年12月</a></div>
+
+<div><a href="http://news4vip.livedoor.biz/archives/2013-11.html">2013年11月</a></div>
+
+<div><a href="http://news4vip.livedoor.biz/archives/2013-10.html">2013年10月</a></div>
+
+<div><a href="http://news4vip.livedoor.biz/archives/2013-09.html">2013年09月</a></div>
+
+<div><a href="http://news4vip.livedoor.biz/archives/2013-08.html">2013年08月</a></div>
+
+<div><a href="http://news4vip.livedoor.biz/archives/2013-07.html">2013年07月</a></div>
+
+<div><a href="http://news4vip.livedoor.biz/archives/2013-06.html">2013年06月</a></div>
+
+<div><a href="http://news4vip.livedoor.biz/archives/2013-05.html">2013年05月</a></div>
+
+<div><a href="http://news4vip.livedoor.biz/archives/2013-04.html">2013年04月</a></div>
+
+<div><a href="http://news4vip.livedoor.biz/archives/2013-03.html">2013年03月</a></div>
+
+<div><a href="http://news4vip.livedoor.biz/archives/2013-02.html">2013年02月</a></div>
+
+<div><a href="http://news4vip.livedoor.biz/archives/2013-01.html">2013年01月</a></div>
+
+</div></div>
+<div class="sidebody"><a href="javascript:void(0)" class="year">2012</a>
+<a href="javascript:void(0)" class="toggleIndicator">[+]</a>
+<div style="display: none;" class="month">
+<div><a href="http://news4vip.livedoor.biz/archives/2012-12.html">2012年12月</a></div>
+
+<div><a href="http://news4vip.livedoor.biz/archives/2012-11.html">2012年11月</a></div>
+
+<div><a href="http://news4vip.livedoor.biz/archives/2012-10.html">2012年10月</a></div>
+
+<div><a href="http://news4vip.livedoor.biz/archives/2012-09.html">2012年09月</a></div>
+
+<div><a href="http://news4vip.livedoor.biz/archives/2012-08.html">2012年08月</a></div>
+
+<div><a href="http://news4vip.livedoor.biz/archives/2012-07.html">2012年07月</a></div>
+
+<div><a href="http://news4vip.livedoor.biz/archives/2012-06.html">2012年06月</a></div>
+
+<div><a href="http://news4vip.livedoor.biz/archives/2012-05.html">2012年05月</a></div>
+
+<div><a href="http://news4vip.livedoor.biz/archives/2012-04.html">2012年04月</a></div>
+
+<div><a href="http://news4vip.livedoor.biz/archives/2012-03.html">2012年03月</a></div>
+
+<div><a href="http://news4vip.livedoor.biz/archives/2012-02.html">2012年02月</a></div>
+
+<div><a href="http://news4vip.livedoor.biz/archives/2012-01.html">2012年01月</a></div>
+
+</div></div>
+<div class="sidebody"><a href="javascript:void(0)" class="year">2011</a>
+<a href="javascript:void(0)" class="toggleIndicator">[+]</a>
+<div style="display: none;" class="month">
+<div><a href="http://news4vip.livedoor.biz/archives/2011-12.html">2011年12月</a></div>
+
+<div><a href="http://news4vip.livedoor.biz/archives/2011-11.html">2011年11月</a></div>
+
+<div><a href="http://news4vip.livedoor.biz/archives/2011-10.html">2011年10月</a></div>
+
+<div><a href="http://news4vip.livedoor.biz/archives/2011-09.html">2011年09月</a></div>
+
+<div><a href="http://news4vip.livedoor.biz/archives/2011-08.html">2011年08月</a></div>
+
+<div><a href="http://news4vip.livedoor.biz/archives/2011-07.html">2011年07月</a></div>
+
+<div><a href="http://news4vip.livedoor.biz/archives/2011-06.html">2011年06月</a></div>
+
+<div><a href="http://news4vip.livedoor.biz/archives/2011-05.html">2011年05月</a></div>
+
+<div><a href="http://news4vip.livedoor.biz/archives/2011-04.html">2011年04月</a></div>
+
+<div><a href="http://news4vip.livedoor.biz/archives/2011-03.html">2011年03月</a></div>
+
+<div><a href="http://news4vip.livedoor.biz/archives/2011-02.html">2011年02月</a></div>
+
+<div><a href="http://news4vip.livedoor.biz/archives/2011-01.html">2011年01月</a></div>
+
+</div></div>
+<div class="sidebody"><a href="javascript:void(0)" class="year">2010</a>
+<a href="javascript:void(0)" class="toggleIndicator">[+]</a>
+<div style="display: none;" class="month">
+<div><a href="http://news4vip.livedoor.biz/archives/2010-12.html">2010年12月</a></div>
+
+<div><a href="http://news4vip.livedoor.biz/archives/2010-11.html">2010年11月</a></div>
+
+<div><a href="http://news4vip.livedoor.biz/archives/2010-10.html">2010年10月</a></div>
+
+<div><a href="http://news4vip.livedoor.biz/archives/2010-09.html">2010年09月</a></div>
+
+<div><a href="http://news4vip.livedoor.biz/archives/2010-08.html">2010年08月</a></div>
+
+<div><a href="http://news4vip.livedoor.biz/archives/2010-07.html">2010年07月</a></div>
+
+<div><a href="http://news4vip.livedoor.biz/archives/2010-06.html">2010年06月</a></div>
+
+<div><a href="http://news4vip.livedoor.biz/archives/2010-05.html">2010年05月</a></div>
+
+<div><a href="http://news4vip.livedoor.biz/archives/2010-04.html">2010年04月</a></div>
+
+<div><a href="http://news4vip.livedoor.biz/archives/2010-03.html">2010年03月</a></div>
+
+<div><a href="http://news4vip.livedoor.biz/archives/2010-02.html">2010年02月</a></div>
+
+<div><a href="http://news4vip.livedoor.biz/archives/2010-01.html">2010年01月</a></div>
+
+</div></div>
+<div class="sidebody"><a href="javascript:void(0)" class="year">2009</a>
+<a href="javascript:void(0)" class="toggleIndicator">[+]</a>
+<div style="display: none;" class="month">
+<div><a href="http://news4vip.livedoor.biz/archives/2009-12.html">2009年12月</a></div>
+
+<div><a href="http://news4vip.livedoor.biz/archives/2009-11.html">2009年11月</a></div>
+
+<div><a href="http://news4vip.livedoor.biz/archives/2009-10.html">2009年10月</a></div>
+
+<div><a href="http://news4vip.livedoor.biz/archives/2009-09.html">2009年09月</a></div>
+
+<div><a href="http://news4vip.livedoor.biz/archives/2009-08.html">2009年08月</a></div>
+
+<div><a href="http://news4vip.livedoor.biz/archives/2009-07.html">2009年07月</a></div>
+
+<div><a href="http://news4vip.livedoor.biz/archives/2009-06.html">2009年06月</a></div>
+
+<div><a href="http://news4vip.livedoor.biz/archives/2009-05.html">2009年05月</a></div>
+
+<div><a href="http://news4vip.livedoor.biz/archives/2009-04.html">2009年04月</a></div>
+
+<div><a href="http://news4vip.livedoor.biz/archives/2009-03.html">2009年03月</a></div>
+
+<div><a href="http://news4vip.livedoor.biz/archives/2009-02.html">2009年02月</a></div>
+
+<div><a href="http://news4vip.livedoor.biz/archives/2009-01.html">2009年01月</a></div>
+
+</div></div>
+<div class="sidebody"><a href="javascript:void(0)" class="year">2008</a>
+<a href="javascript:void(0)" class="toggleIndicator">[+]</a>
+<div style="display: none;" class="month">
+<div><a href="http://news4vip.livedoor.biz/archives/2008-12.html">2008年12月</a></div>
+
+<div><a href="http://news4vip.livedoor.biz/archives/2008-11.html">2008年11月</a></div>
+
+<div><a href="http://news4vip.livedoor.biz/archives/2008-10.html">2008年10月</a></div>
+
+<div><a href="http://news4vip.livedoor.biz/archives/2008-09.html">2008年09月</a></div>
+
+<div><a href="http://news4vip.livedoor.biz/archives/2008-08.html">2008年08月</a></div>
+
+<div><a href="http://news4vip.livedoor.biz/archives/2008-07.html">2008年07月</a></div>
+
+<div><a href="http://news4vip.livedoor.biz/archives/2008-06.html">2008年06月</a></div>
+
+<div><a href="http://news4vip.livedoor.biz/archives/2008-05.html">2008年05月</a></div>
+
+<div><a href="http://news4vip.livedoor.biz/archives/2008-04.html">2008年04月</a></div>
+
+<div><a href="http://news4vip.livedoor.biz/archives/2008-03.html">2008年03月</a></div>
+
+<div><a href="http://news4vip.livedoor.biz/archives/2008-02.html">2008年02月</a></div>
+
+<div><a href="http://news4vip.livedoor.biz/archives/2008-01.html">2008年01月</a></div>
+
+</div></div>
+<div class="sidebody"><a href="javascript:void(0)" class="year">2007</a>
+<a href="javascript:void(0)" class="toggleIndicator">[+]</a>
+<div style="display: none;" class="month">
+<div><a href="http://news4vip.livedoor.biz/archives/2007-12.html">2007年12月</a></div>
+
+<div><a href="http://news4vip.livedoor.biz/archives/2007-11.html">2007年11月</a></div>
+
+<div><a href="http://news4vip.livedoor.biz/archives/2007-10.html">2007年10月</a></div>
+
+<div><a href="http://news4vip.livedoor.biz/archives/2007-09.html">2007年09月</a></div>
+
+<div><a href="http://news4vip.livedoor.biz/archives/2007-08.html">2007年08月</a></div>
+
+<div><a href="http://news4vip.livedoor.biz/archives/2007-07.html">2007年07月</a></div>
+
+<div><a href="http://news4vip.livedoor.biz/archives/2007-06.html">2007年06月</a></div>
+
+<div><a href="http://news4vip.livedoor.biz/archives/2007-05.html">2007年05月</a></div>
+
+<div><a href="http://news4vip.livedoor.biz/archives/2007-04.html">2007年04月</a></div>
+
+<div><a href="http://news4vip.livedoor.biz/archives/2007-03.html">2007年03月</a></div>
+
+<div><a href="http://news4vip.livedoor.biz/archives/2007-02.html">2007年02月</a></div>
+
+<div><a href="http://news4vip.livedoor.biz/archives/2007-01.html">2007年01月</a></div>
+
+</div></div>
+<div class="sidebody"><a href="javascript:void(0)" class="year">2006</a>
+<a href="javascript:void(0)" class="toggleIndicator">[+]</a>
+<div style="display: none;" class="month">
+<div><a href="http://news4vip.livedoor.biz/archives/2006-12.html">2006年12月</a></div>
+
+<div><a href="http://news4vip.livedoor.biz/archives/2006-11.html">2006年11月</a></div>
+
+<div><a href="http://news4vip.livedoor.biz/archives/2006-10.html">2006年10月</a></div>
+
+<div><a href="http://news4vip.livedoor.biz/archives/2006-07.html">2006年07月</a></div>
+
+<div><a href="http://news4vip.livedoor.biz/archives/2006-05.html">2006年05月</a></div>
+
+<div><a href="http://news4vip.livedoor.biz/archives/2006-04.html">2006年04月</a></div>
+
+<div><a href="http://news4vip.livedoor.biz/archives/2006-03.html">2006年03月</a></div>
+</div></div>
+<script src="https://parts.blog.livedoor.jp/plugin/ldblog_monthly_plugin.js"></script>
+<script type="text/javascript">new LDBlogMonthlyFoldablePlugin('210577')</script>
+
+</div>
+<div class="sidebottom"></div>
+</div><!-- // plugin-monthly -->
+
+<iframe src="//www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fnews4vip&amp;width=280&amp;height=290&amp;colorscheme=light&amp;show_faces=true&amp;border_color&amp;stream=false&amp;header=true" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:280px; height:290px;" allowTransparency="true"></iframe>
+<br>
+
+<script language="javascript" type="text/javascript" src="http://b.hatena.ne.jp/js/widget.js" charset="utf-8"></script>
+<script language="javascript" type="text/javascript">
+Hatena.BookmarkWidget.url   = "http://news4vip.livedoor.biz/";
+Hatena.BookmarkWidget.title = "エントリー";
+Hatena.BookmarkWidget.sort  = "";
+Hatena.BookmarkWidget.width = 280;
+Hatena.BookmarkWidget.num   = 10;
+Hatena.BookmarkWidget.theme = "default";
+Hatena.BookmarkWidget.load();
+</script>
+
+<div class="plugin-link sidewrapper">
+<div class="sidetitlebody">
+<div class="sidetitle">リンク集</div>
+</div>
+<div class="sidetop"></div>
+<div class="side">
+<div class="sidebody"><a href="http://2chmm.com/">2chまとめのまとめ</a></div>
+
+<div class="sidebody"><a href="http://5chmm.jp/">5chまとめのまとめ</a></div>
+</div>
+<div class="sidebottom"></div>
+</div><!-- // plugin-link -->
+<div class="plugin-memo sidewrapper">
+<div class="sidetitlebody">
+<div class="sidetitle">スポンサードリンク</div>
+</div>
+<div class="sidetop"></div>
+<div class="side">
+スポンサードリンク
+
+<div id="scroll">
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- クオ　ＴＯＰ -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-9623041308833249"
+     data-ad-slot="8038204096"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
+
+</div> 
+</div>
+<div class="sidebottom"></div>
+</div><!-- // plugin-memo -->
+
+
+
+
+
+  </div>
+ </div>
+</div>
+<!--▲サイドバー右-->
+
+</div><!--/ently_outline-->
+</div>
+
+<!--▼フッター-->
+<div id="footer">
+
+<div id="footer-menubar">
+<ul><li><a href="http://news4vip.livedoor.biz/">トップページ</a></li><li><a href="http://www.2ch.net/" target="_blank">2ちゃんねる</a></li><li class="menu-bookmark"><a href="javascript:window.external.AddFavorite('http://news4vip.livedoor.biz/','ニュー速クオリティ')">お気に入りに追加</a></li><li class="menu-twitter"><a href="http://twitter.com/#!/news4vip2" title="twitter" target="_blank">Twitter</a></li><li class="menu-rss"><a href="http://blog.livedoor.jp/news4vip2/index.rdf" target="_blank" title="RSS" rel="nofollow"  >RSS</a></li><li class="menu-mail2"><a title="メールフォームへ" href="http://news4vip.livedoor.biz/archives/50122482.html" rel="nofollow">当サイトについて・お問い合わせ</a></li></ul>
+
+</div>
+
+
+
+
+
+</div>
+
+
+<!--  ad tags Size: 300x250 ZoneId:1452495-->
+<script type="text/javascript" src="http://js.adnico.jp/t/452/495/a1452495.js"></script>
+
+
+<!--  ad tags Size: 300x250 ZoneId:1452498-->
+<script type="text/javascript" src="http://js.adnico.jp/t/452/498/a1452498.js"></script>
+
+
+
+
+
+<!-- Add Body Tag // --> <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script type="text/javascript">
+jQuery(function($) { 
+var nav = $('#scroll'),
+    offset = nav.offset(); 
+$(window).scroll(function () {
+  if($(window).scrollTop() > offset.top - 10) {
+    nav.addClass('fixed');
+  } else {
+    nav.removeClass('fixed');
+  }
+}); 
+});
+</script><script type="text/javascript">
+(function(){
+  var traq = document.createElement('script'); traq.type = 'text/javascript'; traq.async = true;
+  traq.src = 'https://t.blog.livedoor.jp/u.js';
+  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(traq, s);
+})();
+</script>
+<noscript>
+<img src="https://t.blog.livedoor.jp/u.gif" alt="traq">
+</noscript>
+<!-- // Add Body Tag -->
+
+<script>
+(function($) {
+  var cookieName = 'livedoor-blog-gdpr-agreed';
+  $(document).ready(function() {
+    if (navigator.userAgent.match(/https?:\/\//)) {
+      // UA に http:// or https:// があればスルー
+      return;
+    }
+
+    var agreed = document.cookie.indexOf(cookieName) >= 0;
+    if (agreed) {
+      // 同意済み Cookie があればスルー
+      return;
+    }
+
+    var banner = $('<div>');
+    banner.attr('id', 'gdpr-banner');
+    var label = $('<p>');
+    label.html('\
+      ライブドアブログでは広告のパーソナライズや効果測定のためクッキー(cookie)を使用しています。<br>\
+      このバナーを閉じるか閲覧を継続することでクッキーの使用を承認いただいたものとさせていただきます。<br>\
+      また、お客様は当社パートナー企業における所定の手続きにより、クッキーの使用を管理することもできます。<br>\
+      詳細は<a href="http://www.livedoor.com/rules/" target="_blank" style="color:#023780;text-decoration:underline;">ライブドア利用規約</a>をご確認ください。\
+    ');
+    banner.append(label);
+
+    var closeButton = $('<button>');
+    closeButton.attr('type', 'button');
+    closeButton.html('閉じる');
+    closeButton.on('click', function() {
+      $('#gdpr-banner').hide();
+      document.cookie = cookieName + '="1";expires=Tue, 31-Dec-2037 00:00:00 GMT;path=/;';
+    });
+    banner.append(closeButton);
+
+    banner.css({
+      'position': 'fixed',
+      'left': '0',
+      'right': '0',
+      'bottom': '0',
+      'background': '#dcdcdc',
+      'color': '#000',
+      'padding': '20px',
+      'text-align': 'center',
+      'box-shadow': '0 -2px 2px rgba(102, 102, 102, 0.86)',
+      'z-index': '2147483647',
+    });
+    label.css({
+      'display': 'inline-block',
+      'text-align': 'left',
+      'font-size': '14px',
+      'color': '#000',
+      'vertical-align': 'middle',
+      'line-height': '1.5',
+    });
+    closeButton.css({
+      'display': 'inline-block',
+      'color': '#fff',
+      'border': 'none',
+      'font-size': '14px',
+      'padding': '4px 40px',
+      'margin-left': '40px',
+      'background': '#535353',
+      'vertical-align': 'middle',
+    });
+
+    var script = document.createElement('script');
+    script.type = "text/javascript";
+    script.src = "https://ipcheck.blogsys.jp/check.js?t=" + Date.now();
+    script.onerror = function() {
+      $('body').append(banner);
+    };
+    document.body.appendChild(script);
+  });
+})(jQuery);
+</script>
+</body>
+</html>
+
+
+
+
+
+
+
+</div>
+
+
+<div id="g_floating_area1" style="display:none;top:0px;z-index:10000000000;right:50%;">
+<!--  ad tags Size: 160x600 ZoneId:1452492-->
+<script type="text/javascript" src="http://js.adnico.jp/t/452/492/a1452492.js"></script>
+</div>
+<div id="g_floating_area2" style="display:none;top:0px;z-index:10000000000;left:50%;">
+<!--  ad tags Size: 160x600 ZoneId:1452493-->
+<script type="text/javascript" src="http://js.adnico.jp/t/452/493/a1452493.js"></script>
+</div>
+<script type="text/javascript">
+window.__gnsj = {
+    "contents_width": 1151, //サイトのcontentsの幅に変換,
+    "extra_margin"  : 75,    //コンテンツから離したい幅に変換
+    "top_pos"       : 27,     //ページtopからの位置
+    "fix_top_pos"   : 27    //スクロールしたときに止めておきたいtopからの位置
+};
+</script>
+<script type="text/javascript">
+(function() {
+    var gfparam = window.__gnsj;
+    if(typeof gfparam != "undefined") {
+        var cw = gfparam["contents_width"];
+        var em = gfparam["extra_margin"] || 0;
+        var hcw = cw / 2;
+        var t1 = document.getElementById("g_floating_area1");
+        var t2 = document.getElementById("g_floating_area2");
+        var top_pos = gfparam["top_pos"] || 0;
+        if(top_pos != 0) {
+            t1.style.top = top_pos + "px";
+            t2.style.top = top_pos + "px";
+            t1.style.position = "absolute";
+            t2.style.position = "absolute";
+            var s = document.body.style;
+            removeExtraScroll(s);
+            addEvent(window, "scroll", function() {
+                scl_top = document.body.scrollTop || document.documentElement.scrollTop;
+                if(top_pos <= scl_top) {
+                    t1.style.top = gfparam["fix_top_pos"] + "px";
+                    t2.style.top = gfparam["fix_top_pos"] + "px";
+                    t1.style.position = "fixed";
+                    t2.style.position = "fixed";
+                }else {
+                    t1.style.top = top_pos +"px" || 0;
+                    t2.style.top = top_pos +"px" || 0;
+                    t1.style.position = "absolute";
+                    t2.style.position = "absolute";
+                }
+            });
+        } 
+        t1.style.marginRight = hcw + em + "px";
+        t2.style.marginLeft  = hcw + em + "px";
+        t1.style.position = "fixed";
+        t2.style.position = "fixed";
+        t1.style.display = "block";
+        t2.style.display = "block";
+    }
+    function isIE7() {
+        return typeof window.addEventListener == "undefined" && typeof document.querySelectorAll == "undefined";
+    }
+    function removeExtraScroll(s) {
+        if(isIE7()) {
+            s.overflowX = "hidden";
+            s.position = "relative";
+        }else if(typeof s.overflowX != "undefined") {
+            s.overflowX = "hidden" 
+        }else {
+            s += ";overflow: auto;";
+        }
+    }
+    function addEvent(obj, ev, func) {
+        var eventlistener = obj.addEventListener;
+        var attevent = obj.attachEvent;
+        if(eventlistener) {
+            eventlistener(ev, func, false);
+        }else if(attevent) {
+            attevent('on' + ev, func);
+        }
+    }
+})();
+</script>

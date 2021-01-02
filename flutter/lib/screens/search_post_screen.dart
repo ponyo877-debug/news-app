@@ -45,9 +45,11 @@ class _SearchPostScreen extends State<SearchPostScreen> {
     debugPrint(getPostURL);
     http.Response response = await http.get(getPostURL);
     data = json.decode(response.body);
-    setState(() {
-      newsPost = data["data"];
-    });
+    if (mounted) {
+      setState(() {
+        newsPost = data["data"];
+      });
+    }
   }
 
   Widget build(BuildContext context) {
@@ -71,7 +73,9 @@ class _SearchPostScreen extends State<SearchPostScreen> {
                   return NewsCard(
                     "${newsPost[index]["titles"]}",
                     "${newsPost[index]["publishedAt"]}",
-                    newsPost[index].containsKey('sitetitle')? "${newsPost[index]["sitetitle"]}": "NA",
+                    newsPost[index].containsKey('sitetitle')
+                        ? "${newsPost[index]["sitetitle"]}"
+                        : "NA",
                     "${newsPost[index]["image"]}",
                     "${newsPost[index]["url"]}",
                     "${newsPost[index]["id"]}",

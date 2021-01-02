@@ -43,24 +43,31 @@ class NewsCard extends StatelessWidget {
   void _writeJson(Map<String, dynamic> _newJson) async {
     // Initialize the local _filePath
     _filePath = await _localFile;
+    var _oldJson;
 
     //1. Create _newJson<Map> from input<TextField>
     // print('1.(_writeJson) _newJson: $_newJson');
     _fileExists = await _filePath.exists();
 
     if (!_fileExists) {
-      print('create new file because of file is not found: ${_json.last}');
+      // print('create new file because of file is not found: ${_json.last}');
       _filePath.writeAsString('');
+    } else {
+      //2. Update _json by adding _newJson<Map> -> _json<Map>
+      _jsonString = await _filePath.readAsString();
+      if(_jsonString != ""){
+        _oldJson = json.decode(_jsonString);
+        _json = _oldJson;
+      }
     }
-    //2. Update _json by adding _newJson<Map> -> _json<Map>
-    _jsonString = await _filePath.readAsString();
-    var _oldJson = json.decode(_jsonString);
+    /*
     // _json.add(_oldJson);
     if (_oldJson.length != 0) {
       _json = _oldJson;
     } else {
       _json.add(_oldJson);
     }
+     */
     // _json = json.decode(_jsonString);
     // print('2.(ここが更新されていてほしい) _json(updated): $_json');
     _json.add(_newJson);

@@ -4,25 +4,55 @@ metadata:
   name: apiserver-ingress
   annotations:
     kubernetes.io/ingress.global-static-ip-name: "newsapp-ingress"
-spec:
-  backend:
-    serviceName: apiserver-service
-    servicePort: 80
+# spec:
+#   backend:
+#     serviceName: apiserver-service
+#     servicePort: 80
 # metadata:
 #   name: apiserver-ingress
 # #  annotations:
 # #    kubernetes.io/ingress.global-static-ip-name: test-ip
 #   labels:
 #     app: get_latest_article_list
-# spec:
-#   rules:
-#   - host: gitouhon-juku-k8s.ga
-#     http:
-#       paths:
-#       - path: /
-#         backend:
-#           serviceName: apiserver-service
-#           servicePort: 80
+spec:
+  rules:
+  - host: gitouhon-juku-k8s.ga
+    http:
+      paths:
+      - path: /argo-cd
+        backend:
+          serviceName: argocd-server-ext
+          servicePort: 80
+      - path: /
+        backend:
+          serviceName: apiserver-service
+          servicePort: 80
+---
+# For ArgoCD
+apiVersion: v1
+kind: Service
+metadata:
+  name: argocd-server-ext
+  namespace: default
+spec:
+  type: ExternalName
+  externalName: argocd-server.argocd.svc.cluster.local
+  ports:
+    - port: 80
+      targetPort: 80
+---
+# For ArgoWorkflows
+apiVersion: v1
+kind: Service
+metadata:
+  name: argo-server-ext
+  namespace: default
+spec:
+  type: ExternalName
+  externalName: argo-server.argo.svc.cluster.local
+  ports:
+    - port: 80
+      targetPort: 2746
 
 ---
 apiVersion: v1

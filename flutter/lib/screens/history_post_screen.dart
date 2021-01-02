@@ -44,6 +44,8 @@ class _HistoryPostScreen extends State<HistoryPostScreen>
           physics: AlwaysScrollableScrollPhysics(),
           itemCount: _json == null ? 0 : _json.length,
           itemBuilder: (BuildContext context, int index) {
+            print(_json);
+            print(_json.length);
             var revercedindex = _json.length - index - 1;
             return NewsCard(
               "${_json[revercedindex]["name"]}",
@@ -79,8 +81,8 @@ class _HistoryPostScreen extends State<HistoryPostScreen>
           _json = json.decode(_jsonString);
         });
       }
-      print('2.(_readJson) _json: ${_json.last} \n - \n');
-      print('2.(_readJson) _json: ${_json} \n - \n');
+      // print('2.(_readJson) _json: ${_json.last} \n - \n');
+      // print('2.(_readJson) _json: ${_json} \n - \n');
     }
   }
 }
