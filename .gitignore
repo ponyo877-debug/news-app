@@ -1,4 +1,6 @@
 src/handler/config.json
+src/handler/config.json_bk
+src/handler/imagectl/config_gcp.json
 .vscode/sftp.json
 .vscode/config_prd.json
 kubernetes/dbconfigmap.yml

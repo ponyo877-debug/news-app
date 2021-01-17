@@ -11,6 +11,8 @@ RUN go get github.com/lib/pq
 RUN go get go.mongodb.org/mongo-driver/bson
 RUN go get go.mongodb.org/mongo-driver/mongo
 RUN go get go.mongodb.org/mongo-driver/mongo/options
+RUN go get cloud.google.com/go/storage
+RUN go get google.golang.org/api/option
 
 # RUN apk update
 # RUN apk add git
@@ -31,6 +33,7 @@ FROM golang:1.15-alpine
 WORKDIR /usr/local/bin
 COPY --from=builder /work/news-top /usr/local/bin/news-top
 COPY --from=builder /work/news-post /usr/local/bin/news-post
+COPY --from=builder /work/config_gcp.json /usr/local/bin/config_gcp.json
 COPY --from=builder /work/config_prd.json /usr/local/bin/config.json
 COPY --from=builder /work/config_redis_prd.json /usr/local/bin/config_redis.json
 COPY --from=builder /work/config_es_prd.json /usr/local/bin/config_es.json

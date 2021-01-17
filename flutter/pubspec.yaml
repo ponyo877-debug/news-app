@@ -40,7 +40,10 @@ dependencies:
 flutter_icons:
   android: true
   ios: true
-  image_path: "assets/images/matomesan_512.png"
+  image_path: "assets/images/matomesan_transparentw.png"
+  adaptive_icon_background: "#313131"
+  adaptive_icon_foreground: "assets/images/matomesan_transparentw.png"
+
 
 dev_dependencies:
   flutter_test:

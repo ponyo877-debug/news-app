@@ -55,7 +55,7 @@ class NewsCard extends StatelessWidget {
     } else {
       //2. Update _json by adding _newJson<Map> -> _json<Map>
       _jsonString = await _filePath.readAsString();
-      if(_jsonString != ""){
+      if (_jsonString != "") {
         _oldJson = json.decode(_jsonString);
         _json = _oldJson;
       }
@@ -81,39 +81,49 @@ class NewsCard extends StatelessWidget {
     _filePath.writeAsString(_jsonString);
   }
 
-
   @override
   Widget build(BuildContext context) {
     return Card(
       child: Column(
         mainAxisSize: MainAxisSize.max,
         children: <Widget>[
-          ListTile(
-            leading: thumbnail(_image),
-            title: title(_name),
-            subtitle: Row(
-                mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                children: <Widget>[
-                  subtitle(_date, Colors.white),
-                  subtitle(_site, Colors.red[200]),
-                ]),
-            onTap: () {
-              var _newJson = {
-                "name": this._name,
-                "publishedAt": this._date,
-                "sitetitle": this._site,
-                "image": this._image,
-                "url": this._url,
-                "id": this._id,
-              };
-              _incrViewCount(_id);
-              _writeJson(_newJson);
-              Navigator.of(context).push(MaterialPageRoute(
-                  builder: (BuildContext context) => MatomeWebView(
-                        title: _name,
-                        selectedUrl: _url,
-                      )));
-            },
+          new Container(
+            /*
+            decoration: new BoxDecoration(
+                // color: Colors.red
+                image: DecorationImage(
+                    fit: BoxFit.fill,
+                    image: NetworkImage(_image)
+                )
+            ),
+             */
+            child: ListTile(
+              leading: thumbnail(_image),
+              title: title(_name),
+              subtitle: Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  children: <Widget>[
+                    subtitle(_date, Colors.white),
+                    subtitle(_site, Colors.red[200]),
+                  ]),
+              onTap: () {
+                var _newJson = {
+                  "name": this._name,
+                  "publishedAt": this._date,
+                  "sitetitle": this._site,
+                  "image": this._image,
+                  "url": this._url,
+                  "id": this._id,
+                };
+                _incrViewCount(_id);
+                _writeJson(_newJson);
+                Navigator.of(context).push(MaterialPageRoute(
+                    builder: (BuildContext context) => MatomeWebView(
+                          title: _name,
+                          selectedUrl: _url,
+                        )));
+              },
+            ),
           ),
         ],
       ),

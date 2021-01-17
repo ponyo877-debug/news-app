@@ -13,6 +13,7 @@ import (
 	"go.mongodb.org/mongo-driver/bson"
 	"./mongo"
 	"./elastic"
+	"./imagectl"
 )
 
 // SiteInfo is metainfomation of RSS Site
@@ -81,9 +82,10 @@ func PutPostTmp() int{
 func getImageFromFeed(feed string) string {
 	reader := strings.NewReader(feed)
 	doc, _ := goquery.NewDocumentFromReader(reader)
-	ImageURL, _ := doc.Find("img").Attr("src")
-	return ImageURL
+	imageUrl, _ := doc.Find("img").Attr("src")
+	return imagectl.ArrangeImageUrl(imageUrl)
 }
+
 
 func registerLatestArticleToDB(articleList []SiteRecord) []int {
 	db := openDB()
