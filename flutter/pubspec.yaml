@@ -3,7 +3,7 @@ description: A new Flutter application.
 
 # The following line prevents the package from being accidentally published to
 # pub.dev using `pub publish`. This is preferred for private packages.
-publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
 
 # The following defines the version and build number for your application.
 # A version number is three numbers separated by dots, like 1.2.43
@@ -40,10 +40,10 @@ dependencies:
 flutter_icons:
   android: true
   ios: true
-  image_path: "assets/images/matomesan_transparentw.png"
-  adaptive_icon_background: "#313131"
-  adaptive_icon_foreground: "assets/images/matomesan_transparentw.png"
-
+  image_path: "assets/images/web_hi_res_512.png"
+  adaptive_icon_background: "#E0AEE7"
+  adaptive_icon_foreground: "assets/images/web_hi_res_512.png"
+  image_path_ios: "assets/images/web_hi_res_512.png"
 
 dev_dependencies:
   flutter_test:
@@ -54,7 +54,6 @@ dev_dependencies:
 
 # The following section is specific to Flutter.
 flutter:
-
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
   # the material Icons class.

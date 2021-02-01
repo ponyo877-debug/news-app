@@ -64,3 +64,14 @@ tmp_json2 = json.decode(_jsonString);
 tmp_json.add(tmp_json2.last);
 _jsonString = json.encode(tmp_json);
 _filePath.writeAsString(_jsonString);
+
+# perftet
+## articletbl_updatedate_idxなし
+for i in $(seq 1 100); do curl "https://gitouhon-juku-k8s2.ga/" -o /dev/null -w "%{time_total}\n" 2> /dev/null -s; done | awk '{cnt++; sum+=$1} END {print sum/cnt}'
+0.443791
+
+## articletbl_updatedate_idxあり
+for i in $(seq 1 100); do curl "https://gitouhon-juku-k8s2.ga/" -o /dev/null -w "%{time_total}\n" 2> /dev/null -s; done | awk '{cnt++; sum+=$1} END {print sum/cnt}'
+0.216004
+
+## mongoDB
