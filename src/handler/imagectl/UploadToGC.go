@@ -17,6 +17,7 @@ import (
 	"net/http"
 	"time"
 	"strconv"
+	"strings"
 )
 
 func HashID(imageUrl string) uint32 {
@@ -39,10 +40,10 @@ func ArrangeImageUrl(imageUrl string) string {
 	bktName := "img.gitouhon-juku-k8s2.ga"
 	imageBaseURL := "https://img.gitouhon-juku-k8s2.ga/"
 	credentialFilePath := "config_gcp.json"
-	if imageUrl == 	"" {
+	if imageUrl == 	"" || !strings.HasPrefix(imageUrl, "http"){
 		return getRandomImage()
 	}
-
+	fmt.Println(imageUrl) // for imageUrl debug 
 	response, err := http.Get(imageUrl)
 	defer response.Body.Close()
 	checkError(err)

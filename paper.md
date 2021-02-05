@@ -65,7 +65,10 @@ tmp_json.add(tmp_json2.last);
 _jsonString = json.encode(tmp_json);
 _filePath.writeAsString(_jsonString);
 
-# perftet
+## /var/lib/docker/overlay2/配下の肥大化への対処
+docker system prune
+
+# perftest
 ## articletbl_updatedate_idxなし
 for i in $(seq 1 100); do curl "https://gitouhon-juku-k8s2.ga/" -o /dev/null -w "%{time_total}\n" 2> /dev/null -s; done | awk '{cnt++; sum+=$1} END {print sum/cnt}'
 0.443791
@@ -74,4 +77,17 @@ for i in $(seq 1 100); do curl "https://gitouhon-juku-k8s2.ga/" -o /dev/null -w 
 for i in $(seq 1 100); do curl "https://gitouhon-juku-k8s2.ga/" -o /dev/null -w "%{time_total}\n" 2> /dev/null -s; done | awk '{cnt++; sum+=$1} END {print sum/cnt}'
 0.216004
 
-## mongoDB
+## local_PostgreSQL_idxなし
+for i in $(seq 1 100); do curl "localhost:8770/" -o /dev/null -w "%{time_total}\n" 2> /dev/null -s; done | awk '{cnt++; sum+=$1} END {print sum/cnt}'
+0.0119866
+
+## local_PostgreSQL_idxあり
+for i in $(seq 1 100); do curl "localhost:8770/" -o /dev/null -w "%{time_total}\n" 2> /dev/null -s; done | awk '{cnt++; sum+=$1} END {print sum/cnt}'
+0.0075589
+
+## local_mongoDB
+for i in $(seq 1 100); do curl "localhost:8770/mongo/get_trial" -o /dev/null -w "%{time_total}\n" 2> /dev/null -s; done | awk '{cnt++; sum+=$1} END {print sum/cnt}'
+0.0132953
+
+# しゃべくり007_アンタッチャブル_TVer   
+http://players.brightcove.net/4394098882001/default_default/index.html?videoId=6227907929001

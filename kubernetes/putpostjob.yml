@@ -2,7 +2,7 @@ apiVersion: argoproj.io/v1alpha1
 kind: CronWorkflow
 metadata:
   name: putpost
-  generateName: aputpost-
+  generateName: putpost-
 spec:
   schedule: "*/2 * * * *"
   concurrencyPolicy: "Replace"
@@ -12,9 +12,9 @@ spec:
     templates:
     - name: putpost
       container:
-        image: gcr.io/gke-test-287910/putpost:v18
+        image: gcr.io/gke-test-287910/putpost:v24
       activeDeadlineSeconds: 90
-
+# https://qiita.com/paddy-oti/items/90f1402f50f059b506ff
 # apiVersion: argoproj.io/v1alpha1
 # kind: Workflow
 # metadata:

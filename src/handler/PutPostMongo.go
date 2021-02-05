@@ -4,17 +4,20 @@ import (
 	"fmt"
 	"net/http"
 	"strings"
+	"context"
 	"strconv"
 	"encoding/json"
     "github.com/labstack/echo"
     "github.com/PuerkitoBio/goquery"
 	"github.com/mmcdole/gofeed"
+	"go.mongodb.org/mongo-driver/bson"
+	"./mongo"
 	"./elastic"
 	"./imagectl"
 )
 
 // SiteInfo is metainfomation of RSS Site
-type SiteInfo struct {
+type SiteInfoMongo struct {
 	ID         int
 	title      string
 	rssURL     string
@@ -22,7 +25,7 @@ type SiteInfo struct {
 }
 
 // SiteRecord is article infomation for DB
-type SiteRecord struct {
+type SiteRecordMongo struct {
 	title      string
 	URL        string
 	image      string
@@ -30,22 +33,22 @@ type SiteRecord struct {
 	siteID     int
 }
 
-func PutPost() echo.HandlerFunc {
+func PutPostMongo() echo.HandlerFunc {
     return func(c echo.Context) error {
-		update_count := PutPostTmp()
+		update_count := PutPostMongoTmp()
         return c.JSON(http.StatusOK, map[string]int{"update_count": update_count})
     }
 }
 
-func PutPostJob() {
-	update_count := PutPostTmp()
+func PutPostMongoJob() {
+	update_count := PutPostMongoTmp()
 	fmt.Println("update_count:", update_count)
 }
 
-func PutPostTmp() int{
+func PutPostMongoTmp() int{
 	siteinfolist := getSiteInfoList()
     feedparser := gofeed.NewParser()
-    feedArray := []SiteRecord{}
+    feedArray := []SiteRecordMongo{}
     isVisit := map[int]bool{}
     update_count := 0
     for _, siteinfo := range siteinfolist {
@@ -53,10 +56,10 @@ func PutPostTmp() int{
         feed, _ := feedparser.ParseURL(siteinfo.rssURL)
         items := feed.Items
         for _, item := range items {
-            feedmap := SiteRecord{
+            feedmap := SiteRecordMongo{
                 title:      item.Title,
                 URL:        item.Link,
-                image:      getImageFromFeed(item.Content),
+                image:      getImageFromFeedMongo(item.Content),
                 updateDate: item.Published,
                 siteID:     siteinfo.ID,
             }
@@ -64,39 +67,25 @@ func PutPostTmp() int{
                 update_count++
                 feedArray = append(feedArray, feedmap)
                 if !isVisit[siteinfo.ID] {
-                    updateLatestDate(siteinfo.ID, feedmap.updateDate)
+                    updateLatestDateMongo(siteinfo.ID, feedmap.updateDate)
                     isVisit[siteinfo.ID] = true
                 }
             }
         }
     }
-    esId := registerLatestArticleToDB(feedArray)
-	registerLatestArticleToES(esId, feedArray)
+    esId := registerLatestArticleToMongo(feedArray)
+	registerLatestArticleToESMongo(esId, feedArray)
 	return update_count
 }
 
-func getImageFromFeed(feed string) string {
+func getImageFromFeedMongo(feed string) string {
 	reader := strings.NewReader(feed)
 	doc, _ := goquery.NewDocumentFromReader(reader)
 	imageUrl, _ := doc.Find("img").Attr("src")
 	return imagectl.ArrangeImageUrl(imageUrl)
 }
 
-func registerLatestArticleToDB(articleList []SiteRecord) []int {
-	db := openDB()
-    defer db.Close()
-    sql01_02 := "INSERT INTO /* sql01_02 */ articleTBL (title, URL, image, updateDate, click, siteID) VALUES ($1, $2, $3, $4, $5, $6) RETURNING id"
-    var esIdList []int 
-	var esId int
-	for _, article := range articleList {
-        err := db.QueryRow(sql01_02, article.title, article.URL, article.image, article.updateDate, 0, article.siteID).Scan(&esId)
-		checkError(err)
-        esIdList = append(esIdList, esId)
-    }
-	return esIdList
-}
-
-func jsonStruct(esIt int, doc SiteRecord) string {
+func jsonStructMongo(esIt int, doc SiteRecordMongo) string {
 	db := openDB()
 	defer db.Close()
 	sql01_03 := "SELECT title FROM siteTBL WHERE ID = $1"
@@ -115,11 +104,11 @@ func jsonStruct(esIt int, doc SiteRecord) string {
     return string(b)
 }
 
-func registerLatestArticleToES(esIdList []int, articleList []SiteRecord) {
+func registerLatestArticleToESMongo(esIdList []int, articleList []SiteRecordMongo) {
 	jsonstrings := ""
 	for i := 0; i < len(esIdList); i++ {
 		jsonstrings += "{\"create\":{ \"_index\" : \"test_es\" , \"_id\" : \"" + strconv.Itoa(esIdList[i]) + "\"}}\n"
-		jsonstrings += jsonStruct(esIdList[i], articleList[i]) + "\n"
+		jsonstrings += jsonStructMongo(esIdList[i], articleList[i]) + "\n"
 	}
 	
 	print(jsonstrings)
@@ -132,7 +121,35 @@ func registerLatestArticleToES(esIdList []int, articleList []SiteRecord) {
 	checkError(err)
 }
 
-func updateLatestDate(siteID int, updateDate string) {
+func registerLatestArticleToMongo(articleList []SiteRecordMongo) []int{
+	ctx := context.Background()
+	client := mongo.OpenMongo()
+	err := client.Connect(ctx)
+	defer client.Disconnect(ctx)
+	checkError(err)
+	col := client.Database("newsdb").Collection("article_col")
+	var esIdList []int 
+
+	var esDocumentList []interface{}
+	for _, article := range articleList {
+		esDocument := bson.M{
+			"title": article.title,
+			"URL": article.URL,
+			"image": article.image,
+			"updateDate": article.updateDate,
+			"click": 0,
+			"siteID": article.siteID,
+		}
+		esDocumentList = append(esDocumentList, esDocument)
+	}
+	if len(esDocumentList) != 0{
+		_, err = col.InsertMany(ctx, esDocumentList)
+		checkError(err)
+	}
+	return esIdList
+}
+
+func updateLatestDateMongo(siteID int, updateDate string) {
 	db := openDB()
 	defer db.Close()
 	
@@ -144,12 +161,12 @@ func updateLatestDate(siteID int, updateDate string) {
 	checkError(err)
 }
 
-func getSiteInfoList() []SiteInfo {
+func getSiteInfoListMongo() []SiteInfoMongo {
 	db := openDB()
 	defer db.Close()
 
-	siteinfo := SiteInfo{}
-	siteinfolist := []SiteInfo{}
+	siteinfo := SiteInfoMongo{}
+	siteinfolist := []SiteInfoMongo{}
 	sql01_01 := "SELECT /* sql01_01 */ ID, title, rssURL, latestDate FROM siteTBL"
 
 	selectSiteInfoList, err := db.Query(sql01_01)

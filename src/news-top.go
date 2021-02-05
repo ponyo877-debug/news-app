@@ -18,6 +18,7 @@ func main() {
         e.GET("/redis/get/:post_id", redis.GetViewCount())
         e.GET("/redis/put/:post_id", redis.IncrViewCount())
         e.GET("/mongo/get", mongo.GetPostMongo())
+        e.GET("/mongo/get_trial", mongo.GetPostMongoTrial())
         e.GET("/elastic/get", handler.GetSearch())
         e.GET("/try/saveimage", imagectl.SaveImageToCS())
         e.GET("/try/imgtocs", imagectl.UploadToGC())
