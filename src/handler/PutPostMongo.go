@@ -42,30 +42,36 @@ func PutPostMongo() echo.HandlerFunc {
 
 func PutPostMongoJob() {
 	update_count := PutPostMongoTmp()
-	fmt.Println("update_count:", update_count)
+	fmt.Println("update_count: ", update_count)
 }
 
 func PutPostMongoTmp() int{
 	siteinfolist := getSiteInfoList()
     feedparser := gofeed.NewParser()
     feedArray := []SiteRecordMongo{}
-    isVisit := map[int]bool{}
+	isVisit := map[int]bool{}
+	isDuplicate := map[int]bool{}
     update_count := 0
     for _, siteinfo := range siteinfolist {
-        isVisit[siteinfo.ID] = false
+        // isVisit[siteinfo.ID] = false
         feed, _ := feedparser.ParseURL(siteinfo.rssURL)
         items := feed.Items
         for _, item := range items {
+			if !isDuplicate[item.Link] {
+				continue
+			}
+			isDuplicate[item.Link] = true
             feedmap := SiteRecordMongo{
-                title:      item.Title,
-                URL:        item.Link,
-                image:      getImageFromFeedMongo(item.Content),
-                updateDate: item.Published,
-                siteID:     siteinfo.ID,
+				image:       getImageFromFeedMongo(item.Content),
+				publishedAt: item.Published,
+				sitetitle:   siteinfo.title,
+				siteID:      siteinfo.ID,
+                titles:      item.Title,
+                url:         item.Link,
             }
             if feedmap.updateDate > siteinfo.latestDate {
-                update_count++
-                feedArray = append(feedArray, feedmap)
+				update_count++
+				feedArray = append(feedArray, feedmap)
                 if !isVisit[siteinfo.ID] {
                     updateLatestDateMongo(siteinfo.ID, feedmap.updateDate)
                     isVisit[siteinfo.ID] = true
@@ -133,12 +139,12 @@ func registerLatestArticleToMongo(articleList []SiteRecordMongo) []int{
 	var esDocumentList []interface{}
 	for _, article := range articleList {
 		esDocument := bson.M{
-			"title": article.title,
-			"URL": article.URL,
-			"image": article.image,
-			"updateDate": article.updateDate,
-			"click": 0,
-			"siteID": article.siteID,
+			"image": 		article.image,
+			"publishedAt": 	article.publishedAt,
+			"sitetitle": 	article.sitetitle,
+			"siteID": 		article.siteID,
+			"title": 		article.titles,
+			"url": 			article.url,
 		}
 		esDocumentList = append(esDocumentList, esDocument)
 	}
@@ -146,6 +152,7 @@ func registerLatestArticleToMongo(articleList []SiteRecordMongo) []int{
 		_, err = col.InsertMany(ctx, esDocumentList)
 		checkError(err)
 	}
+	// Need to get articleIDList from mongoDB
 	return esIdList
 }
 
