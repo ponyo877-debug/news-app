@@ -37,6 +37,7 @@ func OpenES() *elasticsearch.Client{
         Addresses: []string{
 			// "http://localhost:9200",
 			"https://" + c.Host + ":" + strconv.Itoa(c.Port),
+			// "http://" + c.Host + ":" + strconv.Itoa(c.Port),
         },
         Username: c.User,
         Password: c.Pass,

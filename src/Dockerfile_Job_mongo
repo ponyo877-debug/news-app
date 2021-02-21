@@ -26,17 +26,17 @@ RUN git clone --branch master https://github.com/elastic/go-elasticsearch.git .
 
 # Build api
 WORKDIR /work
-RUN go build -o news-top news-top.go
-RUN go build -o news-post news-post.go
+RUN go build -o news-post-mongo news-post-mongo.go
 
-FROM golang:1.15-alpine
+# FROM golang:1.15-alpine
+FROM alpine:3.13
 WORKDIR /usr/local/bin
-COPY --from=builder /work/news-top /usr/local/bin/news-top
-COPY --from=builder /work/news-post /usr/local/bin/news-post
+# COPY --from=builder /work/news-top /usr/local/bin/news-top
+COPY --from=builder /work/news-post-mongo /usr/local/bin/news-post-mongo
 COPY --from=builder /work/config_gcp.json /usr/local/bin/config_gcp.json
 COPY --from=builder /work/config_prd.json /usr/local/bin/config.json
 COPY --from=builder /work/config_redis_prd.json /usr/local/bin/config_redis.json
 COPY --from=builder /work/config_mongo_prd.json /usr/local/bin/config_mongo.json
 COPY --from=builder /work/config_es_prd.json /usr/local/bin/config_es.json
 COPY --from=builder /work/public/index.html /usr/local/bin/public/index.html
-ENTRYPOINT ["/usr/local/bin/news-top"]
+ENTRYPOINT ["/usr/local/bin/news-post-mongo"]

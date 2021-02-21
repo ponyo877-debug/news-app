@@ -1,0 +1,45 @@
+apiVersion: argoproj.io/v1alpha1
+kind: CronWorkflow
+metadata:
+  name: putpostmongo
+  generateName: putpostmongo-
+spec:
+  schedule: "*/2 * * * *"
+  concurrencyPolicy: "Replace"
+  startingDeadlineSeconds: 0
+  workflowSpec:
+    entrypoint: putpostmongo
+    templates:
+    - name: putpostmongo
+      container:
+        image: gcr.io/gke-test-287910/putpostmongo:v1
+      activeDeadlineSeconds: 90
+# https://qiita.com/paddy-oti/items/90f1402f50f059b506ff
+# apiVersion: argoproj.io/v1alpha1
+# kind: Workflow
+# metadata:
+#   name: putpost
+#   generateName: putpost-
+# spec:
+#   entrypoint: putpost
+#   templates:
+#   - name: putpost
+#     container:
+#       image: gcr.io/gke-test-287910/putpost:v5
+#     #  command: [cowsay]
+#     #  args: ["hello world"]
+# apiVersion: batch/v1beta1
+# kind: CronJob
+# metadata:
+#   name: insert-latest-article-list
+# spec:
+#   schedule: "*/2 * * * *"
+#   jobTemplate:
+#     spec:
+#       template:
+#         spec:
+#           containers:
+#           - name: insert-latest-article-list
+#             image: gcr.io/gke-test-287910/insert_latest_article_list:v1
+#             imagePullPolicy: Always
+#           restartPolicy: OnFailure

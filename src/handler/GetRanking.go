@@ -1,14 +1,59 @@
 package handler
 
 import (
-	_"fmt"
+	"fmt"
 	"net/http"
 	"./redis"
-	_"reflect"
-	// "strconv"
+	"./mongo"
 	"database/sql"
-    "github.com/labstack/echo"
+	"context"
+	"github.com/labstack/echo"
+	"go.mongodb.org/mongo-driver/bson"
+	orgmongo "go.mongodb.org/mongo-driver/mongo"
+    _"go.mongodb.org/mongo-driver/mongo/options"
 )
+
+func GetRankingMongo() echo.HandlerFunc {
+    return func(c echo.Context) error {
+		ctx := context.Background()
+        client := mongo.OpenMongo()
+        err := client.Connect(ctx)
+        defer client.Disconnect(ctx)
+		checkError(err)
+		
+		idsRanking := redis.GetIdsRankingTmp()
+		col := client.Database("newsdb").Collection("article_col")
+		// var feed map[string]interface{}
+		var feedArray []map[string]interface{}
+
+		for _, id_count := range idsRanking {
+			var feed map[string]interface{}
+			_id := id_count["id"]
+			filter := bson.M{
+				"_id": bson.M{"$eq": _id},
+			}
+			fmt.Println("before_FindOne: ", _id)
+			err := col.FindOne(ctx, filter).Decode(&feed)// , findOptions)
+			if err == orgmongo.ErrNoDocuments {
+				continue
+			}
+			checkError(err)
+			fmt.Println("after_FindOne: ", feed)
+            feedmap := map[string]interface{}{
+				"id":          feed["_id"],
+				"viewcount":   id_count["viewcount"], //strconv.Itoa(id_count["viewcount"]),
+				"image":       feed["image"],
+				"publishedAt": feed["publishedAt"],
+				"siteID":      feed["siteID"],
+				"sitetitle":   feed["sitetitle"],
+                "title":       feed["title"],
+                "url":         feed["url"],
+            }
+            feedArray = append(feedArray, feedmap)
+        }
+        return c.JSON(http.StatusOK, map[string][]map[string]interface{}{"data": feedArray})
+    }
+}
 
 func GetRanking() echo.HandlerFunc {
     return func(c echo.Context) error {		

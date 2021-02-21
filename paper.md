@@ -29,6 +29,7 @@ psql -h postgres.default -U test_user --password -p 5433 test_db
 createuser -a -d -U postgres -P test_user
 psql -h localhost -U test_user -d test_db
 CREATE DATABASE test_db;
+CREATE INDEX ON test_db.articletbl(updatedate);
 
 ## Redis Commnads
 
@@ -77,6 +78,15 @@ for i in $(seq 1 100); do curl "https://gitouhon-juku-k8s2.ga/" -o /dev/null -w 
 for i in $(seq 1 100); do curl "https://gitouhon-juku-k8s2.ga/" -o /dev/null -w "%{time_total}\n" 2> /dev/null -s; done | awk '{cnt++; sum+=$1} END {print sum/cnt}'
 0.216004
 
+## mongoDB
+for i in $(seq 1 100); do curl "https://gitouhon-juku-k8s2.ga/mongo/get" -o /dev/null -w "%{time_total}\n" 2> /dev/null -s; done | awk '{cnt++; sum+=$1} EN
+D {print sum/cnt}'
+0.140283
+
+for i in $(seq 1 100); do curl "https://gitouhon-juku-k8s2.ga/mongo/old?from=0" -o /dev/null -w "%{time_total}\n" 2> /dev/null -s; done | awk '{cnt++; sum+
+=$1} END {print sum/cnt}'
+0.140007
+
 ## local_PostgreSQL_idxなし
 for i in $(seq 1 100); do curl "localhost:8770/" -o /dev/null -w "%{time_total}\n" 2> /dev/null -s; done | awk '{cnt++; sum+=$1} END {print sum/cnt}'
 0.0119866
@@ -91,3 +101,20 @@ for i in $(seq 1 100); do curl "localhost:8770/mongo/get_trial" -o /dev/null -w 
 
 # しゃべくり007_アンタッチャブル_TVer   
 http://players.brightcove.net/4394098882001/default_default/index.html?videoId=6227907929001
+
+
+# ES_RESET
+db.site_col.insert({siteID: 1, sitetitle: '痛いニュース',           rssURL: 'http://blog.livedoor.jp/dqnplus/index.rdf',   latestDate: '2020-01-01 00:00:00'});
+db.site_col.insert({siteID: 2, sitetitle: 'アルファルファモザイク', rssURL: 'http://alfalfalfa.com/index.rdf',             latestDate: '2020-01-01 00:00:00'});
+db.site_col.insert({siteID: 4, sitetitle: 'ハムスター速報',         rssURL: 'http://hamusoku.com/index.rdf',               latestDate: '2020-01-01 00:00:00'});
+db.site_col.insert({siteID: 5, sitetitle: '暇人＼^o^／速報',        rssURL: 'http://himasoku.com/index.rdf',               latestDate: '2020-01-01 00:00:00'});
+db.site_col.insert({siteID: 6, sitetitle: 'VIPPERな俺',             rssURL: 'http://blog.livedoor.jp/news23vip/index.rdf', latestDate: '2020-01-01 00:00:00'});
+db.site_col.insert({siteID: 3, sitetitle: 'ニュー速クオリティ',     rssURL: 'http://news4vip.livedoor.biz/index.rdf',      latestDate: '2020-01-01 00:00:00'});
+
+db.site_col.deleteMany( { siteID: {$lt: 10} } )
+
+# mongo
+kubectl exec -it mongo-0 sh
+mongo --host mongo.default --port 27017
+
+db.site_col.find({})

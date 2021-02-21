@@ -70,8 +70,9 @@ func PutPostTmp() int{
             }
         }
     }
-    esId := registerLatestArticleToDB(feedArray)
-	registerLatestArticleToES(esId, feedArray)
+    _ = registerLatestArticleToDB(feedArray)
+    // esId := registerLatestArticleToDB(feedArray)
+	// registerLatestArticleToES(esId, feedArray)
 	return update_count
 }
 

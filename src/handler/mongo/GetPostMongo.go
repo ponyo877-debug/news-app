@@ -1,7 +1,8 @@
 package mongo
 
 import (
-	"fmt"
+    _"fmt"
+    "strconv"
     "context"
     "net/http"
     "github.com/labstack/echo"
@@ -11,7 +12,8 @@ import (
 
 // https://qiita.com/h6591/items/a1898bddb6819b27d88f
 // https://www.mongodb.com/blog/post/mongodb-go-driver-tutorial
-func GetPostMongoTrial() echo.HandlerFunc {
+/*
+func GetPostMongo() echo.HandlerFunc {
     return func(c echo.Context) error {		
         ctx := context.Background()
         client := OpenMongo()
@@ -36,7 +38,37 @@ func GetPostMongoTrial() echo.HandlerFunc {
         return c.JSON(http.StatusOK, feedArray)
     }
 }
+*/
 
+func GetPostMongoSkip() echo.HandlerFunc {
+    return func(c echo.Context) error {
+        qfrom, _ := strconv.Atoi(c.QueryParam("from"))
+
+        ctx := context.Background()
+        client := OpenMongo()
+        err := client.Connect(ctx)
+        defer client.Disconnect(ctx)
+		checkError(err)
+		
+		col := client.Database("newsdb").Collection("article_col")
+        filter := bson.D{}
+        findOptions := options.Find()
+        findOptions.SetSort(bson.D{{"publishedAt", -1}}).SetSkip(int64(qfrom)).SetLimit(15)
+		cur, err := col.Find(ctx, filter, findOptions)
+        checkError(err)
+        
+        var feedArray []map[string]interface{}
+		for cur.Next(ctx) {
+            var feed bson.M
+			err = cur.Decode(&feed);
+			checkError(err)
+            feedArray = append(feedArray, feed)
+        }
+        return c.JSON(http.StatusOK, map[string][]map[string]interface{}{"data": feedArray})
+    }
+}
+
+/*
 func GetPostMongo() echo.HandlerFunc {
     return func(c echo.Context) error {		
         ctx := context.Background()
@@ -68,3 +100,4 @@ func GetPostMongo() echo.HandlerFunc {
         return c.JSON(http.StatusOK, feedArray)
     }
 }
+*/

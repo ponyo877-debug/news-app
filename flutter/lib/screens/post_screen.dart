@@ -53,12 +53,13 @@ class _PostScreen extends State<PostScreen> with AutomaticKeepAliveClientMixin {
               return null;
             }
             return NewsCard(
-              "${newsPost[index]["titles"]}",
+              "${newsPost[index]["title"]}",
               "${newsPost[index]["publishedAt"]}",
               "${newsPost[index]["sitetitle"]}",
               "${newsPost[index]["image"]}",
               "${newsPost[index]["url"]}",
-              "${newsPost[index]["id"]}",
+              // "${newsPost[index]["id"]}",
+              "${newsPost[index]["_id"]}",
             );
           },
         ),
@@ -67,7 +68,7 @@ class _PostScreen extends State<PostScreen> with AutomaticKeepAliveClientMixin {
   }
 
   Future _getInitPost() async {
-    var getPostURL = baseURL;
+    var getPostURL = baseURL + "/mongo/old?from=0";
     http.Response response = await http.get(getPostURL);
     data = json.decode(response.body);
     if (mounted) {
@@ -79,7 +80,8 @@ class _PostScreen extends State<PostScreen> with AutomaticKeepAliveClientMixin {
 
   Future _getPost(int updateCount) async {
     int fromPostNum = 15 * updateCount;
-    var getPostURL = baseURL + "/old?from=" + fromPostNum.toString();
+    // var getPostURL = baseURL + "/old?from=" + fromPostNum.toString();
+    var getPostURL = baseURL + "/mongo/old?from=" + fromPostNum.toString();
     debugPrint(getPostURL);
     http.Response response = await http.get(getPostURL);
     data = json.decode(response.body);
