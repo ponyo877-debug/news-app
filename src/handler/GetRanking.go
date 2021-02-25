@@ -1,14 +1,16 @@
 package handler
 
 import (
-	"fmt"
+	_"fmt"
 	"net/http"
 	"./redis"
 	"./mongo"
 	"database/sql"
 	"context"
+	"encoding/hex"
 	"github.com/labstack/echo"
 	"go.mongodb.org/mongo-driver/bson"
+	"go.mongodb.org/mongo-driver/bson/primitive"
 	orgmongo "go.mongodb.org/mongo-driver/mongo"
     _"go.mongodb.org/mongo-driver/mongo/options"
 )
@@ -28,17 +30,19 @@ func GetRankingMongo() echo.HandlerFunc {
 
 		for _, id_count := range idsRanking {
 			var feed map[string]interface{}
-			_id := id_count["id"]
+			_id, err := primitive.ObjectIDFromHex(id_count["id"].(string))
+			if err == hex.ErrLength {
+				continue
+			}
+			checkError(err)
 			filter := bson.M{
 				"_id": bson.M{"$eq": _id},
 			}
-			fmt.Println("before_FindOne: ", _id)
-			err := col.FindOne(ctx, filter).Decode(&feed)// , findOptions)
+			err = col.FindOne(ctx, filter).Decode(&feed)// , findOptions)
 			if err == orgmongo.ErrNoDocuments {
 				continue
 			}
 			checkError(err)
-			fmt.Println("after_FindOne: ", feed)
             feedmap := map[string]interface{}{
 				"id":          feed["_id"],
 				"viewcount":   id_count["viewcount"], //strconv.Itoa(id_count["viewcount"]),
@@ -46,7 +50,7 @@ func GetRankingMongo() echo.HandlerFunc {
 				"publishedAt": feed["publishedAt"],
 				"siteID":      feed["siteID"],
 				"sitetitle":   feed["sitetitle"],
-                "title":       feed["title"],
+                "titles":       feed["titles"],
                 "url":         feed["url"],
             }
             feedArray = append(feedArray, feedmap)

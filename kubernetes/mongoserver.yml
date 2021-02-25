@@ -49,12 +49,12 @@ spec:
           requests:
             cpu: 25m
             memory: 100Mi #1500m
-        command:
-          - mongod
-          - "--replSet"
-          - rs0
-          - "--bind_ip"
-          - "0.0.0.0"
+        # command:
+        #   - mongod
+        #   - "--replSet"
+        #   - rs0
+        #   - "--bind_ip"
+        #   - "0.0.0.0"
         ports:
           - containerPort: 27017
         # envFrom:

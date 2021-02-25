@@ -190,7 +190,7 @@ func registerLatestArticleToMongo(articleList []map[string]interface{}) []interf
 			"publishedAt": 	article["publishedAt"],
 			"sitetitle": 	article["sitetitle"],
 			"siteID": 		article["siteID"],
-			"title": 		article["titles"],
+			"titles": 		article["titles"],
 			"url": 			article["url"],
 		}
 		esDocumentList = append(esDocumentList, esDocument)

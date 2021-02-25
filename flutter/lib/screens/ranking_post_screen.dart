@@ -52,7 +52,7 @@ class _RankingPostScreen extends State<RankingPostScreen>
   }
 
   Future _getPost() async {
-    var getPostURL = baseURL + "/ranking";
+    var getPostURL = baseURL + "/mongo/ranking";
     http.Response response = await http.get(getPostURL);
     data = json.decode(response.body);
     if (mounted) {

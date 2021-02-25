@@ -104,17 +104,19 @@ http://players.brightcove.net/4394098882001/default_default/index.html?videoId=6
 
 
 # ES_RESET
+kubectl exec -it mongo-0 sh
+mongo --host mongo.default --port 27017
+
+rs.initiate({_id: "rs0", members: [{_id: 0, host: "mongo.default:27017"}]})
+use newsdb
+db.createCollection('article_col');
+db.article_col.insert({title: 'Yahoo', URL: 'https://www.yahoo.co.jp/', image: 'tbd', updateDate: new Date(), click: 0, siteID: 1});
+
+db.createCollection('site_col');
 db.site_col.insert({siteID: 1, sitetitle: '痛いニュース',           rssURL: 'http://blog.livedoor.jp/dqnplus/index.rdf',   latestDate: '2020-01-01 00:00:00'});
-db.site_col.insert({siteID: 2, sitetitle: 'アルファルファモザイク', rssURL: 'http://alfalfalfa.com/index.rdf',             latestDate: '2020-01-01 00:00:00'});
 db.site_col.insert({siteID: 4, sitetitle: 'ハムスター速報',         rssURL: 'http://hamusoku.com/index.rdf',               latestDate: '2020-01-01 00:00:00'});
 db.site_col.insert({siteID: 5, sitetitle: '暇人＼^o^／速報',        rssURL: 'http://himasoku.com/index.rdf',               latestDate: '2020-01-01 00:00:00'});
 db.site_col.insert({siteID: 6, sitetitle: 'VIPPERな俺',             rssURL: 'http://blog.livedoor.jp/news23vip/index.rdf', latestDate: '2020-01-01 00:00:00'});
 db.site_col.insert({siteID: 3, sitetitle: 'ニュー速クオリティ',     rssURL: 'http://news4vip.livedoor.biz/index.rdf',      latestDate: '2020-01-01 00:00:00'});
 
 db.site_col.deleteMany( { siteID: {$lt: 10} } )
-
-# mongo
-kubectl exec -it mongo-0 sh
-mongo --host mongo.default --port 27017
-
-db.site_col.find({})
