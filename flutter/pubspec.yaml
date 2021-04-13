@@ -36,6 +36,9 @@ dependencies:
   euc: ^1.0.5+7
   charset_converter: ^1.0.3
   flutter_user_agent: ^1.2.2
+  convex_bottom_bar: ^2.7.1+2
+  hive: ^1.0.0
+  hive_flutter: ^0.3.1
 
 flutter_icons:
   android: true
@@ -48,6 +51,8 @@ flutter_icons:
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  hive_generator: ^0.8.2
+  build_runner: ^1.11.5
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec

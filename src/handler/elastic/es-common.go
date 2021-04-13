@@ -48,8 +48,8 @@ func OpenES() *elasticsearch.Client{
         },
 	}
 	
-	rdb, err := elasticsearch.NewClient(cfg)
+	es, err := elasticsearch.NewClient(cfg)
 	checkError(err)
-	return rdb
+	return es
 }
 

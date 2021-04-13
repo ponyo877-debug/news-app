@@ -16,12 +16,25 @@ kind: PersistentVolumeClaim
 metadata:
   name: mongo-persistent-storage-claim
 spec:
-  # torageClassName: "standard"
+  storageClassName: "mongo-sc"
   accessModes:
   - ReadWriteOnce
   resources:
     requests:
       storage: 30G
+---
+apiVersion: storage.k8s.io/v1
+kind: StorageClass
+metadata:
+  name: mongo-sc
+provisioner: kubernetes.io/gce-pd
+parameters:
+  type: pd-standard
+reclaimPolicy: Retain
+allowVolumeExpansion: true
+mountOptions:
+  - debug
+volumeBindingMode: Immediate
 ---
 apiVersion: apps/v1
 kind: StatefulSet
@@ -42,6 +55,7 @@ spec:
       containers:
       - name: mongo
         image: mongo:4.4
+        imagePullPolicy: "IfNotPresent"
         resources:
           limits:
             cpu: 25m
@@ -56,13 +70,13 @@ spec:
         #   - "--bind_ip"
         #   - "0.0.0.0"
         ports:
-          - containerPort: 27017
+          - containerPort: 27017  
         # envFrom:
         # - configMapRef:
         #     name: postgres-configuration
         volumeMounts:
         - name: mongo-persistent-storage
-          mountPath: /var/lib/mongo/data
+          mountPath: /data/db
           # subPath: data
       volumes:
       - name: mongo-persistent-storage

@@ -71,14 +71,13 @@ class _SearchPostScreen extends State<SearchPostScreen> {
                 itemCount: newsPost == null ? 0 : newsPost.length,
                 itemBuilder: (BuildContext context, int index) {
                   return NewsCard(
-                    "${newsPost[index]["titles"]}",
-                    "${newsPost[index]["publishedAt"]}",
-                    newsPost[index].containsKey('sitetitle')
-                        ? "${newsPost[index]["sitetitle"]}"
-                        : "NA",
+                    "${newsPost[index]["_id"] == "" ? newsPost[index]["id"] : newsPost[index]["_id"]}",
                     "${newsPost[index]["image"]}",
+                    "${newsPost[index]["publishedAt"]}",
+                    "${newsPost[index]["siteID"]}",
+                    "${newsPost[index]["sitetitle"]}",
+                    "${newsPost[index]["titles"]}",
                     "${newsPost[index]["url"]}",
-                    "${newsPost[index]["id"]}",
                   );
                 },
               ),

@@ -1,0 +1,16 @@
+apiVersion: argoproj.io/v1alpha1
+kind: CronWorkflow
+metadata:
+  name: putsearchpost
+  generateName: putsearchpost-
+spec:
+  schedule: "*/2 * * * *"
+  concurrencyPolicy: "Replace"
+  startingDeadlineSeconds: 0
+  workflowSpec:
+    entrypoint: putsearchpost
+    templates:
+    - name: putsearchpost
+      container:
+        image: gcr.io/gke-test-287910/putsearchpost:v1
+      activeDeadlineSeconds: 90

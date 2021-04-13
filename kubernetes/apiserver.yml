@@ -10,15 +10,20 @@ metadata:
   annotations:
     kubernetes.io/ingress.class: nginx
     nginx.ingress.kubernetes.io/ssl-redirect: "false"
-    nginx.ingress.kubernetes.io/rewrite-target: /
+    # nginx.ingress.kubernetes.io/rewrite-target: /
 spec:
   rules:
     - http:
         paths:
-        - backend:
-            serviceName: apiserver-service
+        - path: /recom
+          backend:
+            serviceName: recommendserver-service
             servicePort: 80
-          path: /
+        - path: /
+          backend:
+              serviceName: apiserver-service
+              servicePort: 80
+          
 # apiVersion: networking.k8s.io/v1beta1
 # kind: Ingress
 # metadata:
@@ -85,7 +90,7 @@ apiVersion: extensions/v1beta1
 kind: Ingress
 metadata:
   name: argo-ingress
-  namespace: argo
+  namespace: default
   annotations:
     kubernetes.io/ingress.class: nginx
     nginx.ingress.kubernetes.io/ssl-redirect: "false"
@@ -151,8 +156,7 @@ spec:
           emptyDir: {}
       containers:
         - name: go-echo
-          image: gcr.io/gke-test-287910/getpost:v34
-          # image: gcr.io/gke-test-287910/hello-app:v21
+          image: gcr.io/gke-test-287910/getpost:v44
           imagePullPolicy: Always
           resources:
            requests:

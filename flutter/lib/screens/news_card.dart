@@ -3,82 +3,32 @@ import 'webview.dart';
 import 'package:http/http.dart' as http;
 import 'package:cached_network_image/cached_network_image.dart';
 import 'dart:async';
-import 'dart:io';
-import 'package:path_provider/path_provider.dart';
-import 'dart:convert';
+import 'package:hive/hive.dart';
+import 'models/history_model.dart';
 
-class NewsCard extends StatelessWidget {
-  final String _image;
-  final String _name;
-  final String _date;
-  final String _site;
-  final String _url;
-  final String _id;
+class NewsCard extends StatefulWidget {
+  String _id;
+  String image;
+  String publishedAt;
+  String siteID;
+  String sitetitle;
+  String titles;
+  String url;
+  bool colorChange = true;
   static const String placeholderImg = 'assets/images/no_image_square.jpg';
-  static const String kFileName = 'myJsonFile.json';
 
   NewsCard(
-      this._name, this._date, this._site, this._image, this._url, this._id);
+      this._id, this.image, this.publishedAt, this.siteID, this.sitetitle, this.titles, this.url);
 
-  bool _fileExists = false;
-  File _filePath;
+  @override
+  _NewsCard createState() => _NewsCard();
+}
 
-  // First initialization of _json (if there is no json in the file)
-  // Map<String, dynamic> _json = {"data"};
-  List _json = [];
+class _NewsCard extends State<NewsCard>{
 
-  // Map<String, dynamic> _json = {};
-  String _jsonString;
-
-  Future<String> get _localPath async {
-    final directory = await getApplicationDocumentsDirectory();
-    return directory.path;
-  }
-
-  Future<File> get _localFile async {
-    final path = await _localPath;
-    return File('$path/$kFileName');
-  }
-
-  void _writeJson(Map<String, dynamic> _newJson) async {
-    // Initialize the local _filePath
-    _filePath = await _localFile;
-    var _oldJson;
-
-    //1. Create _newJson<Map> from input<TextField>
-    // print('1.(_writeJson) _newJson: $_newJson');
-    _fileExists = await _filePath.exists();
-
-    if (!_fileExists) {
-      // print('create new file because of file is not found: ${_json.last}');
-      _filePath.writeAsString('');
-    } else {
-      //2. Update _json by adding _newJson<Map> -> _json<Map>
-      _jsonString = await _filePath.readAsString();
-      if (_jsonString != "") {
-        _oldJson = json.decode(_jsonString);
-        _json = _oldJson;
-      }
-    }
-    /*
-    // _json.add(_oldJson);
-    if (_oldJson.length != 0) {
-      _json = _oldJson;
-    } else {
-      _json.add(_oldJson);
-    }
-     */
-    // _json = json.decode(_jsonString);
-    // print('2.(ここが更新されていてほしい) _json(updated): $_json');
-    _json.add(_newJson);
-    // print('2.(_writeJson) _json(updated): $_json');
-    print('Tail of List: ${_json.last}');
-    //3. Convert _json ->_jsonString
-    _jsonString = json.encode(_json);
-    // print('3.(_writeJson) _jsonString: $_jsonString\n - \n');
-
-    //4. Write _jsonString to the _filePath
-    _filePath.writeAsString(_jsonString);
+  Future _addHistory(HistoryModel historyModel) async {
+    final historyBox = await Hive.openBox<HistoryModel>('history');
+    historyBox.add(historyModel);
   }
 
   @override
@@ -88,40 +38,26 @@ class NewsCard extends StatelessWidget {
         mainAxisSize: MainAxisSize.max,
         children: <Widget>[
           new Container(
-            /*
-            decoration: new BoxDecoration(
-                // color: Colors.red
-                image: DecorationImage(
-                    fit: BoxFit.fill,
-                    image: NetworkImage(_image)
-                )
-            ),
-             */
             child: ListTile(
-              leading: thumbnail(_image),
-              title: title(_name),
+              leading: thumbnail(widget.image),
+              title: title(widget.titles, widget.colorChange?Colors.white:Colors.grey),
               subtitle: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: <Widget>[
-                    subtitle(_date, Colors.white),
-                    subtitle(_site, Colors.red[200]),
+                    subtitle(widget.publishedAt, widget.colorChange?Colors.white:Colors.grey),
+                    subtitle(widget.sitetitle, widget.colorChange?Colors.red[200]:Colors.grey),
                   ]),
               onTap: () {
-                var _newJson = {
-                  "name": this._name,
-                  "publishedAt": this._date,
-                  "sitetitle": this._site,
-                  "image": this._image,
-                  "url": this._url,
-                  "id": this._id,
-                };
-                _incrViewCount(_id);
-                _writeJson(_newJson);
+                final newHistory = HistoryModel
+                  (widget._id, widget.image, widget.publishedAt, widget.siteID, widget.sitetitle, widget.titles, widget.url); // int.parse(_age));
+                _addHistory(newHistory);
+                _incrViewCount(widget._id);
+                setState(() => widget.colorChange = false);
                 Navigator.of(context).push(MaterialPageRoute(
                     builder: (BuildContext context) => MatomeWebView(
-                          title: _name,
-                          selectedUrl: _url,
-                        )));
+                      title: widget.titles,
+                      selectedUrl: widget.url,
+                    )));
               },
             ),
           ),
@@ -130,10 +66,10 @@ class NewsCard extends StatelessWidget {
     );
   }
 
-  title(title) {
+  title(title, color) {
     return Text(
       title,
-      style: TextStyle(fontSize: 15.0, fontWeight: FontWeight.w500),
+      style: TextStyle(fontSize: 15.0, color: color, fontWeight: FontWeight.w500),
       maxLines: 3,
       overflow: TextOverflow.ellipsis,
     );
@@ -143,7 +79,7 @@ class NewsCard extends StatelessWidget {
     return Text(
       subTitle,
       style:
-          TextStyle(fontSize: 12.5, color: color, fontWeight: FontWeight.w100),
+      TextStyle(fontSize: 12.5, color: color, fontWeight: FontWeight.w100),
       maxLines: 1,
       overflow: TextOverflow.ellipsis,
     );
@@ -173,9 +109,8 @@ class NewsCard extends StatelessWidget {
 }
 
 class NewsRankingCard extends NewsCard {
-  NewsRankingCard(String _name, String _date, String _site, String _image,
-      String _url, String _id)
-      : super(_name, _date, _site, _image, _url, _id);
+  NewsRankingCard(String _id, String image, String publishedAt, String siteID, String sitetitle, String titles, String url)
+      : super(_id, image, publishedAt, siteID, sitetitle, titles, url);
 
   @override
   thumbnail(title) {

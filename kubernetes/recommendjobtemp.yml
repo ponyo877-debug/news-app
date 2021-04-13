@@ -1,0 +1,37 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: saverecommend-service
+  labels:
+    app: save_recommend_items
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: save_recommend_items
+      server: recommend
+  template:
+    metadata:
+      labels:
+        app: save_recommend_items
+        server: recommend
+    spec:
+      containers:
+      - name: save-recommend
+        image: gcr.io/gke-test-287910/saverecommend:v18
+        imagePullPolicy: Always
+        resources:
+         requests:
+          cpu: 500m
+          memory: 5000Mi
+         limits:
+          cpu: 500m
+          memory: 5000Mi
+        ports:
+          - containerPort: 5000
+        volumeMounts:
+          - name: recommend-volume2
+            mountPath: /tmp
+      volumes:
+      - name: recommend-volume2
+        emptyDir: {}

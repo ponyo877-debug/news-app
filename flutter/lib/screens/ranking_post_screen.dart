@@ -37,13 +37,15 @@ class _RankingPostScreen extends State<RankingPostScreen>
           physics: AlwaysScrollableScrollPhysics(),
           itemCount: newsPost == null ? 0 : newsPost.length,
           itemBuilder: (BuildContext context, int index) {
+            // "${index + 1}",
             return NewsRankingCard(
-              "${newsPost[index]["titles"]}",
-              "${newsPost[index]["publishedAt"]}",
-              "${newsPost[index]["sitetitle"]}",
+              "${newsPost[index]["_id"] == "" ? newsPost[index]["id"] : newsPost[index]["_id"]}",
               "${index + 1}",
+              "${newsPost[index]["publishedAt"]}",
+              "${newsPost[index]["siteID"]}",
+              "${newsPost[index]["sitetitle"]}",
+              "${newsPost[index]["titles"]}",
               "${newsPost[index]["url"]}",
-              "${newsPost[index]["id"]}",
             );
           },
         ),

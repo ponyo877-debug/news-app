@@ -1,0 +1,17 @@
+FROM python:3
+WORKDIR /usr/src/app
+
+COPY ./recommend/requirements3.txt ./
+RUN pip install --no-cache-dir -r requirements3.txt
+ENV ANNOY_COMPILER_ARGS -D_CRT_SECURE_NO_WARNINGS,-DANNOYLIB_MULTITHREADED_BUILD,-mtune=native
+
+COPY ./recommend/Japanese_L-12_H-768_A-12_E-30_BPE ./Japanese_L-12_H-768_A-12_E-30_BPE/
+COPY ./recommend/bert_juman.py ./
+COPY ./recommend/mongodb.py ./
+COPY ./recommend/get_recom.py ./
+COPY ./recommend/save_recom.py ./
+COPY ./recommend/recommender.py ./
+COPY ./recommend/config_gcp.json ./
+COPY ./recommend/config_mongo_prd.json ./config_mongo.json
+
+CMD [ "python", "get_recom.py" ]

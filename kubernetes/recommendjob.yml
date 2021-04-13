@@ -1,0 +1,56 @@
+# apiVersion: v1
+# kind: PersistentVolume
+# metadata:
+#   name: recommend-pv-2
+# spec:
+#   capacity:
+#     storage: 15Gi
+#   accessModes:
+#     - ReadWriteMany
+#   nfs:
+#     server: nfs-server.default.svc.cluster.local
+#     path: /
+# ---
+# 
+# kind: PersistentVolumeClaim
+# apiVersion: v1
+# metadata:
+#   name: recommend-pvc-2
+# spec:
+#   accessModes:
+#     - ReadWriteMany
+#   storageClassName: ""
+#   resources:
+#     requests:
+#       storage: 15Gi
+# ---
+
+apiVersion: argoproj.io/v1alpha1
+kind: CronWorkflow
+metadata:
+  name: saverecommend
+  generateName: saverecommend-
+spec:
+  schedule: "*/3 * * * *"
+  concurrencyPolicy: "Replace"
+  startingDeadlineSeconds: 0
+  workflowSpec:
+    entrypoint: saverecommend
+    templates:
+    - name: saverecommend
+      container:
+        image: gcr.io/gke-test-287910/saverecommend:v19
+        imagePullPolicy: Always
+        resources:
+         requests:
+          cpu: 100m
+          memory: 500Mi
+        volumeMounts:
+          - name: recommend-volume2
+            mountPath: /tmp
+      volumes:
+      - name: recommend-volume2
+        emptyDir: {}
+        # persistentVolumeClaim:
+        #   claimName: recommend-pvc-2
+      activeDeadlineSeconds: 1200
