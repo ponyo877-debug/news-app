@@ -5,11 +5,22 @@ import (
 	_"strconv"
 )
 
-func GetIdsRankingTmp() []map[string]interface{}{
+func GetIdsRankingTmp(kind string) []map[string]interface{}{
 	db := OpenKVS()
 	defer db.Close()
-	zsetKey := "view_counter"
 
+	var zsetKey string
+	zsetKey_m, zsetKey_w, zsetKey_d := getZsetKeys()
+	switch kind {
+		case "monthly":
+			zsetKey = zsetKey_m
+		case "weekly":
+			zsetKey = zsetKey_w
+		case "daily":
+			zsetKey = zsetKey_d
+		default: 
+			zsetKey = zsetKey_w
+	}
 	idsranking, err := db.ZRevRangeWithScores(zsetKey, 0, 14).Result()
 	checkError(err)
 	
@@ -25,6 +36,13 @@ func GetIdsRankingTmp() []map[string]interface{}{
 			continue
 		}
 		*/
+		memStr, isStr := z.Member.(string)
+		if !isStr {
+			continue
+		}
+		if memStr == "null" {
+			continue
+		}
 		rankmap := map[string]interface{} {
 			"id":          z.Member,
 			"viewcount":   z.Score,

@@ -59,7 +59,7 @@ spec:
     spec:
       containers:
       - name: get-recommend
-        image: gcr.io/gke-test-287910/getrecommend:v17
+        image: gcr.io/gke-test-287910/getrecommend:v21
         imagePullPolicy: Always
         resources:
          requests:

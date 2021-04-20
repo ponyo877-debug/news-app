@@ -16,6 +16,20 @@ spec:
     role: master
     tier: backend
 ---
+
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: redis-persistent-storage-claim
+spec:
+  # torageClassName: "standard"
+  accessModes:
+  - ReadWriteOnce
+  resources:
+    requests:
+      storage: 20G
+---
+
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -45,52 +59,60 @@ spec:
             memory: 100Mi
         ports:
         - containerPort: 6379
----
-apiVersion: v1
-kind: Service
-metadata:
-  name: redis-slave
-  labels:
-    app: redis
-    role: slave
-    tier: backend
-spec:
-  ports:
-  - port: 6379
-  selector:
-    app: redis
-    role: slave
-    tier: backend
----
-apiVersion: apps/v1
-kind: Deployment
-metadata:
-  name: redis-slave
-  labels:
-    app: redis
-spec:
-  selector:
-    matchLabels:
-      app: redis
-      role: slave
-      tier: backend
-  replicas: 2
-  template:
-    metadata:
-      labels:
-        app: redis
-        role: slave
-        tier: backend
-    spec:
-      containers:
-      - name: slave
-        image: gcr.io/google_samples/gb-redisslave:v3
-        resources:
-          requests:
-            cpu: 50m
-            memory: 100Mi
-        env:
-        - name: GET_HOSTS_FROM
-          value: dns
-        ports:
-        - containerPort: 6379
+        volumeMounts:
+        - name: redis-persistent-storage
+          mountPath: /data
+          subPath: data
+      volumes:
+      - name: redis-persistent-storage
+        persistentVolumeClaim:
+          claimName: redis-persistent-storage-claim
+# ---
+# apiVersion: v1
+# kind: Service
+# metadata:
+#   name: redis-slave
+#   labels:
+#     app: redis
+#     role: slave
+#     tier: backend
+# spec:
+#   ports:
+#   - port: 6379
+#   selector:
+#     app: redis
+#     role: slave
+#     tier: backend
+# ---
+# apiVersion: apps/v1
+# kind: Deployment
+# metadata:
+#   name: redis-slave
+#   labels:
+#     app: redis
+# spec:
+#   selector:
+#     matchLabels:
+#       app: redis
+#       role: slave
+#       tier: backend
+#   replicas: 2
+#   template:
+#     metadata:
+#       labels:
+#         app: redis
+#         role: slave
+#         tier: backend
+#     spec:
+#       containers:
+#       - name: slave
+#         image: gcr.io/google_samples/gb-redisslave:v3
+#         resources:
+#           requests:
+#             cpu: 50m
+#             memory: 100Mi
+#         env:
+#         - name: GET_HOSTS_FROM
+#           value: dns
+#         ports:
+#         - containerPort: 6379

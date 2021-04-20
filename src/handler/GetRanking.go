@@ -4,7 +4,8 @@ import (
 	"context"
 	"database/sql"
 	"encoding/hex"
-	_ "fmt"
+	"fmt"
+	"reflect"
 	"net/http"
 	"time"
 
@@ -19,13 +20,16 @@ import (
 
 func GetRankingMongo() echo.HandlerFunc {
 	return func(c echo.Context) error {
+		kindStr := c.Param("kind")
+		fmt.Println("kindStr: ", kindStr)
+		fmt.Println("reflect.TypeOf(kindStr): ", reflect.TypeOf(kindStr))
 		ctx := context.Background()
 		client := mongo.OpenMongo()
 		err := client.Connect(ctx)
 		defer client.Disconnect(ctx)
 		checkError(err)
 
-		idsRanking := redis.GetIdsRankingTmp()
+		idsRanking := redis.GetIdsRankingTmp(kindStr)
 		col := client.Database("newsdb").Collection("article_col")
 		// var feed map[string]interface{}
 		var feedArray []map[string]interface{}
@@ -77,7 +81,7 @@ func GetRanking() echo.HandlerFunc {
 		// sql02_01 := "SELECT /* sql02_01 */ id, title, URL, image, updateDate, click, siteID FROM articleTBL WHERE id = $1"
 		sql02_01 := "SELECT /* sql02_01 */ A.id, A.title, A.URL, A.image, A.updateDate, A.click, S.title FROM articleTBL A INNER JOIN siteTBL S ON A.siteID = S.ID WHERE A.id = $1"
 
-		idsRanking := redis.GetIdsRankingTmp()
+		idsRanking := redis.GetIdsRankingTmp("")
 		db := openDB()
 		defer db.Close()
 		for _, id_count := range idsRanking {

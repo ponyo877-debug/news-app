@@ -19,6 +19,7 @@ func main() {
 	e.GET("/psql/put", handler.PutPost())
 	e.GET("/ranking", handler.GetRanking())
 	e.GET("/mongo/ranking", handler.GetRankingMongo())
+	e.GET("/mongo/ranking/:kind", handler.GetRankingMongo())
 	e.GET("/redis/get/:post_id", redis.GetViewCount())
 	e.GET("/redis/put/:post_id", redis.IncrViewCount())
 	e.GET("/elastic/get", handler.GetSearch())

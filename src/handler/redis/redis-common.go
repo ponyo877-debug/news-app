@@ -2,6 +2,7 @@ package redis
 
 import (
 	"fmt"
+	"time"
     "os"
     "strconv"
     "io/ioutil"
@@ -21,6 +22,20 @@ func checkError(err error) {
 	        fmt.Fprintf(os.Stderr, "fatal: error: %s", err.Error())
 		os.Exit(1)
 	}
+}
+
+
+func getZsetKeys() (zsetKey_m string, zsetKey_w string, zsetKey_d string) {
+	now := time.Now()
+
+	diff := time.Sunday - now.Weekday()
+	thisSunday := now.AddDate(0, 0, int(diff))
+
+	zsetKey_m = fmt.Sprintf("%s-01", now.Format("2006-01"))
+	zsetKey_w = thisSunday.Format("2006-01-02")
+	zsetKey_d = now.Format("2006-01-02")
+
+	return
 }
 
 func OpenKVS() *redis.Client{

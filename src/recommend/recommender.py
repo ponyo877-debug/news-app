@@ -120,7 +120,7 @@ class RecommendModel():
         return nns_idx
 
     def get_recom_items(self, _id, num_close_items=10):
-        self.id2idx = self._get_vec_via_cs(self.id2idx_fn)
+        self.id2idx = self._get_vec_via_cs(self.id2idx_fn) # use in _get_idx_from_id
         self.idx2idvec = self._get_vec_via_cs(self.idx2idvec_fn)
         
         self._logger.info('%s', 'Start Method of get_recom_items')
@@ -135,3 +135,24 @@ class RecommendModel():
             recom_items = None
         self._logger.info('%s', 'Finish Method of get_recom_items')
         return recom_items
+
+    def _get_idxs_from_ids(self, _ids_str):
+        idxs = _ids_str.split(',')
+        return idxs
+    
+    def get_personal_items(self, _ids_str, num_close_items=10):
+        self.id2idx = self._get_vec_via_cs(self.id2idx_fn)
+        self.idx2idvec = self._get_vec_via_cs(self.idx2idvec_fn)
+
+        self._logger.info('%s', 'Start Method of get_personal_items')
+        target_idxs = self._get_idxs_from_ids(_ids_str)
+        if target_idxs:
+            avgvec_from_target_idx = np.mean([self.idx2idvec[self.id2idx[_id]][1] for _id in target_idxs], axis=0)
+            self._load_nns_index()
+            near_list, _ = self.nns_index.get_nns_by_vector(avgvec_from_target_idx, num_close_items, include_distances=True)
+            print('near_list:', near_list)
+            personal_items = [self.idx2idvec[idx][0] for idx in near_list]
+        else:
+            personal_items = None
+        self._logger.info('%s', 'Finish Method of get_personal_items')
+        return personal_items

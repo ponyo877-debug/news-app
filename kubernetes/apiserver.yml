@@ -15,7 +15,7 @@ spec:
   rules:
     - http:
         paths:
-        - path: /recom
+        - path: /(recom|personal)
           backend:
             serviceName: recommendserver-service
             servicePort: 80
@@ -156,7 +156,7 @@ spec:
           emptyDir: {}
       containers:
         - name: go-echo
-          image: gcr.io/gke-test-287910/getpost:v44
+          image: gcr.io/gke-test-287910/getpost:v47
           imagePullPolicy: Always
           resources:
            requests:
