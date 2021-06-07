@@ -30,6 +30,7 @@ createuser -a -d -U postgres -P test_user
 psql -h localhost -U test_user -d test_db
 CREATE DATABASE test_db;
 CREATE INDEX ON test_db.articletbl(updatedate);
+# aaaaaaa
 
 ## Redis Commnads
 
